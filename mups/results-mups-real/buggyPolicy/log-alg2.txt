@@ -1,0 +1,45 @@
+ ! --------------------------------------------------- CP Optimizer 20.1.0.0 --
+ ! Minimization problem - 38 variables, 35 constraints
+ ! Presolve      : 5 extractables eliminated
+ ! Initial process time : 0.01s (0.01s extraction + 0.00s propagation)
+ !  . Log search space  : 42.7 (before), 42.7 (after)
+ !  . Memory usage      : 302.1 kB (before), 302.1 kB (after)
+ ! Using parallel search with 64 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         38                 -
+ + New bound is 0
+                        0         38    1            -
+ + New bound is 1
+ *             1       19  0.09s        1      (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 1 solution found.
+ ! Best objective         : 1 (optimal - effective tol. is 0)
+ ! Best bound             : 1
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 17866
+ ! Number of fails        : 6481
+ ! Total memory usage     : 31.3 MB (31.2 MB CP Optimizer + 0.0 MB Concert)
+ ! Time spent in solve    : 0.10s (0.09s engine + 0.01s extraction)
+ ! Search speed (br. / s) : 198511.1
+ ! ----------------------------------------------------------------------------
+
+
+x_0: SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+x_1: DisjointClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+x_2: EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+x_3: SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-Succeed> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable>)
+x_4: EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-SucceedUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-Succeed> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+x_5: EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#IncoherentPolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-FailureUsernamePolicy> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-SucceedUsernamePolicy>) )
+x_6: EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-FailureUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-Failure> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+x_7: SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-Failure> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable>)
+
+
+problem_formula: 8
+mis_size: 5
+r: 2
+
+0:['x_0', 'x_2', 'x_3', 'x_4', 'x_5', 'x_6', 'x_7']
+
+1:['x_1']
+

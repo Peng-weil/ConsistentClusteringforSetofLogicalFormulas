@@ -1,0 +1,208 @@
+axiom number: 544
+Number of Ucs: 3
+Uc 1 : <http://ekaw#Contributed_Talk>
+Layer_0 : 9 ( total = 9 )
+Layer_1 : 61 ( total = 70 )
+Layer_2 : 125 ( total = 195 )
+  Found explanation <1> for concept <http://ekaw#Contributed_Talk>
+  [1] DisjointClasses(<http://ekaw#Accepted_Paper> <http://ekaw#Camera_Ready_Paper>)
+  [2] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [3] SubClassOf(<http://ekaw#Contributed_Talk> ObjectSomeValuesFrom(<http://ekaw#presentationOfPaper> <http://ekaw#Camera_Ready_Paper>))
+  [4] EquivalentClasses(<http://conference#Accepted_contribution> <http://ekaw#Accepted_Paper> )
+  [5] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Contributed_Talk>> ? true
+------------------
+  Found explanation <2> for concept <http://ekaw#Contributed_Talk>
+  [1] SubClassOf(<http://ekaw#Accepted_Paper> <http://ekaw#Evaluated_Paper>)
+  [2] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [3] SubClassOf(<http://ekaw#Contributed_Talk> ObjectSomeValuesFrom(<http://ekaw#presentationOfPaper> <http://ekaw#Camera_Ready_Paper>))
+  [4] EquivalentClasses(<http://conference#Accepted_contribution> <http://ekaw#Accepted_Paper> )
+  [5] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Evaluated_Paper>)
+  [6] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Contributed_Talk>> ? true
+------------------
+  Found explanation <3> for concept <http://ekaw#Contributed_Talk>
+  [1] SubClassOf(<http://ekaw#Assigned_Paper> <http://ekaw#Submitted_Paper>)
+  [2] SubClassOf(<http://ekaw#Accepted_Paper> <http://ekaw#Evaluated_Paper>)
+  [3] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [4] SubClassOf(<http://ekaw#Evaluated_Paper> <http://ekaw#Assigned_Paper>)
+  [5] SubClassOf(<http://ekaw#Contributed_Talk> ObjectSomeValuesFrom(<http://ekaw#presentationOfPaper> <http://ekaw#Camera_Ready_Paper>))
+  [6] EquivalentClasses(<http://conference#Accepted_contribution> <http://ekaw#Accepted_Paper> )
+  [7] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Submitted_Paper>)
+  [8] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Contributed_Talk>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_3 : 199 ( total = 394 )
+the number of hs_local: 8
+  Found explanation <4> for concept <http://ekaw#Contributed_Talk>
+  [1] EquivalentClasses(<http://conference#Submitted_contribution> <http://ekaw#Submitted_Paper> )
+  [2] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [3] EquivalentClasses(<http://conference#Reviewed_contribution> ObjectUnionOf(<http://conference#Accepted_contribution> <http://conference#Rejected_contribution>) )
+  [4] SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Submitted_contribution>)
+  [5] SubClassOf(<http://ekaw#Contributed_Talk> ObjectSomeValuesFrom(<http://ekaw#presentationOfPaper> <http://ekaw#Camera_Ready_Paper>))
+  [6] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Submitted_Paper>)
+  [7] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Contributed_Talk>> ? true
+------------------
+  Found explanation <5> for concept <http://ekaw#Contributed_Talk>
+  [1] SubClassOf(<http://conference#Accepted_contribution> <http://conference#Reviewed_contribution>)
+  [2] EquivalentClasses(<http://conference#Submitted_contribution> <http://ekaw#Submitted_Paper> )
+  [3] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [4] SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Submitted_contribution>)
+  [5] SubClassOf(<http://ekaw#Contributed_Talk> ObjectSomeValuesFrom(<http://ekaw#presentationOfPaper> <http://ekaw#Camera_Ready_Paper>))
+  [6] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Submitted_Paper>)
+  [7] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Contributed_Talk>> ? true
+------------------
+Layer_4 : 106 ( total = 500 )
+the number of hs_local: 76
+Layer_5 : 26 ( total = 526 )
+the number of hs_local: 76
+Layer_6 : 13 ( total = 539 )
+the number of hs_local: 76
+Layer_7 : 3 ( total = 542 )
+the number of hs_local: 76
+Layer_8 : 1 ( total = 543 )
+the number of hs_local: 76
+The time (ms) to compute all MUPS for a concept is: 9165
+
+Uc 2 : <http://conference#Camera_ready_contribution>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 11 ( total = 13 )
+  Found explanation <1> for concept <http://conference#Camera_ready_contribution>
+  [1] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [2] DisjointClasses(<http://ekaw#Accepted_Paper> <http://ekaw#Camera_Ready_Paper>)
+  [3] EquivalentClasses(<http://conference#Accepted_contribution> <http://ekaw#Accepted_Paper> )
+  [4] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://conference#Camera_ready_contribution>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_2 : 65 ( total = 78 )
+the number of hs_local: 4
+  Found explanation <2> for concept <http://conference#Camera_ready_contribution>
+  [1] SubClassOf(<http://conference#Accepted_contribution> <http://conference#Reviewed_contribution>)
+  [2] EquivalentClasses(<http://conference#Submitted_contribution> <http://ekaw#Submitted_Paper> )
+  [3] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [4] SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Submitted_contribution>)
+  [5] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Submitted_Paper>)
+  [6] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://conference#Camera_ready_contribution>> ? true
+------------------
+  Found explanation <3> for concept <http://conference#Camera_ready_contribution>
+  [1] EquivalentClasses(<http://conference#Submitted_contribution> <http://ekaw#Submitted_Paper> )
+  [2] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [3] EquivalentClasses(<http://conference#Reviewed_contribution> ObjectUnionOf(<http://conference#Accepted_contribution> <http://conference#Rejected_contribution>) )
+  [4] SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Submitted_contribution>)
+  [5] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Submitted_Paper>)
+  [6] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://conference#Camera_ready_contribution>> ? true
+------------------
+  Found explanation <4> for concept <http://conference#Camera_ready_contribution>
+  [1] SubClassOf(<http://ekaw#Accepted_Paper> <http://ekaw#Evaluated_Paper>)
+  [2] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [3] EquivalentClasses(<http://conference#Accepted_contribution> <http://ekaw#Accepted_Paper> )
+  [4] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Evaluated_Paper>)
+  [5] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://conference#Camera_ready_contribution>> ? true
+------------------
+  Found explanation <5> for concept <http://conference#Camera_ready_contribution>
+  [1] SubClassOf(<http://ekaw#Assigned_Paper> <http://ekaw#Submitted_Paper>)
+  [2] SubClassOf(<http://ekaw#Accepted_Paper> <http://ekaw#Evaluated_Paper>)
+  [3] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [4] SubClassOf(<http://ekaw#Evaluated_Paper> <http://ekaw#Assigned_Paper>)
+  [5] EquivalentClasses(<http://conference#Accepted_contribution> <http://ekaw#Accepted_Paper> )
+  [6] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Submitted_Paper>)
+  [7] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://conference#Camera_ready_contribution>> ? true
+------------------
+Layer_3 : 168 ( total = 246 )
+the number of hs_local: 37
+Layer_4 : 123 ( total = 369 )
+the number of hs_local: 37
+Layer_5 : 105 ( total = 474 )
+the number of hs_local: 37
+Layer_6 : 53 ( total = 527 )
+the number of hs_local: 37
+Layer_7 : 15 ( total = 542 )
+the number of hs_local: 37
+Layer_8 : 1 ( total = 543 )
+the number of hs_local: 37
+The time (ms) to compute all MUPS for a concept is: 3998
+
+Uc 3 : <http://ekaw#Camera_Ready_Paper>
+Layer_0 : 8 ( total = 8 )
+Layer_1 : 62 ( total = 70 )
+  Found explanation <1> for concept <http://ekaw#Camera_Ready_Paper>
+  [1] DisjointClasses(<http://ekaw#Accepted_Paper> <http://ekaw#Camera_Ready_Paper>)
+  [2] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [3] EquivalentClasses(<http://conference#Accepted_contribution> <http://ekaw#Accepted_Paper> )
+  [4] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Camera_Ready_Paper>> ? true
+------------------
+  Found explanation <2> for concept <http://ekaw#Camera_Ready_Paper>
+  [1] SubClassOf(<http://ekaw#Accepted_Paper> <http://ekaw#Evaluated_Paper>)
+  [2] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [3] EquivalentClasses(<http://conference#Accepted_contribution> <http://ekaw#Accepted_Paper> )
+  [4] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Evaluated_Paper>)
+  [5] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Camera_Ready_Paper>> ? true
+------------------
+  Found explanation <3> for concept <http://ekaw#Camera_Ready_Paper>
+  [1] EquivalentClasses(<http://conference#Submitted_contribution> <http://ekaw#Submitted_Paper> )
+  [2] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [3] EquivalentClasses(<http://conference#Reviewed_contribution> ObjectUnionOf(<http://conference#Accepted_contribution> <http://conference#Rejected_contribution>) )
+  [4] SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Submitted_contribution>)
+  [5] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Submitted_Paper>)
+  [6] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Camera_Ready_Paper>> ? true
+------------------
+  Found explanation <4> for concept <http://ekaw#Camera_Ready_Paper>
+  [1] SubClassOf(<http://conference#Accepted_contribution> <http://conference#Reviewed_contribution>)
+  [2] EquivalentClasses(<http://conference#Submitted_contribution> <http://ekaw#Submitted_Paper> )
+  [3] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [4] SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Submitted_contribution>)
+  [5] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Submitted_Paper>)
+  [6] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Camera_Ready_Paper>> ? true
+------------------
+  Found explanation <5> for concept <http://ekaw#Camera_Ready_Paper>
+  [1] SubClassOf(<http://ekaw#Assigned_Paper> <http://ekaw#Submitted_Paper>)
+  [2] SubClassOf(<http://ekaw#Accepted_Paper> <http://ekaw#Evaluated_Paper>)
+  [3] EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+  [4] SubClassOf(<http://ekaw#Evaluated_Paper> <http://ekaw#Assigned_Paper>)
+  [5] EquivalentClasses(<http://conference#Accepted_contribution> <http://ekaw#Accepted_Paper> )
+  [6] DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Submitted_Paper>)
+  [7] SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Camera_Ready_Paper>> ? true
+------------------
+the number of hs_local found at the first iteration: 11
+Layer_2 : 168 ( total = 238 )
+the number of hs_local: 11
+Layer_3 : 128 ( total = 366 )
+the number of hs_local: 45
+Layer_4 : 108 ( total = 474 )
+the number of hs_local: 45
+Layer_5 : 53 ( total = 527 )
+the number of hs_local: 45
+Layer_6 : 15 ( total = 542 )
+the number of hs_local: 45
+Layer_7 : 1 ( total = 543 )
+the number of hs_local: 45
+The time (ms) to compute all MUPS for a concept is: 3628
+

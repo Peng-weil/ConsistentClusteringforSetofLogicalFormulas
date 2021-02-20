@@ -1,0 +1,306 @@
+ ! --------------------------------------------------- CP Optimizer 20.1.0.0 --
+ ! Minimization problem - 4085 variables, 4440 constraints
+ ! Presolve      : 412 extractables eliminated
+ ! Initial process time : 0.09s (0.09s extraction + 0.00s propagation)
+ !  . Log search space  : 4118.3 (before), 4118.3 (after)
+ !  . Memory usage      : 4.1 MB (before), 4.1 MB (after)
+ ! Using parallel search with 64 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0       4085                 -
+ + New bound is 0
+                        0       4085    1            -
+ + New bound is 1
+                     1000       2673    1         0  = y_77_1
+                     1000       2206    2         0  = y_310_10
+ *          3078      586  3.71s        3      (gap is 99.97%)
+            3078     1000          1    3         0  = y_48_1
+            3078     1000       2206    4         1  = y_57_24
+            3078     1000          1    5         0  = y_48_1
+            3078     1000       2455    6         0  = y_218_1
+            3078     1000       2211    7         1  = y_43_10
+            3078     1000       3090    8         0  = y_304_0
+            3078     1000       2673    9         0  = y_387_20
+            3078     1000       2468   10         0  = y_319_0
+            3078     1000       2215   11         0  = y_10_8
+            3078     1000          1   12         1  = y_210_20
+            3078     1000       2673   13         0  = y_328_12
+            3078     1000       3090   14         0  = y_403_19
+            3078     1000       2219   15         1  = y_79_31
+            3078     1000       3090   16         0  = y_26_7
+            3078     1000       2673   17         0  = y_408_6
+ ! Time = 3.72s, Average fail depth = 3, Memory usage = 153.0 MB
+ ! Current bound is 1 (gap is 99.97%)
+ !          Best Branches  Non-fixed    W       Branch decision
+            3078     1000       2442   18         1  = y_146_3
+            3078     1000       2208   19         1  = y_180_7
+            3078     1000       3089   20         0  = x_15
+            3078     1000       2673   21         0  = y_317_15
+            3078     1000       2759   22         0  = y_134_7
+            3078     1000       2209   23         1  = y_128_40
+            3078     1000       2426   24         1  = y_68_4
+            3078     1000       2673   25         0  = y_268_14
+            3078     1000       3087   26         0  = y_224_7
+            3078     1000       2208   27         1  = y_149_4
+            3078     1000       2476   28         1  = y_140_40
+            3078     1000       2673   29         0  = y_205_17
+            3078     1000       3090   30         0  = y_377_0
+            3078     1000       2212   31         1  = y_405_7
+            3078     1000       3089   32         0  = y_66_22
+            3078     1000       2673   33         0  = y_31_16
+            3078     1000       2374   34         1  = y_319_7
+            3078     1000       2204   35         1  = y_129_9
+            3078     1000       2410   36         1  = y_42_4
+            3078     1000       2673   37         0  = y_72_0
+ ! Time = 3.72s, Average fail depth = 2, Memory usage = 288.6 MB
+ ! Current bound is 1 (gap is 99.97%)
+ !          Best Branches  Non-fixed    W       Branch decision
+            3078     1000       2446   38         1  = y_104_15
+            3078     1000       2207   39         0  = y_213_20
+            3078     1000       2977   40         0  = y_113_9
+            3078     1000       2673   41         0  = y_271_1
+            3078     1000       3087   42         0  = y_105_4
+            3078     1000       2204   43         0  = y_259_17
+            3078     1000        752   44         1  = y_242_1
+            3078     1000       2672   45         0  = y_54_26
+            3078     1000       3088   46         0  = y_223_7
+            3078     1000       2208   47         1  = y_15_19
+            3078     1000       2464   48         1  = y_167_7
+            3078     1000       2673   49         0  = y_209_3
+            3078     1000       3090   50         0  = y_9_15
+            3078     1000       2212   51         1  = y_337_17
+            3078     1000       3089   52         0  = y_206_6
+            3078     1000       2673   53         0  = y_352_12
+            3078     1000       2916   54         0  = y_123_36
+            3078     1000       2736   55         0  = y_126_18
+            3078     1000       2539   56         1  = y_50_26
+            3078     1000       2673   57         0  = y_302_51
+ ! Time = 3.74s, Average fail depth = 2, Memory usage = 424.1 MB
+ ! Current bound is 1 (gap is 99.97%)
+ !          Best Branches  Non-fixed    W       Branch decision
+            3078     1000       3089   58         0  = y_336_12
+            3078     1000       2207   59         0  = y_145_29
+            3078     1000       3089   60         0  = y_204_0
+            3078     1000       2672   61         0  = y_323_6
+            3078     1000       2633   62         0  = y_278_50
+            3078     1000       2205   63         1  = y_374_8
+            3078     1000        135   64         1  = q_339
+            3078     2000       1383    1         0  = y_342_53
+            3078     2000       1205    2         1  = y_359_7
+            3078     2000       2516    3         0  = y_160_0
+            3078     2000       1206    4         1  = y_126_9
+            3078     2000       2516    5         0  = y_160_0
+            3078     2000       1445    6         0  = y_405_4
+            3078     2000       1209    7         1  = y_326_54
+            3078     2000       1847    8         0  = y_255_17
+            3078     2000       1298    9         0  = y_290_0
+            3078     2000       1465   10         1  = y_111_9
+            3078     2000       1214   11         0  = y_402_9
+            3078     2000         18   12         1  = y_102_9
+            3078     2000       1338   13         0  = y_357_12
+ ! Time = 4.82s, Average fail depth = 2, Memory usage = 464.8 MB
+ ! Current bound is 1 (gap is 99.97%)
+ !          Best Branches  Non-fixed    W       Branch decision
+            3078     2000       1839   14         0  = y_163_1
+            3078     2000       1217   15         1  = y_124_14
+            3078     2000       2090   16         0  = y_384_7
+            3078     2000       1402   17         0  = y_329_0
+            3078     2000       1433   18         1  = y_328_12
+            3078     2000       1208   19         1  = y_289_0
+            3078     2000       1816   20         0  = y_89_1
+            3078     2000       1355   21         0  = y_61_6
+            3078     2000       1757   22         0  = y_67_12
+            3078     2000       1206   23         0  = y_278_0
+            3078     2000       1409   24         0  = y_133_7
+            3078     2000       1373   25         0  = y_131_4
+            3078     2000       2086   26         0  = y_284_24
+            3078     2000       1206   27         1  = y_178_17
+            3078     2000       1451   28         1  = y_399_20
+            3078     2000       1354   29         0  = y_247_7
+            3078     2000       2090   30         0  = y_75_7
+            3078     2000       1212   31         1  = y_308_4
+            3078     2000       2088   32         0  = y_23_10
+            3078     2000       1336   33         0  = y_226_4
+ ! Time = 4.84s, Average fail depth = 2, Memory usage = 464.8 MB
+ ! Current bound is 1 (gap is 99.97%)
+ !          Best Branches  Non-fixed    W       Branch decision
+            3078     2000       1365   34         1  = y_262_14
+            3078     2000       1202   35         1  = y_27_20
+            3078     2000       1402   36         0  = y_372_9
+            3078     2000       1651   37         0  = y_108_18
+            3078     2000       1445   38         1  = q_217
+            3078     2000       1207   39         0  = y_360_55
+            3078     2000       1865   40         0  = y_225_14
+            3078     2000       1662   41         0  = y_367_3
+            3078     2000       1804   42         0  = y_100_4
+            3078     2000       1203   43         1  = y_183_1
+            3078     2000       1289   45         0  = y_26_9
+            3078     2000       2088   46         0  = y_355_14
+            3078     2000       1207   47         0  = y_183_1
+            3078     2000       1449   48         0  = q_343
+            3078     2000       1427   49         0  = y_344_6
+            3078     2000       2090   50         0  = y_61_9
+            3078     2000       1212   51         1  = y_362_6
+            3078     2000       1847   52         0  = y_292_4
+            3078     2000       1334   53         0  = y_407_6
+            3078     2000       1762   54         0  = y_125_8
+ ! Time = 4.84s, Average fail depth = 2, Memory usage = 464.8 MB
+ ! Current bound is 1 (gap is 99.97%)
+ !          Best Branches  Non-fixed    W       Branch decision
+            3078     2000       1828   55         0  = y_49_12
+            3078     2000       1520   56         1  = y_110_10
+            3078     2000       1376   57         0  = y_133_12
+            3078     2000       2088   58         0  = y_127_17
+            3078     2000       1206   59         0  = y_376_10
+            3078     2000       2089   60         0  = y_394_1
+            3078     2000       1392   61         0  = y_262_6
+            3078     2000       1622   62         1  = y_329_54
+            3078     2000       1205   63         1  = y_247_8
+ *          3021     1762  4.84s       44      (gap is 99.97%)
+            3021     2000          1   44         0  = y_154_6
+            3021     2000          1   64         0  = y_365_54
+            3021     3000         16    1         0  = y_372_7
+            3021     3000        201    2         0  = y_391_9
+            3021     3000       1401    3         0  = y_275_7
+            3021     3000        203    4         1  = y_334_17
+            3021     3000       1401    5         0  = y_275_7
+            3021     3000        443    6         1  = y_111_8
+            3021     3000        208    7         0  = y_314_1
+            3021     3000        838    8         0  = y_364_8
+ ! Time = 5.17s, Average fail depth = 2, Memory usage = 482.1 MB
+ ! Current bound is 1 (gap is 99.97%)
+ !          Best Branches  Non-fixed    W       Branch decision
+            3021     3000        463   10         0  = y_341_17
+            3021     3000        211   11         1  = y_67_9
+            3021     3000        816   14         0  = y_6_9
+            3021     3000        215   15         0  = y_202_1
+            3021     3000       1081   16         0  = q_391
+            3021     3000         57   17         0  = y_262_47
+            3021     3000        427   18         0  = y_276_3
+            3021     3000        201   19         1  = y_228_1
+            3021     3000        799   20         0  = y_309_7
+            3021     3000        737   22         0  = y_188_3
+            3021     3000        203   23         1  = y_105_14
+            3021     3000        403   24         0  = y_381_20
+            3021     3000          8   25         0  = y_182_0
+            3021     3000       1072   26         0  = y_321_53
+            3021     3000        204   27         0  = y_410_43
+            3021     3000        449   28         0  = y_285_12
+            3021     3000       1077   30         0  = y_379_12
+            3021     3000        209   31         1  = y_162_3
+            3021     3000        860   32         0  = y_407_3
+            3021     3000        359   34         0  = y_367_1
+ ! Time = 5.17s, Average fail depth = 2, Memory usage = 482.1 MB
+ ! Current bound is 1 (gap is 99.97%)
+ !          Best Branches  Non-fixed    W       Branch decision
+            3021     3000        199   35         1  = y_156_1
+            3021     3000        400   36         1  = y_372_14
+            3021     3000         91   37         0  = y_81_14
+            3021     3000        441   38         0  = q_339
+            3021     3000        203   39         0  = y_350_54
+            3021     3000        750   40         0  = y_341_4
+            3021     3000        109   41         0  = y_182_13
+            3021     3000        782   42         0  = y_67_9
+            3021     3000        198   43         1  = y_195_7
+            3021     3000       2184   44         1  = y_225_14
+            3021     3000       1075   46         0  = y_156_3
+            3021     3000        204   47         1  = y_59_7
+            3021     3000        447   48         1  = y_217_34
+            3021     3000         86   49         0  = y_385_6
+            3021     3000       1079   50         0  = q_234
+            3021     3000        210   51         1  = y_267_8
+            3021     3000        833   52         0  = y_323_4
+            3021     3000        746   54         0  = q_74
+            3021     3000        943   55         0  = y_284_7
+            3021     3000        515   56         0  = y_182_13
+ ! Time = 5.18s, Average fail depth = 2, Memory usage = 482.1 MB
+ ! Current bound is 1 (gap is 99.97%)
+ !          Best Branches  Non-fixed    W       Branch decision
+            3021     3000        921   58         0  = y_164_6
+            3021     3000        201   59         0  = y_347_6
+            3021     3000       1077   60         0  = y_165_1
+            3021     3000         34   61         0  = y_138_7
+            3021     3000        620   62         0  = y_361_1
+            3021     3000        198   63         0  = y_374_20
+            3021     3000       1518   64         1  = y_233_17
+ *             1     2930  5.18s        9      (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 3 solutions found.
+ ! Best objective         : 1 (optimal - effective tol. is 0)
+ ! Best bound             : 1
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 221591
+ ! Number of fails        : 932
+ ! Total memory usage     : 915.8 MB (914.9 MB CP Optimizer + 0.9 MB Concert)
+ ! Time spent in solve    : 5.42s (5.33s engine + 0.09s extraction)
+ ! Search speed (br. / s) : 41652.4
+ ! ----------------------------------------------------------------------------
+
+
+x_0: DisjointClasses(<http://www.owl-ontologies.com/unnamed.owl#ChemicalElement> <http://www.owl-ontologies.com/unnamed.owl#PublishedWork>)
+x_1: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#NerveAgentRelatedPublishedWork> <http://www.owl-ontologies.com/unnamed.owl#PublishedWork>)
+x_2: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#AC_Agent> <http://www.owl-ontologies.com/unnamed.owl#BloodAgent>)
+x_3: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#Agent> <http://www.owl-ontologies.com/unnamed.owl#ChemicalElement>)
+x_4: ObjectPropertyDomain(<http://www.owl-ontologies.com/unnamed.owl#refersToPrecursor> <http://www.owl-ontologies.com/unnamed.owl#PublishedWork>)
+x_5: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#BloodAgent> <http://www.owl-ontologies.com/unnamed.owl#Agent>)
+x_6: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#VR_RelatedPublishedWork> <http://www.owl-ontologies.com/unnamed.owl#NerveAgentRelatedPublishedWork>)
+x_7: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#VR_RelatedPublishedWork> ObjectAllValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#refersToPrecursor> <http://www.owl-ontologies.com/unnamed.owl#VR_Precursor>) )
+x_8: DisjointClasses(<http://www.owl-ontologies.com/unnamed.owl#Agent> <http://www.owl-ontologies.com/unnamed.owl#PublishedWork>)
+x_9: ObjectPropertyDomain(<http://www.owl-ontologies.com/unnamed.owl#refersTo> <http://www.owl-ontologies.com/unnamed.owl#PublishedWork>)
+x_10: SubObjectPropertyOf(<http://www.owl-ontologies.com/unnamed.owl#refersToPrecursor> <http://www.owl-ontologies.com/unnamed.owl#refersTo>)
+x_11: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#ChokingAgent> <http://www.owl-ontologies.com/unnamed.owl#Agent>)
+x_12: ObjectPropertyRange(<http://www.owl-ontologies.com/unnamed.owl#isPrecursorOf> <http://www.owl-ontologies.com/unnamed.owl#Agent>)
+x_13: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#VX_Precursor> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#isPrecursorOf> <http://www.owl-ontologies.com/unnamed.owl#VX_Agent>) )
+x_14: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#Precursor> <http://www.owl-ontologies.com/unnamed.owl#ChemicalElement>)
+x_15: ObjectPropertyDomain(<http://www.owl-ontologies.com/unnamed.owl#isPrecursorOf> <http://www.owl-ontologies.com/unnamed.owl#Precursor>)
+x_16: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#VX_Precursor> <http://www.owl-ontologies.com/unnamed.owl#NerveAgentPrecursor>)
+x_17: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#NerveAgentPrecursor> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#isPrecursorOf> <http://www.owl-ontologies.com/unnamed.owl#NerveAgent>) )
+x_18: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#NerveAgentPrecursor> <http://www.owl-ontologies.com/unnamed.owl#Precursor>)
+x_19: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#VX_Agent> <http://www.owl-ontologies.com/unnamed.owl#NerveAgent>)
+x_20: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#NerveAgent> <http://www.owl-ontologies.com/unnamed.owl#Agent>)
+x_21: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#ChokingAgentPrecursor> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#isPrecursorOf> <http://www.owl-ontologies.com/unnamed.owl#ChokingAgent>) )
+x_22: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#ChokingAgentPrecursor> <http://www.owl-ontologies.com/unnamed.owl#Precursor>)
+x_23: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#GA_Agent> <http://www.owl-ontologies.com/unnamed.owl#NerveAgent>)
+x_24: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#BloodAgentPrecursor> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#isPrecursorOf> <http://www.owl-ontologies.com/unnamed.owl#BloodAgent>) )
+x_25: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#AC_Precursor> <http://www.owl-ontologies.com/unnamed.owl#BloodAgentPrecursor>)
+x_26: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#BloodAgentPrecursor> <http://www.owl-ontologies.com/unnamed.owl#Precursor>)
+x_27: DisjointClasses(<http://www.owl-ontologies.com/unnamed.owl#Person> <http://www.owl-ontologies.com/unnamed.owl#PublishedWork>)
+x_28: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#CG_Precursor> <http://www.owl-ontologies.com/unnamed.owl#ChokingAgentPrecursor>)
+x_29: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#BlisterAgent> <http://www.owl-ontologies.com/unnamed.owl#Agent>)
+x_30: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#HD_Agent> <http://www.owl-ontologies.com/unnamed.owl#BlisterAgent>)
+x_31: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#BlisterAgentPrecursor> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#isPrecursorOf> <http://www.owl-ontologies.com/unnamed.owl#BlisterAgent>) )
+x_32: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#BlisterAgentPrecursor> <http://www.owl-ontologies.com/unnamed.owl#Precursor>)
+x_33: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#GF_RelatedPublishedWork> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#refersToPrecursor> <http://www.owl-ontologies.com/unnamed.owl#GF_Precursor>) )
+x_34: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#GF_Precursor> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#isPrecursorOf> <http://www.owl-ontologies.com/unnamed.owl#GF_Agent>) )
+x_35: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#GF_Precursor> <http://www.owl-ontologies.com/unnamed.owl#NerveAgentPrecursor>)
+x_36: ObjectPropertyRange(<http://www.owl-ontologies.com/unnamed.owl#refersToPrecursor> <http://www.owl-ontologies.com/unnamed.owl#Precursor>)
+x_37: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#GF_Agent> <http://www.owl-ontologies.com/unnamed.owl#NerveAgent>)
+x_38: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#GB_RelatedPublishedWork> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#refersToPrecursor> <http://www.owl-ontologies.com/unnamed.owl#GB_Precursor>) )
+x_39: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#GB_Precursor> <http://www.owl-ontologies.com/unnamed.owl#NerveAgentPrecursor>)
+x_40: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#GB_Precursor> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#isPrecursorOf> <http://www.owl-ontologies.com/unnamed.owl#GB_Agent>) )
+x_41: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#GB_Agent> <http://www.owl-ontologies.com/unnamed.owl#NerveAgent>)
+x_42: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#BlisterAgentSpecificPublishedWork> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#refersToAgent> <http://www.owl-ontologies.com/unnamed.owl#BlisterAgent>) )
+x_43: ObjectPropertyRange(<http://www.owl-ontologies.com/unnamed.owl#refersToAgent> <http://www.owl-ontologies.com/unnamed.owl#Agent>)
+x_44: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#PublishedAuthor> <http://www.owl-ontologies.com/unnamed.owl#Person>)
+x_45: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#CG_Agent> <http://www.owl-ontologies.com/unnamed.owl#ChokingAgent>)
+x_46: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#VX_RelatedPublishedWork> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#refersToPrecursor> <http://www.owl-ontologies.com/unnamed.owl#VX_Precursor>) )
+x_47: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#VR_Agent> <http://www.owl-ontologies.com/unnamed.owl#NerveAgent>)
+x_48: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#VR_Precursor> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#isPrecursorOf> <http://www.owl-ontologies.com/unnamed.owl#VR_Agent>) )
+x_49: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#VR_Precursor> <http://www.owl-ontologies.com/unnamed.owl#NerveAgentPrecursor>)
+x_50: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#ChokingAgentRelatedPublishedWork> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#refersToPrecursor> <http://www.owl-ontologies.com/unnamed.owl#ChokingAgentPrecursor>) )
+x_51: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#HD_Precursor> <http://www.owl-ontologies.com/unnamed.owl#BlisterAgentPrecursor>)
+x_52: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#BlisterAgentRelatedPublishedWork> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#refersToPrecursor> <http://www.owl-ontologies.com/unnamed.owl#BlisterAgentPrecursor>) )
+x_53: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#GA_Precursor> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#isPrecursorOf> <http://www.owl-ontologies.com/unnamed.owl#GA_Agent>) )
+x_54: SubClassOf(<http://www.owl-ontologies.com/unnamed.owl#GA_Precursor> <http://www.owl-ontologies.com/unnamed.owl#NerveAgentPrecursor>)
+x_55: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#GA_RelatedPublishedWork> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#refersToPrecursor> <http://www.owl-ontologies.com/unnamed.owl#GA_Precursor>) )
+x_56: EquivalentClasses(<http://www.owl-ontologies.com/unnamed.owl#ChokingAgentSpecificPublishedWork> ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#refersToAgent> <http://www.owl-ontologies.com/unnamed.owl#ChokingAgent>) )
+
+
+problem_formula: 57
+mis_size: 412
+r: 2
+
+0:['x_0', 'x_1', 'x_2', 'x_3', 'x_4', 'x_5', 'x_7', 'x_8', 'x_9', 'x_10', 'x_11', 'x_12', 'x_13', 'x_14', 'x_15', 'x_16', 'x_17', 'x_18', 'x_19', 'x_20', 'x_21', 'x_22', 'x_23', 'x_24', 'x_25', 'x_26', 'x_27', 'x_28', 'x_29', 'x_30', 'x_31', 'x_32', 'x_33', 'x_34', 'x_35', 'x_36', 'x_37', 'x_38', 'x_39', 'x_40', 'x_41', 'x_42', 'x_43', 'x_44', 'x_45', 'x_46', 'x_47', 'x_48', 'x_49', 'x_50', 'x_51', 'x_52', 'x_53', 'x_54', 'x_55', 'x_56']
+
+1:['x_6']
+

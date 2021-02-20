@@ -1,0 +1,62 @@
+ ! --------------------------------------------------- CP Optimizer 20.1.0.0 --
+ ! Minimization problem - 169 variables, 169 constraints
+ ! Presolve      : 74 extractables eliminated
+ ! Initial process time : 0.01s (0.01s extraction + 0.00s propagation)
+ !  . Log search space  : 169.0 (before), 169.0 (after)
+ !  . Memory usage      : 482.3 kB (before), 482.3 kB (after)
+ ! Using parallel search with 64 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        169                 -
+ + New bound is 0
+                        0        169    1            -
+ + New bound is 1
+ *             1      121  0.17s        1      (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 1 solution found.
+ ! Best objective         : 1 (optimal - effective tol. is 0)
+ ! Best bound             : 1
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 16667
+ ! Number of fails        : 1188
+ ! Total memory usage     : 59.8 MB (59.7 MB CP Optimizer + 0.1 MB Concert)
+ ! Time spent in solve    : 0.17s (0.17s engine + 0.01s extraction)
+ ! Search speed (br. / s) : 104168.7
+ ! ----------------------------------------------------------------------------
+
+
+x_0: EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+x_1: EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+x_2: DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+x_3: SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+x_4: EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+x_5: SubClassOf(<http://sigkdd#Best_Student_Paper_Award> <http://sigkdd#Award>)
+x_6: SubClassOf(<http://sigkdd#Author_of_paper_student> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Student_Paper_Award>))
+x_7: ObjectPropertyRange(<http://sigkdd#award> <http://sigkdd#Award>)
+x_8: ObjectPropertyDomain(<http://sigkdd#awarded_by> <http://sigkdd#Award>)
+x_9: InverseObjectProperties(<http://sigkdd#award> <http://sigkdd#awarded_by>)
+x_10: SubClassOf(<http://ekaw#Proceedings_Publisher> <http://ekaw#Organisation>)
+x_11: SubClassOf(<http://sigkdd#Best_Research_Paper_Award> <http://sigkdd#Award>)
+x_12: SubClassOf(<http://ekaw#Academic_Institution> <http://ekaw#Organisation>)
+x_13: SubClassOf(<http://ekaw#University> <http://ekaw#Academic_Institution>)
+x_14: SubClassOf(<http://sigkdd#General_Chair> <http://sigkdd#Organizator>)
+x_15: SubClassOf(<http://ekaw#Organising_Agency> <http://ekaw#Organisation>)
+x_16: SubClassOf(<http://sigkdd#Best_Applications_Paper_Award> <http://sigkdd#Award>)
+x_17: SubClassOf(<http://sigkdd#Webmaster> <http://sigkdd#Organizator>)
+x_18: SubClassOf(<http://ekaw#Research_Institute> <http://ekaw#Academic_Institution>)
+x_19: SubClassOf(<http://sigkdd#Program_Chair> <http://sigkdd#Organizator>)
+x_20: SubClassOf(<http://sigkdd#Organizing_Committee_member> <http://sigkdd#Organizator>)
+x_21: SubClassOf(<http://sigkdd#Author_of_paper> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Research_Paper_Award>))
+x_22: SubClassOf(<http://sigkdd#Author_of_paper> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Applications_Paper_Award>))
+x_23: SubClassOf(<http://sigkdd#Program_Committee_member> <http://sigkdd#Organizator>)
+
+
+problem_formula: 24
+mis_size: 24
+iteration: 2
+r: 2
+
+1:['x_0']
+
+0:['x_1', 'x_2', 'x_3', 'x_4', 'x_5', 'x_6', 'x_7', 'x_8', 'x_9', 'x_10', 'x_11', 'x_12', 'x_13', 'x_14', 'x_15', 'x_16', 'x_17', 'x_18', 'x_19', 'x_20', 'x_21', 'x_22', 'x_23']
+

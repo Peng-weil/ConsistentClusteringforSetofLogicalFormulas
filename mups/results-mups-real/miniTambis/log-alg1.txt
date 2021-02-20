@@ -1,0 +1,78 @@
+ ! --------------------------------------------------- CP Optimizer 20.1.0.0 --
+ ! Minimization problem - 257 variables, 247 constraints
+ ! Presolve      : 86 extractables eliminated
+ ! Initial process time : 0.01s (0.01s extraction + 0.00s propagation)
+ !  . Log search space  : 257.0 (before), 257.0 (after)
+ !  . Memory usage      : 562.1 kB (before), 562.1 kB (after)
+ ! Using parallel search with 64 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        257                 -
+ + New bound is 0
+                        0        257    1            -
+ + New bound is 1
+                      312        145    1   F     0 != x_15
+ + New bound is 2
+ *             3      520  0.31s        1      (gap is 33.33%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 1 solution found.
+ ! Best objective         : 3 (optimal - effective tol. is 0)
+ ! Best bound             : 2
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 114208
+ ! Number of fails        : 32586
+ ! Total memory usage     : 81.9 MB (81.8 MB CP Optimizer + 0.1 MB Concert)
+ ! Time spent in solve    : 0.49s (0.48s engine + 0.01s extraction)
+ ! Search speed (br. / s) : 237933.3
+ ! ----------------------------------------------------------------------------
+
+
+x_0: EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+x_1: EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+x_2: DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+x_3: EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+x_4: SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+x_5: SubClassOf(<http://miniTambis#HoloProtein> <http://miniTambis#Protein>)
+x_6: EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+x_7: SubClassOf(<http://miniTambis#DivalentIon> <http://miniTambis#Anion>)
+x_8: EquivalentClasses(<http://miniTambis#MultiStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(2 <http://miniTambis#hasStrand> owl:Thing)) )
+x_9: EquivalentClasses(<http://miniTambis#SingleStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+x_10: EquivalentClasses(<http://miniTambis#Proteosis> ObjectUnionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#MultiStrandedPeptide>) ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#SingleStrandedPeptide>)) )
+x_11: EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+x_12: SubClassOf(<http://miniTambis#Hydrolysis> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#Proteosis>))
+x_13: SubClassOf(<http://miniTambis#Anion> ObjectSomeValuesFrom(<http://miniTambis#participatesIn> <http://miniTambis#Hydrolysis>))
+x_14: DisjointClasses(<http://miniTambis#physical> <http://miniTambis#structure>)
+x_15: SubClassOf(<http://miniTambis#physical-structure> ObjectIntersectionOf(<http://miniTambis#physical> <http://miniTambis#structure>))
+x_16: SubClassOf(<http://miniTambis#part-of-physical-structure> <http://miniTambis#physical-structure>)
+x_17: SubClassOf(<http://miniTambis#isomerisation> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#regulation>))
+x_18: DisjointClasses(<http://miniTambis#racemation> <http://miniTambis#regulation>)
+x_19: EquivalentClasses(<http://miniTambis#isomerisation> ObjectIntersectionOf(<http://miniTambis#ligation> <http://miniTambis#process> ObjectSomeValuesFrom(<http://miniTambis#contains> <http://miniTambis#isomers>)) )
+x_20: SubClassOf(<http://miniTambis#ligation> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#racemation>))
+x_21: SubClassOf(<http://miniTambis#ReductProteoseReaction> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#Proteosis>))
+x_22: SubClassOf(<http://miniTambis#OxyReductReaction> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#ReductProteoseReaction>))
+x_23: SubClassOf(<http://miniTambis#physical-space> <http://miniTambis#physical-structure>)
+x_24: EquivalentClasses(<http://miniTambis#HoloProteinReaction> ObjectIntersectionOf(<http://miniTambis#EnzymeReaction> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#HoloProtein>)) )
+x_25: SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectMinCardinality(1 <http://miniTambis#involves> owl:Thing))
+x_26: SubClassOf(<http://miniTambis#peroxidation> <http://miniTambis#oxidation-and-reduction>)
+x_27: SubClassOf(<http://miniTambis#racemation> <http://miniTambis#peroxidation>)
+x_28: SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#isomerisation>))
+x_29: EquivalentClasses(<http://miniTambis#Hydrolase> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#Hydrolysis>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#AminoAcid>) ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+x_30: EquivalentClasses(<http://miniTambis#oxidoreductase> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#oxidation-and-reduction>) ObjectSomeValuesFrom(<http://miniTambis#has-ec-number> <http://miniTambis#ec-number>) ObjectSomeValuesFrom(<http://miniTambis#polymer-of> <http://miniTambis#amino-acid>) ObjectAllValuesFrom(<http://miniTambis#polymer-of> <http://miniTambis#amino-acid>)) )
+x_31: EquivalentClasses(<http://miniTambis#HoloEnzyme> ObjectIntersectionOf(<http://miniTambis#Enzyme> ObjectSomeValuesFrom(<http://miniTambis#participatesIn> <http://miniTambis#HoloProteinReaction>)) )
+x_32: SubClassOf(<http://miniTambis#oxidation> <http://miniTambis#oxidation-and-reduction>)
+x_33: SubClassOf(<http://miniTambis#physical-organisation> <http://miniTambis#physical-structure>)
+x_34: EquivalentClasses(<http://miniTambis#protein-part> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>)) )
+x_35: SubClassOf(<http://miniTambis#site> <http://miniTambis#protein-part>)
+x_36: SubClassOf(<http://miniTambis#MonovalentIon> <http://miniTambis#Anion>)
+x_37: SubClassOf(<http://miniTambis#oxygenation> <http://miniTambis#oxidation-and-reduction>)
+
+
+problem_formula: 38
+mis_size: 28
+iteration: 2
+r: 2
+
+0:['x_0', 'x_1', 'x_2', 'x_3', 'x_4', 'x_5', 'x_7', 'x_8', 'x_9', 'x_10', 'x_11', 'x_12', 'x_13', 'x_15', 'x_16', 'x_17', 'x_18', 'x_19', 'x_21', 'x_22', 'x_23', 'x_24', 'x_25', 'x_26', 'x_27', 'x_28', 'x_29', 'x_30', 'x_31', 'x_32', 'x_33', 'x_34', 'x_35', 'x_36', 'x_37']
+
+1:['x_6', 'x_14', 'x_20']
+

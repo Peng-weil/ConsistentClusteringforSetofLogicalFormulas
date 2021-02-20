@@ -1,0 +1,536 @@
+axiom number: 357
+Number of Ucs: 18
+Uc 1 : <http://ekaw#Organisation>
+Layer_0 : 9 ( total = 9 )
+Layer_1 : 32 ( total = 41 )
+  Found explanation <1> for concept <http://ekaw#Organisation>
+  [1] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [2] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [3] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [4] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Organisation>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_2 : 84 ( total = 125 )
+the number of hs_local: 4
+Layer_3 : 110 ( total = 235 )
+the number of hs_local: 4
+Layer_4 : 96 ( total = 331 )
+the number of hs_local: 4
+Layer_5 : 19 ( total = 350 )
+the number of hs_local: 4
+Layer_6 : 3 ( total = 353 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 909
+
+Uc 2 : <http://sigkdd#Best_Student_Paper_Award>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 10 ( total = 12 )
+Layer_2 : 14 ( total = 26 )
+Layer_3 : 30 ( total = 56 )
+  Found explanation <1> for concept <http://sigkdd#Best_Student_Paper_Award>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [5] SubClassOf(<http://sigkdd#Best_Student_Paper_Award> <http://sigkdd#Award>)
+  [6] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Best_Student_Paper_Award>> ? true
+------------------
+the number of hs_local found at the first iteration: 6
+Layer_4 : 84 ( total = 140 )
+the number of hs_local: 6
+Layer_5 : 134 ( total = 274 )
+the number of hs_local: 6
+Layer_6 : 71 ( total = 345 )
+the number of hs_local: 6
+Layer_7 : 8 ( total = 353 )
+the number of hs_local: 6
+The time (ms) to compute all MUPS for a concept is: 840
+
+Uc 3 : <http://sigkdd#Author_of_paper_student>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 12 ( total = 14 )
+Layer_2 : 16 ( total = 30 )
+Layer_3 : 57 ( total = 87 )
+Layer_4 : 132 ( total = 219 )
+  Found explanation <1> for concept <http://sigkdd#Author_of_paper_student>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [5] SubClassOf(<http://sigkdd#Best_Student_Paper_Award> <http://sigkdd#Award>)
+  [6] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+  [7] SubClassOf(<http://sigkdd#Author_of_paper_student> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Student_Paper_Award>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper_student>> ? true
+------------------
+  Found explanation <2> for concept <http://sigkdd#Author_of_paper_student>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [5] ObjectPropertyRange(<http://sigkdd#award> <http://sigkdd#Award>)
+  [6] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+  [7] SubClassOf(<http://sigkdd#Author_of_paper_student> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Student_Paper_Award>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper_student>> ? true
+------------------
+  Found explanation <3> for concept <http://sigkdd#Author_of_paper_student>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] ObjectPropertyDomain(<http://sigkdd#awarded_by> <http://sigkdd#Award>)
+  [3] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [4] InverseObjectProperties(<http://sigkdd#award> <http://sigkdd#awarded_by>)
+  [5] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [6] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [7] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+  [8] SubClassOf(<http://sigkdd#Author_of_paper_student> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Student_Paper_Award>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper_student>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_5 : 96 ( total = 315 )
+the number of hs_local: 8
+Layer_6 : 35 ( total = 350 )
+the number of hs_local: 8
+Layer_7 : 3 ( total = 353 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 2928
+
+Uc 4 : <http://ekaw#Proceedings_Publisher>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 8 ( total = 9 )
+Layer_2 : 32 ( total = 41 )
+  Found explanation <1> for concept <http://ekaw#Proceedings_Publisher>
+  [1] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [2] SubClassOf(<http://ekaw#Proceedings_Publisher> <http://ekaw#Organisation>)
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [5] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Proceedings_Publisher>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 84 ( total = 125 )
+the number of hs_local: 5
+Layer_4 : 110 ( total = 235 )
+the number of hs_local: 5
+Layer_5 : 96 ( total = 331 )
+the number of hs_local: 5
+Layer_6 : 19 ( total = 350 )
+the number of hs_local: 5
+Layer_7 : 3 ( total = 353 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 560
+
+Uc 5 : <http://sigkdd#Best_Research_Paper_Award>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 10 ( total = 12 )
+Layer_2 : 14 ( total = 26 )
+Layer_3 : 30 ( total = 56 )
+  Found explanation <1> for concept <http://sigkdd#Best_Research_Paper_Award>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [5] SubClassOf(<http://sigkdd#Best_Research_Paper_Award> <http://sigkdd#Award>)
+  [6] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Best_Research_Paper_Award>> ? true
+------------------
+the number of hs_local found at the first iteration: 6
+Layer_4 : 84 ( total = 140 )
+the number of hs_local: 6
+Layer_5 : 134 ( total = 274 )
+the number of hs_local: 6
+Layer_6 : 71 ( total = 345 )
+the number of hs_local: 6
+Layer_7 : 8 ( total = 353 )
+the number of hs_local: 6
+The time (ms) to compute all MUPS for a concept is: 689
+
+Uc 6 : <http://sigkdd#Organizator>
+Layer_0 : 8 ( total = 8 )
+Layer_1 : 27 ( total = 35 )
+  Found explanation <1> for concept <http://sigkdd#Organizator>
+  [1] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [2] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [3] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [4] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Organizator>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_2 : 54 ( total = 89 )
+the number of hs_local: 4
+Layer_3 : 134 ( total = 223 )
+the number of hs_local: 4
+Layer_4 : 111 ( total = 334 )
+the number of hs_local: 4
+Layer_5 : 19 ( total = 353 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 380
+
+Uc 7 : <http://ekaw#University>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 5 ( total = 6 )
+Layer_2 : 11 ( total = 17 )
+Layer_3 : 25 ( total = 42 )
+  Found explanation <1> for concept <http://ekaw#University>
+  [1] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [2] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [3] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [4] SubClassOf(<http://ekaw#Academic_Institution> <http://ekaw#Organisation>)
+  [5] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+  [6] SubClassOf(<http://ekaw#University> <http://ekaw#Academic_Institution>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#University>> ? true
+------------------
+the number of hs_local found at the first iteration: 6
+Layer_4 : 83 ( total = 125 )
+the number of hs_local: 6
+Layer_5 : 110 ( total = 235 )
+the number of hs_local: 6
+Layer_6 : 96 ( total = 331 )
+the number of hs_local: 6
+Layer_7 : 19 ( total = 350 )
+the number of hs_local: 6
+Layer_8 : 3 ( total = 353 )
+the number of hs_local: 6
+The time (ms) to compute all MUPS for a concept is: 630
+
+Uc 8 : <http://sigkdd#General_Chair>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 7 ( total = 8 )
+Layer_2 : 27 ( total = 35 )
+  Found explanation <1> for concept <http://sigkdd#General_Chair>
+  [1] SubClassOf(<http://sigkdd#General_Chair> <http://sigkdd#Organizator>)
+  [2] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [5] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#General_Chair>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 54 ( total = 89 )
+the number of hs_local: 5
+Layer_4 : 134 ( total = 223 )
+the number of hs_local: 5
+Layer_5 : 111 ( total = 334 )
+the number of hs_local: 5
+Layer_6 : 19 ( total = 353 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 400
+
+Uc 9 : <http://ekaw#Organising_Agency>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 12 ( total = 14 )
+Layer_2 : 28 ( total = 42 )
+  Found explanation <1> for concept <http://ekaw#Organising_Agency>
+  [1] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [2] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [3] SubClassOf(<http://ekaw#Organising_Agency> <http://ekaw#Organisation>)
+  [4] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [5] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Organising_Agency>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 83 ( total = 125 )
+the number of hs_local: 5
+Layer_4 : 110 ( total = 235 )
+the number of hs_local: 5
+Layer_5 : 96 ( total = 331 )
+the number of hs_local: 5
+Layer_6 : 19 ( total = 350 )
+the number of hs_local: 5
+Layer_7 : 3 ( total = 353 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 519
+
+Uc 10 : <http://sigkdd#Best_Applications_Paper_Award>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 10 ( total = 12 )
+Layer_2 : 14 ( total = 26 )
+Layer_3 : 30 ( total = 56 )
+  Found explanation <1> for concept <http://sigkdd#Best_Applications_Paper_Award>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] SubClassOf(<http://sigkdd#Best_Applications_Paper_Award> <http://sigkdd#Award>)
+  [5] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [6] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Best_Applications_Paper_Award>> ? true
+------------------
+the number of hs_local found at the first iteration: 6
+Layer_4 : 84 ( total = 140 )
+the number of hs_local: 6
+Layer_5 : 134 ( total = 274 )
+the number of hs_local: 6
+Layer_6 : 71 ( total = 345 )
+the number of hs_local: 6
+Layer_7 : 8 ( total = 353 )
+the number of hs_local: 6
+The time (ms) to compute all MUPS for a concept is: 470
+
+Uc 11 : <http://sigkdd#Webmaster>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 7 ( total = 8 )
+Layer_2 : 27 ( total = 35 )
+  Found explanation <1> for concept <http://sigkdd#Webmaster>
+  [1] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [2] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [3] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [4] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+  [5] SubClassOf(<http://sigkdd#Webmaster> <http://sigkdd#Organizator>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Webmaster>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 54 ( total = 89 )
+the number of hs_local: 5
+Layer_4 : 134 ( total = 223 )
+the number of hs_local: 5
+Layer_5 : 111 ( total = 334 )
+the number of hs_local: 5
+Layer_6 : 19 ( total = 353 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 380
+
+Uc 12 : <http://ekaw#Research_Institute>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 5 ( total = 6 )
+Layer_2 : 11 ( total = 17 )
+Layer_3 : 25 ( total = 42 )
+  Found explanation <1> for concept <http://ekaw#Research_Institute>
+  [1] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [2] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [3] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [4] SubClassOf(<http://ekaw#Academic_Institution> <http://ekaw#Organisation>)
+  [5] SubClassOf(<http://ekaw#Research_Institute> <http://ekaw#Academic_Institution>)
+  [6] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Research_Institute>> ? true
+------------------
+the number of hs_local found at the first iteration: 6
+Layer_4 : 83 ( total = 125 )
+the number of hs_local: 6
+Layer_5 : 110 ( total = 235 )
+the number of hs_local: 6
+Layer_6 : 96 ( total = 331 )
+the number of hs_local: 6
+Layer_7 : 19 ( total = 350 )
+the number of hs_local: 6
+Layer_8 : 3 ( total = 353 )
+the number of hs_local: 6
+The time (ms) to compute all MUPS for a concept is: 530
+
+Uc 13 : <http://sigkdd#Program_Chair>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 7 ( total = 8 )
+Layer_2 : 27 ( total = 35 )
+  Found explanation <1> for concept <http://sigkdd#Program_Chair>
+  [1] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [2] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [3] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [4] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+  [5] SubClassOf(<http://sigkdd#Program_Chair> <http://sigkdd#Organizator>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Program_Chair>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 54 ( total = 89 )
+the number of hs_local: 5
+Layer_4 : 134 ( total = 223 )
+the number of hs_local: 5
+Layer_5 : 111 ( total = 334 )
+the number of hs_local: 5
+Layer_6 : 19 ( total = 353 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 370
+
+Uc 14 : <http://sigkdd#Organizing_Committee_member>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 7 ( total = 8 )
+Layer_2 : 27 ( total = 35 )
+  Found explanation <1> for concept <http://sigkdd#Organizing_Committee_member>
+  [1] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [2] SubClassOf(<http://sigkdd#Organizing_Committee_member> <http://sigkdd#Organizator>)
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [5] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Organizing_Committee_member>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 54 ( total = 89 )
+the number of hs_local: 5
+Layer_4 : 134 ( total = 223 )
+the number of hs_local: 5
+Layer_5 : 111 ( total = 334 )
+the number of hs_local: 5
+Layer_6 : 19 ( total = 353 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 350
+
+Uc 15 : <http://sigkdd#Award>
+Layer_0 : 7 ( total = 7 )
+Layer_1 : 12 ( total = 19 )
+Layer_2 : 27 ( total = 46 )
+  Found explanation <1> for concept <http://sigkdd#Award>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [5] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Award>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 55 ( total = 101 )
+the number of hs_local: 5
+Layer_4 : 146 ( total = 247 )
+the number of hs_local: 5
+Layer_5 : 95 ( total = 342 )
+the number of hs_local: 5
+Layer_6 : 11 ( total = 353 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 380
+
+Uc 16 : <http://sigkdd#Author_of_paper>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 12 ( total = 15 )
+Layer_2 : 15 ( total = 30 )
+Layer_3 : 57 ( total = 87 )
+Layer_4 : 132 ( total = 219 )
+  Found explanation <1> for concept <http://sigkdd#Author_of_paper>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] SubClassOf(<http://sigkdd#Best_Research_Paper_Award> <http://sigkdd#Award>)
+  [5] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [6] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+  [7] SubClassOf(<http://sigkdd#Author_of_paper> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Research_Paper_Award>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper>> ? true
+------------------
+  Found explanation <2> for concept <http://sigkdd#Author_of_paper>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] SubClassOf(<http://sigkdd#Author_of_paper> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Applications_Paper_Award>))
+  [5] SubClassOf(<http://sigkdd#Best_Applications_Paper_Award> <http://sigkdd#Award>)
+  [6] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [7] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper>> ? true
+------------------
+  Found explanation <3> for concept <http://sigkdd#Author_of_paper>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [5] ObjectPropertyRange(<http://sigkdd#award> <http://sigkdd#Award>)
+  [6] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+  [7] SubClassOf(<http://sigkdd#Author_of_paper> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Research_Paper_Award>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper>> ? true
+------------------
+  Found explanation <4> for concept <http://sigkdd#Author_of_paper>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [3] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [4] SubClassOf(<http://sigkdd#Author_of_paper> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Applications_Paper_Award>))
+  [5] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [6] ObjectPropertyRange(<http://sigkdd#award> <http://sigkdd#Award>)
+  [7] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper>> ? true
+------------------
+  Found explanation <5> for concept <http://sigkdd#Author_of_paper>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] ObjectPropertyDomain(<http://sigkdd#awarded_by> <http://sigkdd#Award>)
+  [3] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [4] InverseObjectProperties(<http://sigkdd#award> <http://sigkdd#awarded_by>)
+  [5] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [6] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [7] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+  [8] SubClassOf(<http://sigkdd#Author_of_paper> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Research_Paper_Award>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper>> ? true
+------------------
+  Found explanation <6> for concept <http://sigkdd#Author_of_paper>
+  [1] EquivalentClasses(<http://sigkdd#Award> ObjectSomeValuesFrom(<http://sigkdd#awarded_by> <http://sigkdd#Organizator>) )
+  [2] ObjectPropertyDomain(<http://sigkdd#awarded_by> <http://sigkdd#Award>)
+  [3] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [4] InverseObjectProperties(<http://sigkdd#award> <http://sigkdd#awarded_by>)
+  [5] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [6] SubClassOf(<http://sigkdd#Author_of_paper> ObjectSomeValuesFrom(<http://sigkdd#award> <http://sigkdd#Best_Applications_Paper_Award>))
+  [7] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [8] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper>> ? true
+------------------
+the number of hs_local found at the first iteration: 12
+Layer_5 : 96 ( total = 315 )
+the number of hs_local: 12
+Layer_6 : 35 ( total = 350 )
+the number of hs_local: 12
+Layer_7 : 3 ( total = 353 )
+the number of hs_local: 12
+The time (ms) to compute all MUPS for a concept is: 2259
+
+Uc 17 : <http://ekaw#Academic_Institution>
+Layer_0 : 6 ( total = 6 )
+Layer_1 : 11 ( total = 17 )
+Layer_2 : 25 ( total = 42 )
+  Found explanation <1> for concept <http://ekaw#Academic_Institution>
+  [1] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [2] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [3] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [4] SubClassOf(<http://ekaw#Academic_Institution> <http://ekaw#Organisation>)
+  [5] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Academic_Institution>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 83 ( total = 125 )
+the number of hs_local: 5
+Layer_4 : 110 ( total = 235 )
+the number of hs_local: 5
+Layer_5 : 96 ( total = 331 )
+the number of hs_local: 5
+Layer_6 : 19 ( total = 350 )
+the number of hs_local: 5
+Layer_7 : 3 ( total = 353 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 429
+
+Uc 18 : <http://sigkdd#Program_Committee_member>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 7 ( total = 8 )
+Layer_2 : 27 ( total = 35 )
+  Found explanation <1> for concept <http://sigkdd#Program_Committee_member>
+  [1] EquivalentClasses(<http://ekaw#Person> <http://sigkdd#Person> )
+  [2] EquivalentClasses(<http://ekaw#Organisation> <http://sigkdd#Organizator> )
+  [3] DisjointClasses(<http://ekaw#Organisation> <http://ekaw#Person>)
+  [4] SubClassOf(<http://sigkdd#Organizator> <http://sigkdd#Person>)
+  [5] SubClassOf(<http://sigkdd#Program_Committee_member> <http://sigkdd#Organizator>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Program_Committee_member>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 54 ( total = 89 )
+the number of hs_local: 5
+Layer_4 : 134 ( total = 223 )
+the number of hs_local: 5
+Layer_5 : 111 ( total = 334 )
+the number of hs_local: 5
+Layer_6 : 19 ( total = 353 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 340
+

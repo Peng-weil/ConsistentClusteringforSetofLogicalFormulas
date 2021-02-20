@@ -1,0 +1,51 @@
+ ! --------------------------------------------------- CP Optimizer 20.1.0.0 --
+ ! Minimization problem - 85 variables, 81 constraints
+ ! Presolve      : 10 extractables eliminated
+ ! Initial process time : 0.01s (0.01s extraction + 0.00s propagation)
+ !  . Log search space  : 93.2 (before), 93.2 (after)
+ !  . Memory usage      : 338.4 kB (before), 338.4 kB (after)
+ ! Using parallel search with 64 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         85                 -
+ + New bound is 0
+                        0         85    1            -
+ + New bound is 1
+ *             1       80  0.13s        1      (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 1 solution found.
+ ! Best objective         : 1 (optimal - effective tol. is 0)
+ ! Best bound             : 1
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 23168
+ ! Number of fails        : 5274
+ ! Total memory usage     : 40.5 MB (40.4 MB CP Optimizer + 0.1 MB Concert)
+ ! Time spent in solve    : 0.14s (0.13s engine + 0.01s extraction)
+ ! Search speed (br. / s) : 178215.4
+ ! ----------------------------------------------------------------------------
+
+
+x_0: DisjointClasses(<http://ekaw#Accepted_Paper> <http://ekaw#Camera_Ready_Paper>)
+x_1: EquivalentClasses(<http://conference#Camera_ready_contribution> <http://ekaw#Camera_Ready_Paper> )
+x_2: SubClassOf(<http://ekaw#Contributed_Talk> ObjectSomeValuesFrom(<http://ekaw#presentationOfPaper> <http://ekaw#Camera_Ready_Paper>))
+x_3: EquivalentClasses(<http://conference#Accepted_contribution> <http://ekaw#Accepted_Paper> )
+x_4: SubClassOf(<http://conference#Camera_ready_contribution> <http://conference#Accepted_contribution>)
+x_5: SubClassOf(<http://ekaw#Accepted_Paper> <http://ekaw#Evaluated_Paper>)
+x_6: DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Evaluated_Paper>)
+x_7: SubClassOf(<http://ekaw#Assigned_Paper> <http://ekaw#Submitted_Paper>)
+x_8: SubClassOf(<http://ekaw#Evaluated_Paper> <http://ekaw#Assigned_Paper>)
+x_9: DisjointClasses(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Submitted_Paper>)
+x_10: EquivalentClasses(<http://conference#Submitted_contribution> <http://ekaw#Submitted_Paper> )
+x_11: EquivalentClasses(<http://conference#Reviewed_contribution> ObjectUnionOf(<http://conference#Accepted_contribution> <http://conference#Rejected_contribution>) )
+x_12: SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Submitted_contribution>)
+x_13: SubClassOf(<http://conference#Accepted_contribution> <http://conference#Reviewed_contribution>)
+
+
+problem_formula: 14
+mis_size: 10
+r: 2
+
+0:['x_0', 'x_1', 'x_2', 'x_3', 'x_5', 'x_6', 'x_7', 'x_8', 'x_9', 'x_10', 'x_11', 'x_12', 'x_13']
+
+1:['x_4']
+

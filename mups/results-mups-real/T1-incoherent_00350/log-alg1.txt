@@ -1,0 +1,112 @@
+ ! --------------------------------------------------- CP Optimizer 20.1.0.0 --
+ ! Minimization problem - 323 variables, 296 constraints
+ ! Presolve      : 137 extractables eliminated
+ ! Initial process time : 0.01s (0.01s extraction + 0.00s propagation)
+ !  . Log search space  : 323.0 (before), 323.0 (after)
+ !  . Memory usage      : 631.7 kB (before), 631.7 kB (after)
+ ! Using parallel search with 64 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        323                 -
+ + New bound is 0
+                        0        323    1            -
+ + New bound is 1
+                        8        320    1   F     0 != y_8_4
+ + New bound is 2
+ *             2      228  0.96s        1      (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 1 solution found.
+ ! Best objective         : 2 (optimal - effective tol. is 0)
+ ! Best bound             : 2
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 97693
+ ! Number of fails        : 24066
+ ! Total memory usage     : 92.7 MB (92.5 MB CP Optimizer + 0.1 MB Concert)
+ ! Time spent in solve    : 1.09s (1.09s engine + 0.01s extraction)
+ ! Search speed (br. / s) : 90456.5
+ ! ----------------------------------------------------------------------------
+
+
+x_0: SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110118> <http://purl.obolibrary.org/obo/OBI_0100062>)
+x_1: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+x_2: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+x_3: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100062> <http://purl.obolibrary.org/obo/OBI_0100060>)
+x_4: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+x_5: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+x_6: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+x_7: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))
+x_8: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+x_9: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000652> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://www.ifomis.org/bfo/1.1/snap#MaterialEntity>))
+x_10: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0302716>))
+x_11: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0302716> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000652> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))))
+x_12: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://www.ifomis.org/bfo/1.1/snap#MaterialEntity>))
+x_13: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000652> <http://purl.obolibrary.org/obo/OBI_0000094>)
+x_14: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600056> <http://purl.obolibrary.org/obo/OBI_0000231>)
+x_15: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0302891> <http://purl.obolibrary.org/obo/OBI_0600056>)
+x_16: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))
+x_17: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>))
+x_18: SubClassOf(<http://purl.obolibrary.org/obo/OBI_1000024> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#derives_from> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0100060> <http://purl.obolibrary.org/obo/OBI_0100067>)))
+x_19: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100067> <http://purl.obolibrary.org/obo/OBI_0100051>)
+x_20: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+x_21: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600012> <http://purl.obolibrary.org/obo/OBI_0000659>)
+x_22: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>))
+x_23: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000742> ObjectIntersectionOf(<http://purl.org/obo/owl/CHEBI#CHEBI_33696> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0600050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.org/obo/owl/CHEBI#CHEBI_33696>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OBI_0000732>)))))
+x_24: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000738> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000308> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000411> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#role_of> <http://purl.obolibrary.org/obo/OBI_0000742>))))
+x_25: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600050> <http://purl.obolibrary.org/obo/OBI_0000231>)
+x_26: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000738> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000308> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000416> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#role_of> <http://purl.obolibrary.org/obo/OBI_0000742>))))
+x_27: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+x_28: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+x_29: SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110106> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000643> ObjectIntersectionOf(<http://purl.org/obo/owl/CL#CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000306> <http://purl.obolibrary.org/obo/OBI_1110085>)))))
+x_30: SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110106> <http://purl.obolibrary.org/obo/OBI_0100060>)
+x_31: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100060>))
+x_32: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100060>))
+x_33: SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110107> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000643> ObjectIntersectionOf(<http://purl.org/obo/owl/CL#CL_0000084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000306> <http://purl.obolibrary.org/obo/OBI_1110084>)))))
+x_34: SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110107> <http://purl.obolibrary.org/obo/OBI_0100060>)
+x_35: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> ObjectIntersectionOf(<http://purl.org/obo/owl/CL#CL_0000000> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#located_in> <http://purl.obolibrary.org/obo/OBI_0100051>))))
+x_36: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600023> <http://purl.obolibrary.org/obo/OBI_0000231>)
+x_37: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000744> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+x_38: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000744> <http://purl.obolibrary.org/obo/OBI_0000659>)
+x_39: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000740> <http://purl.obolibrary.org/obo/OBI_0000112>)
+x_40: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000744> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000747>))
+x_41: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000747> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000740>))
+x_42: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000747> <http://purl.obolibrary.org/obo/OBI_0100051>)
+x_43: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000341> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+x_44: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000512> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100060>))
+x_45: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000512> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100060>))
+x_46: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100026> <http://www.ifomis.org/bfo/1.1/snap#MaterialEntity>)
+x_47: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71275> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91827>)
+x_48: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3514> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3502>)
+x_49: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3504> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3514>)
+x_50: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91835> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71275>)
+x_51: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3398> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58024>)
+x_52: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91827> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71240>)
+x_53: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3193> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_131221>)
+x_54: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_131221> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_35493>)
+x_55: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58023> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3193>)
+x_56: SubClassOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectComplementOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3504>))
+x_57: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3502> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91835>)
+x_58: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71240> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3398>)
+x_59: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33090> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2759>)
+x_60: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_78536> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58023>)
+x_61: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_35493> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33090>)
+x_62: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2759> <http://purl.obolibrary.org/obo/OBI_0100026>)
+x_63: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58024> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_78536>)
+x_64: SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3505> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3504>)
+x_65: SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000655>))
+x_66: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000655> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600005>))
+x_67: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+x_68: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000655> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>))
+x_69: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600005> <http://purl.obolibrary.org/obo/OBI_0000659>)
+x_70: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000655> <http://purl.obolibrary.org/obo/OBI_0100051>)
+x_71: SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>))
+
+
+problem_formula: 72
+mis_size: 45
+iteration: 2
+r: 2
+
+0:['x_0', 'x_1', 'x_2', 'x_3', 'x_5', 'x_6', 'x_7', 'x_8', 'x_9', 'x_10', 'x_11', 'x_12', 'x_13', 'x_14', 'x_15', 'x_16', 'x_17', 'x_18', 'x_19', 'x_20', 'x_21', 'x_22', 'x_23', 'x_24', 'x_25', 'x_26', 'x_27', 'x_28', 'x_29', 'x_30', 'x_31', 'x_32', 'x_33', 'x_34', 'x_35', 'x_36', 'x_37', 'x_38', 'x_39', 'x_40', 'x_41', 'x_42', 'x_43', 'x_44', 'x_45', 'x_46', 'x_47', 'x_48', 'x_49', 'x_50', 'x_51', 'x_52', 'x_54', 'x_55', 'x_56', 'x_57', 'x_58', 'x_59', 'x_60', 'x_61', 'x_62', 'x_63', 'x_64', 'x_65', 'x_66', 'x_67', 'x_68', 'x_69', 'x_70', 'x_71']
+
+1:['x_4', 'x_53']
+

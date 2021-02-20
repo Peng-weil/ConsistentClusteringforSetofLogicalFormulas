@@ -1,0 +1,735 @@
+axiom number: 173
+Number of Ucs: 30
+Uc 1 : <http://miniTambis#HoloProtein>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 13 ( total = 15 )
+Layer_2 : 58 ( total = 73 )
+Layer_3 : 56 ( total = 129 )
+  Found explanation <1> for concept <http://miniTambis#HoloProtein>
+  [1] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [2] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [3] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [4] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [5] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [6] SubClassOf(<http://miniTambis#HoloProtein> <http://miniTambis#Protein>)
+  [7] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#HoloProtein>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 17 ( total = 146 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 1249
+
+Uc 2 : <http://miniTambis#DivalentIon>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 27 ( total = 29 )
+Layer_2 : 69 ( total = 98 )
+Layer_3 : 36 ( total = 134 )
+  Found explanation <1> for concept <http://miniTambis#DivalentIon>
+  [1] SubClassOf(<http://miniTambis#DivalentIon> <http://miniTambis#Anion>)
+  [2] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [3] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [4] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [5] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+  [6] EquivalentClasses(<http://miniTambis#MultiStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(2 <http://miniTambis#hasStrand> owl:Thing)) )
+  [7] EquivalentClasses(<http://miniTambis#SingleStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+  [8] EquivalentClasses(<http://miniTambis#Proteosis> ObjectUnionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#MultiStrandedPeptide>) ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#SingleStrandedPeptide>)) )
+  [9] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [10] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [11] EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+  [12] SubClassOf(<http://miniTambis#Hydrolysis> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#Proteosis>))
+  [13] SubClassOf(<http://miniTambis#Anion> ObjectSomeValuesFrom(<http://miniTambis#participatesIn> <http://miniTambis#Hydrolysis>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#DivalentIon>> ? true
+------------------
+the number of hs_local found at the first iteration: 13
+Layer_4 : 10 ( total = 144 )
+the number of hs_local: 13
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 13
+The time (ms) to compute all MUPS for a concept is: 1563
+
+Uc 3 : <http://miniTambis#part-of-physical-structure>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 3 ( total = 4 )
+Layer_2 : 4 ( total = 8 )
+  Found explanation <1> for concept <http://miniTambis#part-of-physical-structure>
+  [1] DisjointClasses(<http://miniTambis#physical> <http://miniTambis#structure>)
+  [2] SubClassOf(<http://miniTambis#physical-structure> ObjectIntersectionOf(<http://miniTambis#physical> <http://miniTambis#structure>))
+  [3] SubClassOf(<http://miniTambis#part-of-physical-structure> <http://miniTambis#physical-structure>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#part-of-physical-structure>> ? true
+------------------
+the number of hs_local found at the first iteration: 3
+Layer_3 : 31 ( total = 39 )
+the number of hs_local: 3
+Layer_4 : 74 ( total = 113 )
+the number of hs_local: 3
+Layer_5 : 23 ( total = 136 )
+the number of hs_local: 3
+Layer_6 : 8 ( total = 144 )
+the number of hs_local: 3
+Layer_7 : 2 ( total = 146 )
+the number of hs_local: 3
+The time (ms) to compute all MUPS for a concept is: 605
+
+Uc 4 : <http://miniTambis#isomerisation>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 17 ( total = 20 )
+  Found explanation <1> for concept <http://miniTambis#isomerisation>
+  [1] SubClassOf(<http://miniTambis#isomerisation> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#regulation>))
+  [2] DisjointClasses(<http://miniTambis#racemation> <http://miniTambis#regulation>)
+  [3] EquivalentClasses(<http://miniTambis#isomerisation> ObjectIntersectionOf(<http://miniTambis#ligation> <http://miniTambis#process> ObjectSomeValuesFrom(<http://miniTambis#contains> <http://miniTambis#isomers>)) )
+  [4] SubClassOf(<http://miniTambis#ligation> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#racemation>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#isomerisation>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_2 : 65 ( total = 85 )
+the number of hs_local: 4
+Layer_3 : 51 ( total = 136 )
+the number of hs_local: 4
+Layer_4 : 10 ( total = 146 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 671
+
+Uc 5 : <http://miniTambis#Hydrolysis>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 37 ( total = 40 )
+Layer_2 : 62 ( total = 102 )
+  Found explanation <1> for concept <http://miniTambis#Hydrolysis>
+  [1] EquivalentClasses(<http://miniTambis#SingleStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+  [2] EquivalentClasses(<http://miniTambis#Proteosis> ObjectUnionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#MultiStrandedPeptide>) ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#SingleStrandedPeptide>)) )
+  [3] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [4] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [5] EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+  [6] SubClassOf(<http://miniTambis#Hydrolysis> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#Proteosis>))
+  [7] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [8] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [9] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [10] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+  [11] EquivalentClasses(<http://miniTambis#MultiStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(2 <http://miniTambis#hasStrand> owl:Thing)) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#Hydrolysis>> ? true
+------------------
+the number of hs_local found at the first iteration: 11
+Layer_3 : 32 ( total = 134 )
+the number of hs_local: 11
+Layer_4 : 10 ( total = 144 )
+the number of hs_local: 11
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 11
+The time (ms) to compute all MUPS for a concept is: 1151
+
+Uc 6 : <http://miniTambis#Anion>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 8 ( total = 12 )
+Layer_2 : 32 ( total = 44 )
+Layer_3 : 59 ( total = 103 )
+  Found explanation <1> for concept <http://miniTambis#Anion>
+  [1] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [2] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [3] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [4] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+  [5] EquivalentClasses(<http://miniTambis#MultiStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(2 <http://miniTambis#hasStrand> owl:Thing)) )
+  [6] EquivalentClasses(<http://miniTambis#SingleStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+  [7] EquivalentClasses(<http://miniTambis#Proteosis> ObjectUnionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#MultiStrandedPeptide>) ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#SingleStrandedPeptide>)) )
+  [8] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [9] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [10] EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+  [11] SubClassOf(<http://miniTambis#Hydrolysis> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#Proteosis>))
+  [12] SubClassOf(<http://miniTambis#Anion> ObjectSomeValuesFrom(<http://miniTambis#participatesIn> <http://miniTambis#Hydrolysis>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#Anion>> ? true
+------------------
+the number of hs_local found at the first iteration: 12
+Layer_4 : 31 ( total = 134 )
+the number of hs_local: 12
+Layer_5 : 10 ( total = 144 )
+the number of hs_local: 12
+Layer_6 : 2 ( total = 146 )
+the number of hs_local: 12
+The time (ms) to compute all MUPS for a concept is: 1139
+
+Uc 7 : <http://miniTambis#MultiStrandedPeptide>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 29 ( total = 31 )
+Layer_2 : 69 ( total = 100 )
+Layer_3 : 34 ( total = 134 )
+  Found explanation <1> for concept <http://miniTambis#MultiStrandedPeptide>
+  [1] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [2] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [3] EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+  [4] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [5] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [6] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [7] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+  [8] EquivalentClasses(<http://miniTambis#MultiStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(2 <http://miniTambis#hasStrand> owl:Thing)) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#MultiStrandedPeptide>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_4 : 10 ( total = 144 )
+the number of hs_local: 8
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 757
+
+Uc 8 : <http://miniTambis#SingleStrandedPeptide>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 29 ( total = 31 )
+Layer_2 : 69 ( total = 100 )
+Layer_3 : 34 ( total = 134 )
+  Found explanation <1> for concept <http://miniTambis#SingleStrandedPeptide>
+  [1] EquivalentClasses(<http://miniTambis#SingleStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+  [2] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [3] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [4] EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+  [5] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [6] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [7] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [8] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#SingleStrandedPeptide>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_4 : 10 ( total = 144 )
+the number of hs_local: 8
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 721
+
+Uc 9 : <http://miniTambis#OxyReductReaction>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 11 ( total = 14 )
+Layer_2 : 35 ( total = 49 )
+Layer_3 : 64 ( total = 113 )
+Layer_4 : 28 ( total = 141 )
+  Found explanation <1> for concept <http://miniTambis#OxyReductReaction>
+  [1] SubClassOf(<http://miniTambis#ReductProteoseReaction> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#Proteosis>))
+  [2] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [3] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [4] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [5] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+  [6] EquivalentClasses(<http://miniTambis#MultiStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(2 <http://miniTambis#hasStrand> owl:Thing)) )
+  [7] EquivalentClasses(<http://miniTambis#SingleStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+  [8] EquivalentClasses(<http://miniTambis#Proteosis> ObjectUnionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#MultiStrandedPeptide>) ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#SingleStrandedPeptide>)) )
+  [9] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [10] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [11] EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+  [12] SubClassOf(<http://miniTambis#OxyReductReaction> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#ReductProteoseReaction>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#OxyReductReaction>> ? true
+------------------
+the number of hs_local found at the first iteration: 12
+Layer_5 : 5 ( total = 146 )
+the number of hs_local: 12
+The time (ms) to compute all MUPS for a concept is: 949
+
+Uc 10 : <http://miniTambis#Gene-Product>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 6 ( total = 8 )
+Layer_2 : 46 ( total = 54 )
+  Found explanation <1> for concept <http://miniTambis#Gene-Product>
+  [1] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [2] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [3] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [4] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [5] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [6] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#Gene-Product>> ? true
+------------------
+the number of hs_local found at the first iteration: 6
+Layer_3 : 62 ( total = 116 )
+the number of hs_local: 6
+Layer_4 : 23 ( total = 139 )
+the number of hs_local: 6
+Layer_5 : 5 ( total = 144 )
+the number of hs_local: 6
+Layer_6 : 2 ( total = 146 )
+the number of hs_local: 6
+The time (ms) to compute all MUPS for a concept is: 1177
+
+Uc 11 : <http://miniTambis#physical-space>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 3 ( total = 4 )
+Layer_2 : 4 ( total = 8 )
+  Found explanation <1> for concept <http://miniTambis#physical-space>
+  [1] DisjointClasses(<http://miniTambis#physical> <http://miniTambis#structure>)
+  [2] SubClassOf(<http://miniTambis#physical-space> <http://miniTambis#physical-structure>)
+  [3] SubClassOf(<http://miniTambis#physical-structure> ObjectIntersectionOf(<http://miniTambis#physical> <http://miniTambis#structure>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#physical-space>> ? true
+------------------
+the number of hs_local found at the first iteration: 3
+Layer_3 : 31 ( total = 39 )
+the number of hs_local: 3
+Layer_4 : 74 ( total = 113 )
+the number of hs_local: 3
+Layer_5 : 23 ( total = 136 )
+the number of hs_local: 3
+Layer_6 : 8 ( total = 144 )
+the number of hs_local: 3
+Layer_7 : 2 ( total = 146 )
+the number of hs_local: 3
+The time (ms) to compute all MUPS for a concept is: 490
+
+Uc 12 : <http://miniTambis#Peptide>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 37 ( total = 40 )
+Layer_2 : 63 ( total = 103 )
+Layer_3 : 31 ( total = 134 )
+  Found explanation <1> for concept <http://miniTambis#Peptide>
+  [1] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [2] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [3] EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+  [4] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [5] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [6] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [7] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#Peptide>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 10 ( total = 144 )
+the number of hs_local: 7
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 615
+
+Uc 13 : <http://miniTambis#HoloProteinReaction>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 10 ( total = 12 )
+Layer_2 : 43 ( total = 55 )
+Layer_3 : 60 ( total = 115 )
+Layer_4 : 26 ( total = 141 )
+  Found explanation <1> for concept <http://miniTambis#HoloProteinReaction>
+  [1] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [2] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [3] EquivalentClasses(<http://miniTambis#HoloProteinReaction> ObjectIntersectionOf(<http://miniTambis#EnzymeReaction> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#HoloProtein>)) )
+  [4] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [5] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [6] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [7] SubClassOf(<http://miniTambis#HoloProtein> <http://miniTambis#Protein>)
+  [8] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#HoloProteinReaction>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_5 : 5 ( total = 146 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 535
+
+Uc 14 : <http://miniTambis#racemation>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 10 ( total = 13 )
+  Found explanation <1> for concept <http://miniTambis#racemation>
+  [1] SubClassOf(<http://miniTambis#isomerisation> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#regulation>))
+  [2] DisjointClasses(<http://miniTambis#racemation> <http://miniTambis#regulation>)
+  [3] EquivalentClasses(<http://miniTambis#isomerisation> ObjectIntersectionOf(<http://miniTambis#ligation> <http://miniTambis#process> ObjectSomeValuesFrom(<http://miniTambis#contains> <http://miniTambis#isomers>)) )
+  [4] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectMinCardinality(1 <http://miniTambis#involves> owl:Thing))
+  [5] SubClassOf(<http://miniTambis#peroxidation> <http://miniTambis#oxidation-and-reduction>)
+  [6] SubClassOf(<http://miniTambis#ligation> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#racemation>))
+  [7] SubClassOf(<http://miniTambis#racemation> <http://miniTambis#peroxidation>)
+  [8] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#isomerisation>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#racemation>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_2 : 41 ( total = 54 )
+the number of hs_local: 8
+Layer_3 : 61 ( total = 115 )
+the number of hs_local: 8
+Layer_4 : 26 ( total = 141 )
+the number of hs_local: 8
+Layer_5 : 5 ( total = 146 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 550
+
+Uc 15 : <http://miniTambis#Hydrolase>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 33 ( total = 34 )
+Layer_2 : 68 ( total = 102 )
+  Found explanation <1> for concept <http://miniTambis#Hydrolase>
+  [1] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [2] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [3] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [4] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+  [5] EquivalentClasses(<http://miniTambis#MultiStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(2 <http://miniTambis#hasStrand> owl:Thing)) )
+  [6] EquivalentClasses(<http://miniTambis#SingleStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+  [7] EquivalentClasses(<http://miniTambis#Proteosis> ObjectUnionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#MultiStrandedPeptide>) ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#SingleStrandedPeptide>)) )
+  [8] EquivalentClasses(<http://miniTambis#Hydrolase> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#Hydrolysis>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#AminoAcid>) ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+  [9] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [10] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [11] EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+  [12] SubClassOf(<http://miniTambis#Hydrolysis> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#Proteosis>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#Hydrolase>> ? true
+------------------
+the number of hs_local found at the first iteration: 12
+Layer_3 : 32 ( total = 134 )
+the number of hs_local: 12
+Layer_4 : 10 ( total = 144 )
+the number of hs_local: 12
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 12
+The time (ms) to compute all MUPS for a concept is: 826
+
+Uc 16 : <http://miniTambis#oxidoreductase>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 21 ( total = 22 )
+Layer_2 : 73 ( total = 95 )
+Layer_3 : 39 ( total = 134 )
+  Found explanation <1> for concept <http://miniTambis#oxidoreductase>
+  [1] SubClassOf(<http://miniTambis#isomerisation> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#regulation>))
+  [2] EquivalentClasses(<http://miniTambis#oxidoreductase> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#oxidation-and-reduction>) ObjectSomeValuesFrom(<http://miniTambis#has-ec-number> <http://miniTambis#ec-number>) ObjectSomeValuesFrom(<http://miniTambis#polymer-of> <http://miniTambis#amino-acid>) ObjectAllValuesFrom(<http://miniTambis#polymer-of> <http://miniTambis#amino-acid>)) )
+  [3] DisjointClasses(<http://miniTambis#racemation> <http://miniTambis#regulation>)
+  [4] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectMinCardinality(1 <http://miniTambis#involves> owl:Thing))
+  [5] EquivalentClasses(<http://miniTambis#isomerisation> ObjectIntersectionOf(<http://miniTambis#ligation> <http://miniTambis#process> ObjectSomeValuesFrom(<http://miniTambis#contains> <http://miniTambis#isomers>)) )
+  [6] SubClassOf(<http://miniTambis#ligation> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#racemation>))
+  [7] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#isomerisation>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#oxidoreductase>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 10 ( total = 144 )
+the number of hs_local: 7
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 584
+
+Uc 17 : <http://miniTambis#HoloEnzyme>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 4 ( total = 5 )
+Layer_2 : 36 ( total = 41 )
+Layer_3 : 61 ( total = 102 )
+Layer_4 : 37 ( total = 139 )
+  Found explanation <1> for concept <http://miniTambis#HoloEnzyme>
+  [1] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [2] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [3] EquivalentClasses(<http://miniTambis#HoloProteinReaction> ObjectIntersectionOf(<http://miniTambis#EnzymeReaction> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#HoloProtein>)) )
+  [4] EquivalentClasses(<http://miniTambis#HoloEnzyme> ObjectIntersectionOf(<http://miniTambis#Enzyme> ObjectSomeValuesFrom(<http://miniTambis#participatesIn> <http://miniTambis#HoloProteinReaction>)) )
+  [5] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [6] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [7] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [8] SubClassOf(<http://miniTambis#HoloProtein> <http://miniTambis#Protein>)
+  [9] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#HoloEnzyme>> ? true
+------------------
+the number of hs_local found at the first iteration: 9
+Layer_5 : 7 ( total = 146 )
+the number of hs_local: 9
+The time (ms) to compute all MUPS for a concept is: 585
+
+Uc 18 : <http://miniTambis#oxidation-and-reduction>
+Layer_0 : 7 ( total = 7 )
+Layer_1 : 54 ( total = 61 )
+Layer_2 : 64 ( total = 125 )
+  Found explanation <1> for concept <http://miniTambis#oxidation-and-reduction>
+  [1] SubClassOf(<http://miniTambis#isomerisation> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#regulation>))
+  [2] DisjointClasses(<http://miniTambis#racemation> <http://miniTambis#regulation>)
+  [3] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectMinCardinality(1 <http://miniTambis#involves> owl:Thing))
+  [4] EquivalentClasses(<http://miniTambis#isomerisation> ObjectIntersectionOf(<http://miniTambis#ligation> <http://miniTambis#process> ObjectSomeValuesFrom(<http://miniTambis#contains> <http://miniTambis#isomers>)) )
+  [5] SubClassOf(<http://miniTambis#ligation> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#racemation>))
+  [6] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#isomerisation>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#oxidation-and-reduction>> ? true
+------------------
+the number of hs_local found at the first iteration: 6
+Layer_3 : 19 ( total = 144 )
+the number of hs_local: 6
+Layer_4 : 2 ( total = 146 )
+the number of hs_local: 6
+The time (ms) to compute all MUPS for a concept is: 560
+
+Uc 19 : <http://miniTambis#oxidation>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 6 ( total = 7 )
+Layer_2 : 54 ( total = 61 )
+Layer_3 : 64 ( total = 125 )
+  Found explanation <1> for concept <http://miniTambis#oxidation>
+  [1] SubClassOf(<http://miniTambis#isomerisation> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#regulation>))
+  [2] DisjointClasses(<http://miniTambis#racemation> <http://miniTambis#regulation>)
+  [3] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectMinCardinality(1 <http://miniTambis#involves> owl:Thing))
+  [4] EquivalentClasses(<http://miniTambis#isomerisation> ObjectIntersectionOf(<http://miniTambis#ligation> <http://miniTambis#process> ObjectSomeValuesFrom(<http://miniTambis#contains> <http://miniTambis#isomers>)) )
+  [5] SubClassOf(<http://miniTambis#ligation> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#racemation>))
+  [6] SubClassOf(<http://miniTambis#oxidation> <http://miniTambis#oxidation-and-reduction>)
+  [7] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#isomerisation>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#oxidation>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 19 ( total = 144 )
+the number of hs_local: 7
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 708
+
+Uc 20 : <http://miniTambis#Protein>
+Layer_0 : 6 ( total = 6 )
+Layer_1 : 47 ( total = 53 )
+Layer_2 : 63 ( total = 116 )
+  Found explanation <1> for concept <http://miniTambis#Protein>
+  [1] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [2] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [3] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [4] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [5] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [6] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#Protein>> ? true
+------------------
+the number of hs_local found at the first iteration: 6
+Layer_3 : 23 ( total = 139 )
+the number of hs_local: 6
+Layer_4 : 5 ( total = 144 )
+the number of hs_local: 6
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 6
+The time (ms) to compute all MUPS for a concept is: 588
+
+Uc 21 : <http://miniTambis#physical-organisation>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 3 ( total = 4 )
+Layer_2 : 4 ( total = 8 )
+  Found explanation <1> for concept <http://miniTambis#physical-organisation>
+  [1] DisjointClasses(<http://miniTambis#physical> <http://miniTambis#structure>)
+  [2] SubClassOf(<http://miniTambis#physical-structure> ObjectIntersectionOf(<http://miniTambis#physical> <http://miniTambis#structure>))
+  [3] SubClassOf(<http://miniTambis#physical-organisation> <http://miniTambis#physical-structure>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#physical-organisation>> ? true
+------------------
+the number of hs_local found at the first iteration: 3
+Layer_3 : 31 ( total = 39 )
+the number of hs_local: 3
+Layer_4 : 74 ( total = 113 )
+the number of hs_local: 3
+Layer_5 : 23 ( total = 136 )
+the number of hs_local: 3
+Layer_6 : 8 ( total = 144 )
+the number of hs_local: 3
+Layer_7 : 2 ( total = 146 )
+the number of hs_local: 3
+The time (ms) to compute all MUPS for a concept is: 1003
+
+Uc 22 : <http://miniTambis#protein-part>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 16 ( total = 18 )
+Layer_2 : 43 ( total = 61 )
+Layer_3 : 56 ( total = 117 )
+  Found explanation <1> for concept <http://miniTambis#protein-part>
+  [1] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [2] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [3] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [4] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [5] EquivalentClasses(<http://miniTambis#protein-part> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>)) )
+  [6] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [7] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#protein-part>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 27 ( total = 144 )
+the number of hs_local: 7
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 620
+
+Uc 23 : <http://miniTambis#site>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 1 ( total = 2 )
+Layer_2 : 16 ( total = 18 )
+Layer_3 : 43 ( total = 61 )
+Layer_4 : 56 ( total = 117 )
+  Found explanation <1> for concept <http://miniTambis#site>
+  [1] SubClassOf(<http://miniTambis#site> <http://miniTambis#protein-part>)
+  [2] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [3] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [4] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [5] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [6] EquivalentClasses(<http://miniTambis#protein-part> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>)) )
+  [7] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [8] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#site>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_5 : 27 ( total = 144 )
+the number of hs_local: 8
+Layer_6 : 2 ( total = 146 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 645
+
+Uc 24 : <http://miniTambis#physical-structure>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 4 ( total = 8 )
+  Found explanation <1> for concept <http://miniTambis#physical-structure>
+  [1] DisjointClasses(<http://miniTambis#physical> <http://miniTambis#structure>)
+  [2] SubClassOf(<http://miniTambis#physical-structure> ObjectIntersectionOf(<http://miniTambis#physical> <http://miniTambis#structure>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#physical-structure>> ? true
+------------------
+the number of hs_local found at the first iteration: 2
+Layer_2 : 31 ( total = 39 )
+the number of hs_local: 2
+Layer_3 : 74 ( total = 113 )
+the number of hs_local: 2
+Layer_4 : 23 ( total = 136 )
+the number of hs_local: 2
+Layer_5 : 8 ( total = 144 )
+the number of hs_local: 2
+Layer_6 : 2 ( total = 146 )
+the number of hs_local: 2
+The time (ms) to compute all MUPS for a concept is: 422
+
+Uc 25 : <http://miniTambis#peroxidation>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 8 ( total = 10 )
+Layer_2 : 54 ( total = 64 )
+  Found explanation <1> for concept <http://miniTambis#peroxidation>
+  [1] SubClassOf(<http://miniTambis#isomerisation> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#regulation>))
+  [2] DisjointClasses(<http://miniTambis#racemation> <http://miniTambis#regulation>)
+  [3] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectMinCardinality(1 <http://miniTambis#involves> owl:Thing))
+  [4] EquivalentClasses(<http://miniTambis#isomerisation> ObjectIntersectionOf(<http://miniTambis#ligation> <http://miniTambis#process> ObjectSomeValuesFrom(<http://miniTambis#contains> <http://miniTambis#isomers>)) )
+  [5] SubClassOf(<http://miniTambis#peroxidation> <http://miniTambis#oxidation-and-reduction>)
+  [6] SubClassOf(<http://miniTambis#ligation> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#racemation>))
+  [7] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#isomerisation>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#peroxidation>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_3 : 67 ( total = 131 )
+the number of hs_local: 7
+Layer_4 : 15 ( total = 146 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 497
+
+Uc 26 : <http://miniTambis#MonovalentIon>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 27 ( total = 29 )
+Layer_2 : 69 ( total = 98 )
+Layer_3 : 36 ( total = 134 )
+  Found explanation <1> for concept <http://miniTambis#MonovalentIon>
+  [1] SubClassOf(<http://miniTambis#MonovalentIon> <http://miniTambis#Anion>)
+  [2] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [3] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [4] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [5] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+  [6] EquivalentClasses(<http://miniTambis#MultiStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(2 <http://miniTambis#hasStrand> owl:Thing)) )
+  [7] EquivalentClasses(<http://miniTambis#SingleStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+  [8] EquivalentClasses(<http://miniTambis#Proteosis> ObjectUnionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#MultiStrandedPeptide>) ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#SingleStrandedPeptide>)) )
+  [9] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [10] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [11] EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+  [12] SubClassOf(<http://miniTambis#Hydrolysis> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#Proteosis>))
+  [13] SubClassOf(<http://miniTambis#Anion> ObjectSomeValuesFrom(<http://miniTambis#participatesIn> <http://miniTambis#Hydrolysis>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#MonovalentIon>> ? true
+------------------
+the number of hs_local found at the first iteration: 13
+Layer_4 : 10 ( total = 144 )
+the number of hs_local: 13
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 13
+The time (ms) to compute all MUPS for a concept is: 1055
+
+Uc 27 : <http://miniTambis#DNA>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 16 ( total = 18 )
+Layer_2 : 60 ( total = 78 )
+  Found explanation <1> for concept <http://miniTambis#DNA>
+  [1] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [2] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [3] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [4] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [5] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [6] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#DNA>> ? true
+------------------
+the number of hs_local found at the first iteration: 6
+Layer_3 : 51 ( total = 129 )
+the number of hs_local: 6
+Layer_4 : 15 ( total = 144 )
+the number of hs_local: 6
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 6
+The time (ms) to compute all MUPS for a concept is: 545
+
+Uc 28 : <http://miniTambis#oxygenation>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 6 ( total = 7 )
+Layer_2 : 54 ( total = 61 )
+Layer_3 : 64 ( total = 125 )
+  Found explanation <1> for concept <http://miniTambis#oxygenation>
+  [1] SubClassOf(<http://miniTambis#isomerisation> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#regulation>))
+  [2] DisjointClasses(<http://miniTambis#racemation> <http://miniTambis#regulation>)
+  [3] SubClassOf(<http://miniTambis#oxygenation> <http://miniTambis#oxidation-and-reduction>)
+  [4] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectMinCardinality(1 <http://miniTambis#involves> owl:Thing))
+  [5] EquivalentClasses(<http://miniTambis#isomerisation> ObjectIntersectionOf(<http://miniTambis#ligation> <http://miniTambis#process> ObjectSomeValuesFrom(<http://miniTambis#contains> <http://miniTambis#isomers>)) )
+  [6] SubClassOf(<http://miniTambis#ligation> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#racemation>))
+  [7] SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#isomerisation>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#oxygenation>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 19 ( total = 144 )
+the number of hs_local: 7
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 593
+
+Uc 29 : <http://miniTambis#Proteosis>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 12 ( total = 15 )
+Layer_2 : 44 ( total = 59 )
+Layer_3 : 64 ( total = 123 )
+  Found explanation <1> for concept <http://miniTambis#Proteosis>
+  [1] EquivalentClasses(<http://miniTambis#SingleStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+  [2] EquivalentClasses(<http://miniTambis#Proteosis> ObjectUnionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#MultiStrandedPeptide>) ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#SingleStrandedPeptide>)) )
+  [3] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [4] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [5] EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+  [6] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [7] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [8] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [9] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+  [10] EquivalentClasses(<http://miniTambis#MultiStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(2 <http://miniTambis#hasStrand> owl:Thing)) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#Proteosis>> ? true
+------------------
+the number of hs_local found at the first iteration: 10
+Layer_4 : 21 ( total = 144 )
+the number of hs_local: 10
+Layer_5 : 2 ( total = 146 )
+the number of hs_local: 10
+The time (ms) to compute all MUPS for a concept is: 780
+
+Uc 30 : <http://miniTambis#ReductProteoseReaction>
+Layer_0 : 5 ( total = 5 )
+Layer_1 : 33 ( total = 38 )
+Layer_2 : 64 ( total = 102 )
+Layer_3 : 37 ( total = 139 )
+  Found explanation <1> for concept <http://miniTambis#ReductProteoseReaction>
+  [1] EquivalentClasses(<http://miniTambis#SingleStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+  [2] EquivalentClasses(<http://miniTambis#Proteosis> ObjectUnionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#MultiStrandedPeptide>) ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#SingleStrandedPeptide>)) )
+  [3] EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+  [4] EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+  [5] EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+  [6] SubClassOf(<http://miniTambis#ReductProteoseReaction> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#Proteosis>))
+  [7] DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+  [8] EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+  [9] SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+  [10] EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+  [11] EquivalentClasses(<http://miniTambis#MultiStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(2 <http://miniTambis#hasStrand> owl:Thing)) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://miniTambis#ReductProteoseReaction>> ? true
+------------------
+the number of hs_local found at the first iteration: 11
+Layer_4 : 7 ( total = 146 )
+the number of hs_local: 11
+The time (ms) to compute all MUPS for a concept is: 759
+

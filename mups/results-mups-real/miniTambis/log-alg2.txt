@@ -1,0 +1,310 @@
+ ! --------------------------------------------------- CP Optimizer 20.1.0.0 --
+ ! Minimization problem - 285 variables, 275 constraints
+ ! Presolve      : 28 extractables eliminated
+ ! Initial process time : 0.02s (0.02s extraction + 0.00s propagation)
+ !  . Log search space  : 307.2 (before), 307.2 (after)
+ !  . Memory usage      : 532.6 kB (before), 532.6 kB (after)
+ ! Using parallel search with 64 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        285                 -
+ + New bound is 0
+                        0        285    1            -
+ + New bound is 1
+                      489        112    1   F     0 != x_15
+ + New bound is 2
+ *           157      761  0.29s        1      (gap is 98.73%)
+             157     1000          1    1         0  = y_8_22
+ *           133      815  0.29s        2      (gap is 98.50%)
+             133     1000          1    2         1  = x_35
+ *           117      664  0.29s        3      (gap is 98.29%)
+ *            90      896  0.29s        3      (gap is 97.78%)
+              90     1000          1    3         1  = y_25_37
+              90     1000          1    4         1  = y_6_4
+              90     1000          1    5         1  = y_25_37
+              90     1000          1    6         1  = y_26_0
+              90     1000         12    7   F     1 != x_18
+              90     1000          1    8   F     1 != x_6
+              90     1000          1    9         0  = y_5_1
+              90     1000          1   10         0  = y_11_11
+              90     1000         19   11         1  = y_16_2
+              90     1000          1   12         1  = q_27
+              90     1000          1   13         0  = x_37
+ ! Time = 0.29s, Average fail depth = 32, Memory usage = 21.5 MB
+ ! Current bound is 2 (gap is 97.78%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *            89      776  0.29s       14      (gap is 97.75%)
+ *            88      974  0.29s       14      (gap is 97.73%)
+              88     1000          1   14        39  = x_19
+              88     1000         15   15         1  = y_21_0
+              88     1000          1   16         1  = x_3
+              88     1000          1   17         1  = y_12_2
+              88     1000          1   18         1  = y_5_2
+              88     1000         14   19   F     0  = x_18
+ *            79      880  0.30s       20      (gap is 97.47%)
+              79     1000          1   20         0  = y_0_4
+              79     1000          1   21         1  = y_7_6
+              79     1000          1   22         0  = y_7_1
+              79     1000         20   23         0 != y_18_32
+              79     1000          1   24         0  = y_16_0
+              79     1000          1   25         1  = q_25
+              79     1000          1   26         0  = y_1_13
+              79     1000         24   27   F     1  = x_17
+              79     1000          1   28         0  = y_1_0
+              79     1000          1   29         0  = y_18_20
+              79     1000          1   30         1 != x_15
+ ! Time = 0.30s, Average fail depth = 39, Memory usage = 42.4 MB
+ ! Current bound is 2 (gap is 97.47%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              79     1000         12   31   F     1  = y_23_19
+              79     1000          1   32   F     0  = x_5
+              79     1000          1   33         0 != x_19
+              79     1000          1   34         1  = y_16_2
+              79     1000         23   35   F     1  = x_16
+              79     1000          1   36         0 != x_32
+              79     1000          1   37         1  = y_23_26
+              79     1000          1   38         1  = y_21_35
+              79     1000         16   39         0  = y_21_2
+              79     1000          1   40         0  = y_27_6
+              79     1000          1   41         0  = y_9_0
+              79     1000          1   42   F     0 != x_19
+              79     1000         13   43         0 != y_24_8
+              79     1000          1   44         0  = x_23
+              79     1000          1   45         1  = y_20_0
+              79     1000          1   46         0  = y_19_33
+              79     1000         14   47   F     0 != y_15_17
+              79     1000          1   48         0  = x_9
+              79     1000          1   49         0  = q_3
+              79     1000          1   50         0  = y_24_10
+ ! Time = 0.32s, Average fail depth = 29, Memory usage = 66.5 MB
+ ! Current bound is 2 (gap is 97.47%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              79     1000         11   51         1 != y_27_0
+              79     1000          1   52         1  = x_27
+              79     1000          1   53         0 != x_20
+              79     1000          1   54         0  = y_26_10
+              79     1000         24   55   F     0 != x_15
+              79     1000          1   56         0  = y_27_8
+              79     1000          1   57         0  = y_19_14
+              79     1000          1   58         1  = x_31
+              79     1000         11   59         1  = y_4_2
+              79     1000          1   60   F     1  = y_27_2
+              79     1000          1   61         0  = y_16_31
+              79     1000          1   62         1  = y_9_2
+              79     1000         12   63         1 != y_26_8
+              79     1000          1   64         0  = q_10
+              79     2000         13    3         0 != q_5
+              79     2000         13    5         0 != q_5
+              79     2000          4    8   F     0 != x_19
+              79     2000          1   13         0  = x_26
+              79     2000          1   33         0  = q_24
+              79     2000         25   36         0  = y_21_0
+ ! Time = 0.44s, Average fail depth = 26, Memory usage = 83.2 MB
+ ! Current bound is 2 (gap is 97.47%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              79     2000         23   40         0  = y_6_2
+              79     2000          1   49         1  = y_8_4
+              79     2000          1   53         0  = y_5_10
+              79     2000          1    1         0  = y_1_11
+              79     2000          1    2         1  = y_3_20
+              79     2000          1    4         0 != x_20
+              79     2000          1    7         1  = y_20_0
+ *            56     1264  0.44s       10      (gap is 96.43%)
+ *            55     1513  0.44s       10      (gap is 96.36%)
+              55     2000          1   11   F     0 != y_13_20
+ *            53     1495  0.44s       14      (gap is 96.23%)
+              53     2000          1   15   F     1 != x_25
+ *            12     1096  0.44s       17      (gap is 83.33%)
+ *             3     1304  0.44s       17      (gap is 33.33%)
+               3     2000          1   17         0  = y_18_18
+               3     2000          1   18         0  = y_5_4
+               3     2000          1   19         0  = y_21_2
+               3     2000          1   21         1  = q_8
+               3     2000          1   22         0  = y_14_11
+               3     2000          1   23         0  = y_24_4
+ ! Time = 0.44s, Average fail depth = 40, Memory usage = 85.1 MB
+ ! Current bound is 2 (gap is 33.33%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               3     2000          1   25         1  = y_26_9
+               3     2000          1   26         0  = y_0_0
+               3     2000          1   27   F     0 != x_11
+               3     2000          1   28         0 != x_5
+               3     2000          1   31         0  = x_33
+               3     2000          1   32         0  = y_21_2
+               3     2000          1   37   F     1  = y_6_3
+               3     2000          1   38   F     0 != x_13
+               3     2000          1   39         1  = y_8_6
+               3     2000          1   41         1  = y_21_35
+               3     2000          1   43         1  = y_5_12
+               3     2000          1   45         1  = y_26_10
+               3     2000          1   47         0  = y_12_3
+               3     2000          1   51         0  = y_21_0
+               3     2000          1   55         0  = q_15
+               3     2000          1   56   F     0  = y_21_6
+               3     2000          1   57         0  = y_5_11
+               3     2000          1   58         0 != q_24
+               3     2000          1   59   F        -
+               3     2000          1   61         0  = y_1_11
+ ! Time = 0.44s, Average fail depth = 76, Memory usage = 89.0 MB
+ ! Current bound is 2 (gap is 33.33%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               3     2000          1   63         0  = y_9_3
+               3     2000          1   64         0 != x_5
+               3     3000          1    2         0  = x_21
+               3     2000          1    6         1  = x_24
+               3     3000         67    8         0  = y_16_0
+               3     2000          1    9         1  = y_26_8
+               3     2000          1   10         1  = q_27
+               3     2000          1   12         0  = x_21
+               3     2000          1   14         0 != x_1
+               3     3000          1   15         0  = y_1_3
+               3     2000         23   16         1  = y_11_4
+               3     3000          1   17         1 != y_27_6
+               3     2000          2   20         0  = y_6_8
+               3     2000          1   24   F     0  = x_25
+               3     3000          1   25        39  = x_3
+               3     3000          1   27         0  = y_15_17
+               3     2000          1   29         1  = y_9_1
+               3     2000         19   30   F     1  = x_2
+               3     2000          1   34   F     1  = x_1
+               3     2000          1   35         0  = y_5_6
+ ! Time = 0.57s, Average fail depth = 79, Memory usage = 90.1 MB
+ ! Current bound is 2 (gap is 33.33%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               3     3000          1   39         1  = y_7_0
+               3     2000         17   42         1  = y_18_32
+               3     2000          1   44   F     0 != x_13
+               3     3000          1   45         0  = q_18
+               3     2000          1   48         0  = x_11
+               3     2000          1   50   F     0 != x_0
+               3     3000          1   51         0 != y_24_8
+               3     2000          4   52   F     1 != x_17
+               3     3000          1   53         1  = x_15
+               3     2000          1   60         1 != y_5_4
+               3     3000          1    1         0  = x_17
+               3     3000          1    4         0  = x_4
+               3     3000          1    7         1  = x_14
+               3     3000          1   11         0  = x_36
+               3     3000          1   13         1  = x_6
+               3     3000          1   19         1  = x_26
+               3     3000          1   21         1  = y_13_25
+               3     3000          1   23         1  = y_17_17
+               3     3000          1   31         0  = y_4_6
+               3     3000          1   41   F     0 != y_12_2
+ ! Time = 0.57s, Average fail depth = 93, Memory usage = 91.6 MB
+ ! Current bound is 2 (gap is 33.33%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               3     3000          1   43         0  = y_13_27
+               3     2000          1   46         1 != y_10_15
+               3     3000          1   47         0  = y_8_11
+               3     3000          1   49         0  = y_12_4
+               3     3000          1   55   F     1 != x_15
+               3     3000          1   57         1 != y_5_10
+               3     3000          6   59         0  = y_8_8
+               3     3000          1   61         0  = y_11_0
+               3     3000          1   63         0  = y_13_19
+               3     3000          8    3   F     0 != x_30
+               3     4000          1    4   F     1 != x_28
+               3     3000          8    5   F     0 != x_30
+               3     3000          7    6         1 != y_9_3
+               3     4000          1    7         0  = q_9
+               3     4000          9    8         0  = y_0_4
+               3     3000          1    9         0  = y_16_24
+               3     3000          1   10         0  = y_1_2
+               3     3000         12   14         0 != y_7_6
+               3     3000          1   16         1  = y_25_25
+               3     3000         12   18         0  = y_11_3
+ ! Time = 0.71s, Average fail depth = 105, Memory usage = 90.6 MB
+ ! Current bound is 2 (gap is 33.33%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               3     4000          1   21         0  = y_5_9
+               3     3000         10   22   F     0 != x_23
+               3     3000          1   26   F     1  = x_20
+               3     3000         30   28         1 != y_26_4
+               3     3000          1   29         0  = x_2
+               3     4000          1   31         0  = x_21
+               3     3000          2   32         1 != y_6_1
+               3     3000          1   33         1  = y_8_3
+               3     3000         29   34         0  = y_2_15
+               3     3000          1   35   F     1 != x_27
+               3     3000          1   37         0  = y_23_17
+               3     3000          7   40   F     1 != x_15
+               3     3000         23   42         0  = y_2_15
+               3     4000          1   43         0  = y_11_4
+               3     3000         24   44         0  = y_5_6
+               3     3000         13   46   F     0  = x_15
+               3     4000          1   47         1  = y_15_19
+               3     3000         16   48         1 != y_5_13
+               3     4000          1   49         0  = x_19
+               3     3000         38   50   F     0  = y_3_20
+ ! Time = 0.71s, Average fail depth = 105, Memory usage = 90.6 MB
+ ! Current bound is 2 (gap is 33.33%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               3     4000          1   55         0  = y_0_6
+               3     3000        203   56   F     0  = x_15
+               3     3000         12   58         1 != y_3_18
+               3     4000          1   63         1  = y_9_1
+               3     4000          1    1         0  = x_15
+               3     4000          1   11         1  = y_1_9
+               3     4000          1   15         0 != x_30
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 12 solutions found.
+ ! Best objective         : 3 (optimal - effective tol. is 0)
+ ! Best bound             : 2
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 278593
+ ! Number of fails        : 60703
+ ! Total memory usage     : 90.8 MB (90.7 MB CP Optimizer + 0.1 MB Concert)
+ ! Time spent in solve    : 0.86s (0.84s engine + 0.02s extraction)
+ ! Search speed (br. / s) : 331658.3
+ ! ----------------------------------------------------------------------------
+
+
+x_0: EquivalentClasses(<http://miniTambis#RNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Ribo-Nucleotide>)) )
+x_1: EquivalentClasses(<http://miniTambis#Gene-Product> <http://miniTambis#Protein> )
+x_2: DisjointClasses(<http://miniTambis#Protein> <http://miniTambis#RNA>)
+x_3: EquivalentClasses(<http://miniTambis#DNA> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#Deoxy-Ribo-Nucleotide>)) )
+x_4: SubClassOf(<http://miniTambis#Deoxy-Ribo-Nucleotide> <http://miniTambis#Ribo-Nucleotide>)
+x_5: SubClassOf(<http://miniTambis#HoloProtein> <http://miniTambis#Protein>)
+x_6: EquivalentClasses(<http://miniTambis#DNA> <http://miniTambis#Gene-Product> )
+x_7: SubClassOf(<http://miniTambis#DivalentIon> <http://miniTambis#Anion>)
+x_8: EquivalentClasses(<http://miniTambis#MultiStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(2 <http://miniTambis#hasStrand> owl:Thing)) )
+x_9: EquivalentClasses(<http://miniTambis#SingleStrandedPeptide> ObjectIntersectionOf(<http://miniTambis#Peptide> ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+x_10: EquivalentClasses(<http://miniTambis#Proteosis> ObjectUnionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#MultiStrandedPeptide>) ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#SingleStrandedPeptide>)) )
+x_11: EquivalentClasses(<http://miniTambis#Peptide> ObjectIntersectionOf(ObjectAllValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>) ObjectMinCardinality(1 <http://miniTambis#part-of> owl:Thing)) )
+x_12: SubClassOf(<http://miniTambis#Hydrolysis> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#Proteosis>))
+x_13: SubClassOf(<http://miniTambis#Anion> ObjectSomeValuesFrom(<http://miniTambis#participatesIn> <http://miniTambis#Hydrolysis>))
+x_14: DisjointClasses(<http://miniTambis#physical> <http://miniTambis#structure>)
+x_15: SubClassOf(<http://miniTambis#physical-structure> ObjectIntersectionOf(<http://miniTambis#physical> <http://miniTambis#structure>))
+x_16: SubClassOf(<http://miniTambis#part-of-physical-structure> <http://miniTambis#physical-structure>)
+x_17: SubClassOf(<http://miniTambis#isomerisation> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#regulation>))
+x_18: DisjointClasses(<http://miniTambis#racemation> <http://miniTambis#regulation>)
+x_19: EquivalentClasses(<http://miniTambis#isomerisation> ObjectIntersectionOf(<http://miniTambis#ligation> <http://miniTambis#process> ObjectSomeValuesFrom(<http://miniTambis#contains> <http://miniTambis#isomers>)) )
+x_20: SubClassOf(<http://miniTambis#ligation> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#racemation>))
+x_21: SubClassOf(<http://miniTambis#ReductProteoseReaction> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#Proteosis>))
+x_22: SubClassOf(<http://miniTambis#OxyReductReaction> ObjectSomeValuesFrom(<http://miniTambis#relatedTo> <http://miniTambis#ReductProteoseReaction>))
+x_23: SubClassOf(<http://miniTambis#physical-space> <http://miniTambis#physical-structure>)
+x_24: EquivalentClasses(<http://miniTambis#HoloProteinReaction> ObjectIntersectionOf(<http://miniTambis#EnzymeReaction> ObjectSomeValuesFrom(<http://miniTambis#involves> <http://miniTambis#HoloProtein>)) )
+x_25: SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectMinCardinality(1 <http://miniTambis#involves> owl:Thing))
+x_26: SubClassOf(<http://miniTambis#peroxidation> <http://miniTambis#oxidation-and-reduction>)
+x_27: SubClassOf(<http://miniTambis#racemation> <http://miniTambis#peroxidation>)
+x_28: SubClassOf(<http://miniTambis#oxidation-and-reduction> ObjectAllValuesFrom(<http://miniTambis#involves> <http://miniTambis#isomerisation>))
+x_29: EquivalentClasses(<http://miniTambis#Hydrolase> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#Hydrolysis>) ObjectAllValuesFrom(<http://miniTambis#polymerOf> <http://miniTambis#AminoAcid>) ObjectMinCardinality(1 <http://miniTambis#hasStrand> owl:Thing)) )
+x_30: EquivalentClasses(<http://miniTambis#oxidoreductase> ObjectIntersectionOf(<http://miniTambis#macromolecular-compound> ObjectSomeValuesFrom(<http://miniTambis#catalyses> <http://miniTambis#oxidation-and-reduction>) ObjectSomeValuesFrom(<http://miniTambis#has-ec-number> <http://miniTambis#ec-number>) ObjectSomeValuesFrom(<http://miniTambis#polymer-of> <http://miniTambis#amino-acid>) ObjectAllValuesFrom(<http://miniTambis#polymer-of> <http://miniTambis#amino-acid>)) )
+x_31: EquivalentClasses(<http://miniTambis#HoloEnzyme> ObjectIntersectionOf(<http://miniTambis#Enzyme> ObjectSomeValuesFrom(<http://miniTambis#participatesIn> <http://miniTambis#HoloProteinReaction>)) )
+x_32: SubClassOf(<http://miniTambis#oxidation> <http://miniTambis#oxidation-and-reduction>)
+x_33: SubClassOf(<http://miniTambis#physical-organisation> <http://miniTambis#physical-structure>)
+x_34: EquivalentClasses(<http://miniTambis#protein-part> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://miniTambis#part-of> <http://miniTambis#Protein>)) )
+x_35: SubClassOf(<http://miniTambis#site> <http://miniTambis#protein-part>)
+x_36: SubClassOf(<http://miniTambis#MonovalentIon> <http://miniTambis#Anion>)
+x_37: SubClassOf(<http://miniTambis#oxygenation> <http://miniTambis#oxidation-and-reduction>)
+
+
+problem_formula: 38
+mis_size: 28
+r: 2
+
+0:['x_0', 'x_2', 'x_3', 'x_4', 'x_5', 'x_6', 'x_7', 'x_8', 'x_9', 'x_10', 'x_11', 'x_12', 'x_13', 'x_15', 'x_16', 'x_17', 'x_19', 'x_20', 'x_21', 'x_22', 'x_23', 'x_24', 'x_25', 'x_26', 'x_27', 'x_28', 'x_29', 'x_30', 'x_31', 'x_32', 'x_33', 'x_34', 'x_35', 'x_36', 'x_37']
+
+1:['x_1', 'x_14', 'x_18']
+

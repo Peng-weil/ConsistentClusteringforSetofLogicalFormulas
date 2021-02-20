@@ -1,0 +1,1679 @@
+axiom number: 3968
+Number of Ucs: 103
+Uc 1 : <http://purl.obolibrary.org/obo/OBI_1110118>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 13 ( total = 14 )
+Layer_2 : 52 ( total = 66 )
+Layer_3 : 875 ( total = 941 )
+Layer_4 : 1488 ( total = 2429 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_1110118>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110118> <http://purl.obolibrary.org/obo/OBI_0100062>)
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100062> <http://purl.obolibrary.org/obo/OBI_0100060>)
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1110118>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_5 : 511 ( total = 2940 )
+the number of hs_local: 5
+Layer_6 : 289 ( total = 3229 )
+the number of hs_local: 5
+Layer_7 : 175 ( total = 3404 )
+the number of hs_local: 5
+Layer_8 : 150 ( total = 3554 )
+the number of hs_local: 5
+Layer_9 : 116 ( total = 3670 )
+the number of hs_local: 5
+Layer_10 : 81 ( total = 3751 )
+the number of hs_local: 5
+Layer_11 : 64 ( total = 3815 )
+the number of hs_local: 5
+Layer_12 : 46 ( total = 3861 )
+the number of hs_local: 5
+Layer_13 : 22 ( total = 3883 )
+the number of hs_local: 5
+Layer_14 : 19 ( total = 3902 )
+the number of hs_local: 5
+Layer_15 : 12 ( total = 3914 )
+the number of hs_local: 5
+Layer_16 : 9 ( total = 3923 )
+the number of hs_local: 5
+Layer_17 : 6 ( total = 3929 )
+the number of hs_local: 5
+Layer_18 : 4 ( total = 3933 )
+the number of hs_local: 5
+Layer_19 : 4 ( total = 3937 )
+the number of hs_local: 5
+Layer_20 : 4 ( total = 3941 )
+the number of hs_local: 5
+Layer_21 : 5 ( total = 3946 )
+the number of hs_local: 5
+Layer_22 : 5 ( total = 3951 )
+the number of hs_local: 5
+Layer_23 : 4 ( total = 3955 )
+the number of hs_local: 5
+Layer_24 : 4 ( total = 3959 )
+the number of hs_local: 5
+Layer_25 : 3 ( total = 3962 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 29746
+
+Uc 2 : <http://purl.obolibrary.org/obo/OBI_0600016>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 509 ( total = 513 )
+Layer_2 : 1507 ( total = 2020 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0600016>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0600016>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_0600016>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000652> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://www.ifomis.org/bfo/1.1/snap#MaterialEntity>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0302716>))
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0302716> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000652> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))))
+  [7] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0600016>> ? true
+------------------
+  Found explanation <3> for concept <http://purl.obolibrary.org/obo/OBI_0600016>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://www.ifomis.org/bfo/1.1/snap#MaterialEntity>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0302716>))
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0302716> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000652> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))))
+  [7] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000652> <http://purl.obolibrary.org/obo/OBI_0000094>)
+  [8] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0600016>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_3 : 727 ( total = 2747 )
+the number of hs_local: 8
+Layer_4 : 323 ( total = 3070 )
+the number of hs_local: 8
+Layer_5 : 204 ( total = 3274 )
+the number of hs_local: 8
+Layer_6 : 160 ( total = 3434 )
+the number of hs_local: 8
+Layer_7 : 149 ( total = 3583 )
+the number of hs_local: 8
+Layer_8 : 126 ( total = 3709 )
+the number of hs_local: 8
+Layer_9 : 69 ( total = 3778 )
+the number of hs_local: 8
+Layer_10 : 55 ( total = 3833 )
+the number of hs_local: 8
+Layer_11 : 44 ( total = 3877 )
+the number of hs_local: 8
+Layer_12 : 21 ( total = 3898 )
+the number of hs_local: 8
+Layer_13 : 15 ( total = 3913 )
+the number of hs_local: 8
+Layer_14 : 10 ( total = 3923 )
+the number of hs_local: 8
+Layer_15 : 6 ( total = 3929 )
+the number of hs_local: 8
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 8
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 8
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 8
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 8
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 8
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 8
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 8
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 34056
+
+Uc 3 : <http://purl.obolibrary.org/obo/OBI_0302891>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 4 ( total = 5 )
+Layer_2 : 387 ( total = 392 )
+Layer_3 : 1700 ( total = 2092 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0302891>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600056> <http://purl.obolibrary.org/obo/OBI_0000231>)
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0302891> <http://purl.obolibrary.org/obo/OBI_0600056>)
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+  [7] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0302891>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 640 ( total = 2732 )
+the number of hs_local: 7
+Layer_5 : 335 ( total = 3067 )
+the number of hs_local: 7
+Layer_6 : 201 ( total = 3268 )
+the number of hs_local: 7
+Layer_7 : 185 ( total = 3453 )
+the number of hs_local: 7
+Layer_8 : 143 ( total = 3596 )
+the number of hs_local: 7
+Layer_9 : 128 ( total = 3724 )
+the number of hs_local: 7
+Layer_10 : 76 ( total = 3800 )
+the number of hs_local: 7
+Layer_11 : 52 ( total = 3852 )
+the number of hs_local: 7
+Layer_12 : 28 ( total = 3880 )
+the number of hs_local: 7
+Layer_13 : 21 ( total = 3901 )
+the number of hs_local: 7
+Layer_14 : 13 ( total = 3914 )
+the number of hs_local: 7
+Layer_15 : 9 ( total = 3923 )
+the number of hs_local: 7
+Layer_16 : 6 ( total = 3929 )
+the number of hs_local: 7
+Layer_17 : 4 ( total = 3933 )
+the number of hs_local: 7
+Layer_18 : 4 ( total = 3937 )
+the number of hs_local: 7
+Layer_19 : 4 ( total = 3941 )
+the number of hs_local: 7
+Layer_20 : 5 ( total = 3946 )
+the number of hs_local: 7
+Layer_21 : 5 ( total = 3951 )
+the number of hs_local: 7
+Layer_22 : 4 ( total = 3955 )
+the number of hs_local: 7
+Layer_23 : 4 ( total = 3959 )
+the number of hs_local: 7
+Layer_24 : 3 ( total = 3962 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 24509
+
+Uc 4 : <http://purl.obolibrary.org/obo/OBI_1000024>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 254 ( total = 257 )
+Layer_2 : 1355 ( total = 1612 )
+Layer_3 : 1051 ( total = 2663 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_1000024>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>))
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+  [7] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1000024> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#derives_from> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0100060> <http://purl.obolibrary.org/obo/OBI_0100067>)))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1000024>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_1000024>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100067> <http://purl.obolibrary.org/obo/OBI_0100051>)
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [7] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+  [8] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1000024> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#derives_from> ObjectUnionOf(<http://purl.obolibrary.org/obo/OBI_0100060> <http://purl.obolibrary.org/obo/OBI_0100067>)))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1000024>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_4 : 373 ( total = 3036 )
+the number of hs_local: 8
+Layer_5 : 228 ( total = 3264 )
+the number of hs_local: 8
+Layer_6 : 156 ( total = 3420 )
+the number of hs_local: 8
+Layer_7 : 156 ( total = 3576 )
+the number of hs_local: 8
+Layer_8 : 126 ( total = 3702 )
+the number of hs_local: 8
+Layer_9 : 69 ( total = 3771 )
+the number of hs_local: 8
+Layer_10 : 54 ( total = 3825 )
+the number of hs_local: 8
+Layer_11 : 44 ( total = 3869 )
+the number of hs_local: 8
+Layer_12 : 24 ( total = 3893 )
+the number of hs_local: 8
+Layer_13 : 18 ( total = 3911 )
+the number of hs_local: 8
+Layer_14 : 10 ( total = 3921 )
+the number of hs_local: 8
+Layer_15 : 8 ( total = 3929 )
+the number of hs_local: 8
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 8
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 8
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 8
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 8
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 8
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 8
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 8
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 38039
+
+Uc 5 : <http://purl.obolibrary.org/obo/OBI_0600012>
+Layer_0 : 5 ( total = 5 )
+Layer_1 : 471 ( total = 476 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0600012>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0600012>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_0600012>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600012> <http://purl.obolibrary.org/obo/OBI_0000659>)
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0600012>> ? true
+------------------
+  Found explanation <3> for concept <http://purl.obolibrary.org/obo/OBI_0600012>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0600012>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_2 : 1515 ( total = 1991 )
+the number of hs_local: 5
+Layer_3 : 752 ( total = 2743 )
+the number of hs_local: 5
+Layer_4 : 341 ( total = 3084 )
+the number of hs_local: 5
+Layer_5 : 198 ( total = 3282 )
+the number of hs_local: 5
+Layer_6 : 159 ( total = 3441 )
+the number of hs_local: 5
+Layer_7 : 149 ( total = 3590 )
+the number of hs_local: 5
+Layer_8 : 125 ( total = 3715 )
+the number of hs_local: 5
+Layer_9 : 65 ( total = 3780 )
+the number of hs_local: 5
+Layer_10 : 55 ( total = 3835 )
+the number of hs_local: 5
+Layer_11 : 43 ( total = 3878 )
+the number of hs_local: 5
+Layer_12 : 20 ( total = 3898 )
+the number of hs_local: 5
+Layer_13 : 15 ( total = 3913 )
+the number of hs_local: 5
+Layer_14 : 10 ( total = 3923 )
+the number of hs_local: 5
+Layer_15 : 6 ( total = 3929 )
+the number of hs_local: 5
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 5
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 5
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 5
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 5
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 5
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 5
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 5
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 23302
+
+Uc 6 : <http://purl.obolibrary.org/obo/OBI_0000738>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 169 ( total = 173 )
+Layer_2 : 1660 ( total = 1833 )
+Layer_3 : 847 ( total = 2680 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0000738>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000742> ObjectIntersectionOf(<http://purl.org/obo/owl/CHEBI#CHEBI_33696> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0600050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.org/obo/owl/CHEBI#CHEBI_33696>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OBI_0000732>)))))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000738> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000308> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000411> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#role_of> <http://purl.obolibrary.org/obo/OBI_0000742>))))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600050> <http://purl.obolibrary.org/obo/OBI_0000231>)
+  [7] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+  [8] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000738>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_0000738>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000742> ObjectIntersectionOf(<http://purl.org/obo/owl/CHEBI#CHEBI_33696> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0600050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.org/obo/owl/CHEBI#CHEBI_33696>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OBI_0000732>)))))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600050> <http://purl.obolibrary.org/obo/OBI_0000231>)
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000738> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000308> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000416> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#role_of> <http://purl.obolibrary.org/obo/OBI_0000742>))))
+  [7] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+  [8] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000738>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_4 : 370 ( total = 3050 )
+the number of hs_local: 8
+Layer_5 : 202 ( total = 3252 )
+the number of hs_local: 8
+Layer_6 : 171 ( total = 3423 )
+the number of hs_local: 8
+Layer_7 : 156 ( total = 3579 )
+the number of hs_local: 8
+Layer_8 : 128 ( total = 3707 )
+the number of hs_local: 8
+Layer_9 : 65 ( total = 3772 )
+the number of hs_local: 8
+Layer_10 : 54 ( total = 3826 )
+the number of hs_local: 8
+Layer_11 : 43 ( total = 3869 )
+the number of hs_local: 8
+Layer_12 : 24 ( total = 3893 )
+the number of hs_local: 8
+Layer_13 : 18 ( total = 3911 )
+the number of hs_local: 8
+Layer_14 : 10 ( total = 3921 )
+the number of hs_local: 8
+Layer_15 : 8 ( total = 3929 )
+the number of hs_local: 8
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 8
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 8
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 8
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 8
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 8
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 8
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 8
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 37486
+
+Uc 7 : <http://purl.obolibrary.org/obo/OBI_0100056>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 201 ( total = 203 )
+Layer_2 : 1229 ( total = 1432 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0100056>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0100056>> ? true
+------------------
+the number of hs_local found at the first iteration: 3
+Layer_3 : 1164 ( total = 2596 )
+the number of hs_local: 3
+Layer_4 : 396 ( total = 2992 )
+the number of hs_local: 3
+Layer_5 : 251 ( total = 3243 )
+the number of hs_local: 3
+Layer_6 : 161 ( total = 3404 )
+the number of hs_local: 3
+Layer_7 : 155 ( total = 3559 )
+the number of hs_local: 3
+Layer_8 : 130 ( total = 3689 )
+the number of hs_local: 3
+Layer_9 : 76 ( total = 3765 )
+the number of hs_local: 3
+Layer_10 : 54 ( total = 3819 )
+the number of hs_local: 3
+Layer_11 : 46 ( total = 3865 )
+the number of hs_local: 3
+Layer_12 : 27 ( total = 3892 )
+the number of hs_local: 3
+Layer_13 : 19 ( total = 3911 )
+the number of hs_local: 3
+Layer_14 : 10 ( total = 3921 )
+the number of hs_local: 3
+Layer_15 : 8 ( total = 3929 )
+the number of hs_local: 3
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 3
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 3
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 3
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 3
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 3
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 3
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 3
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 3
+The time (ms) to compute all MUPS for a concept is: 15696
+
+Uc 8 : <http://purl.obolibrary.org/obo/OBI_0100055>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 208 ( total = 212 )
+Layer_2 : 1246 ( total = 1458 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0100055>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0100055>> ? true
+------------------
+the number of hs_local found at the first iteration: 3
+Layer_3 : 1168 ( total = 2626 )
+the number of hs_local: 3
+Layer_4 : 376 ( total = 3002 )
+the number of hs_local: 3
+Layer_5 : 245 ( total = 3247 )
+the number of hs_local: 3
+Layer_6 : 162 ( total = 3409 )
+the number of hs_local: 3
+Layer_7 : 154 ( total = 3563 )
+the number of hs_local: 3
+Layer_8 : 129 ( total = 3692 )
+the number of hs_local: 3
+Layer_9 : 74 ( total = 3766 )
+the number of hs_local: 3
+Layer_10 : 55 ( total = 3821 )
+the number of hs_local: 3
+Layer_11 : 46 ( total = 3867 )
+the number of hs_local: 3
+Layer_12 : 27 ( total = 3894 )
+the number of hs_local: 3
+Layer_13 : 19 ( total = 3913 )
+the number of hs_local: 3
+Layer_14 : 10 ( total = 3923 )
+the number of hs_local: 3
+Layer_15 : 6 ( total = 3929 )
+the number of hs_local: 3
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 3
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 3
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 3
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 3
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 3
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 3
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 3
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 3
+The time (ms) to compute all MUPS for a concept is: 16817
+
+Uc 9 : <http://purl.obolibrary.org/obo/OBI_0100051>
+Layer_0 : 17 ( total = 17 )
+Layer_1 : 737 ( total = 754 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0100051>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0100051>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_2 : 1509 ( total = 2263 )
+the number of hs_local: 4
+Layer_3 : 536 ( total = 2799 )
+the number of hs_local: 4
+Layer_4 : 312 ( total = 3111 )
+the number of hs_local: 4
+Layer_5 : 198 ( total = 3309 )
+the number of hs_local: 4
+Layer_6 : 164 ( total = 3473 )
+the number of hs_local: 4
+Layer_7 : 145 ( total = 3618 )
+the number of hs_local: 4
+Layer_8 : 117 ( total = 3735 )
+the number of hs_local: 4
+Layer_9 : 73 ( total = 3808 )
+the number of hs_local: 4
+Layer_10 : 51 ( total = 3859 )
+the number of hs_local: 4
+Layer_11 : 26 ( total = 3885 )
+the number of hs_local: 4
+Layer_12 : 19 ( total = 3904 )
+the number of hs_local: 4
+Layer_13 : 12 ( total = 3916 )
+the number of hs_local: 4
+Layer_14 : 7 ( total = 3923 )
+the number of hs_local: 4
+Layer_15 : 6 ( total = 3929 )
+the number of hs_local: 4
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 4
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 4
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 4
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 4
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 4
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 4
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 4
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 17254
+
+Uc 10 : <http://purl.obolibrary.org/obo/OBI_1110106>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 220 ( total = 223 )
+Layer_2 : 1181 ( total = 1404 )
+Layer_3 : 1187 ( total = 2591 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_1110106>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110106> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000643> ObjectIntersectionOf(<http://purl.org/obo/owl/CL#CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000306> <http://purl.obolibrary.org/obo/OBI_1110085>)))))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1110106>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_1110106>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110106> <http://purl.obolibrary.org/obo/OBI_0100060>)
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1110106>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_4 : 438 ( total = 3029 )
+the number of hs_local: 4
+Layer_5 : 239 ( total = 3268 )
+the number of hs_local: 4
+Layer_6 : 159 ( total = 3427 )
+the number of hs_local: 4
+Layer_7 : 150 ( total = 3577 )
+the number of hs_local: 4
+Layer_8 : 129 ( total = 3706 )
+the number of hs_local: 4
+Layer_9 : 61 ( total = 3767 )
+the number of hs_local: 4
+Layer_10 : 55 ( total = 3822 )
+the number of hs_local: 4
+Layer_11 : 46 ( total = 3868 )
+the number of hs_local: 4
+Layer_12 : 22 ( total = 3890 )
+the number of hs_local: 4
+Layer_13 : 18 ( total = 3908 )
+the number of hs_local: 4
+Layer_14 : 10 ( total = 3918 )
+the number of hs_local: 4
+Layer_15 : 8 ( total = 3926 )
+the number of hs_local: 4
+Layer_16 : 4 ( total = 3930 )
+the number of hs_local: 4
+Layer_17 : 3 ( total = 3933 )
+the number of hs_local: 4
+Layer_18 : 4 ( total = 3937 )
+the number of hs_local: 4
+Layer_19 : 4 ( total = 3941 )
+the number of hs_local: 4
+Layer_20 : 5 ( total = 3946 )
+the number of hs_local: 4
+Layer_21 : 5 ( total = 3951 )
+the number of hs_local: 4
+Layer_22 : 4 ( total = 3955 )
+the number of hs_local: 4
+Layer_23 : 4 ( total = 3959 )
+the number of hs_local: 4
+Layer_24 : 3 ( total = 3962 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 29873
+
+Uc 11 : <http://purl.obolibrary.org/obo/OBI_0600024>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 524 ( total = 528 )
+Layer_2 : 1599 ( total = 2127 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0600024>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100060>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0600024>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_0600024>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100060>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0600024>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_3 : 630 ( total = 2757 )
+the number of hs_local: 4
+Layer_4 : 317 ( total = 3074 )
+the number of hs_local: 4
+Layer_5 : 200 ( total = 3274 )
+the number of hs_local: 4
+Layer_6 : 160 ( total = 3434 )
+the number of hs_local: 4
+Layer_7 : 149 ( total = 3583 )
+the number of hs_local: 4
+Layer_8 : 126 ( total = 3709 )
+the number of hs_local: 4
+Layer_9 : 69 ( total = 3778 )
+the number of hs_local: 4
+Layer_10 : 55 ( total = 3833 )
+the number of hs_local: 4
+Layer_11 : 44 ( total = 3877 )
+the number of hs_local: 4
+Layer_12 : 21 ( total = 3898 )
+the number of hs_local: 4
+Layer_13 : 15 ( total = 3913 )
+the number of hs_local: 4
+Layer_14 : 10 ( total = 3923 )
+the number of hs_local: 4
+Layer_15 : 6 ( total = 3929 )
+the number of hs_local: 4
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 4
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 4
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 4
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 4
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 4
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 4
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 4
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 22832
+
+Uc 12 : <http://purl.obolibrary.org/obo/OBI_1110107>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 166 ( total = 168 )
+Layer_2 : 1093 ( total = 1261 )
+Layer_3 : 1255 ( total = 2516 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_1110107>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110107> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000643> ObjectIntersectionOf(<http://purl.org/obo/owl/CL#CL_0000084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000306> <http://purl.obolibrary.org/obo/OBI_1110084>)))))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1110107>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_1110107>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110107> <http://purl.obolibrary.org/obo/OBI_0100060>)
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1110107>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_4 : 465 ( total = 2981 )
+the number of hs_local: 4
+Layer_5 : 251 ( total = 3232 )
+the number of hs_local: 4
+Layer_6 : 163 ( total = 3395 )
+the number of hs_local: 4
+Layer_7 : 151 ( total = 3546 )
+the number of hs_local: 4
+Layer_8 : 124 ( total = 3670 )
+the number of hs_local: 4
+Layer_9 : 87 ( total = 3757 )
+the number of hs_local: 4
+Layer_10 : 64 ( total = 3821 )
+the number of hs_local: 4
+Layer_11 : 46 ( total = 3867 )
+the number of hs_local: 4
+Layer_12 : 24 ( total = 3891 )
+the number of hs_local: 4
+Layer_13 : 18 ( total = 3909 )
+the number of hs_local: 4
+Layer_14 : 10 ( total = 3919 )
+the number of hs_local: 4
+Layer_15 : 7 ( total = 3926 )
+the number of hs_local: 4
+Layer_16 : 6 ( total = 3932 )
+the number of hs_local: 4
+Layer_17 : 5 ( total = 3937 )
+the number of hs_local: 4
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 4
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 4
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 4
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 4
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 4
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 26111
+
+Uc 13 : <http://purl.obolibrary.org/obo/OBI_0600021>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 475 ( total = 479 )
+Layer_2 : 1394 ( total = 1873 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0600021>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> ObjectIntersectionOf(<http://purl.org/obo/owl/CL#CL_0000000> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#located_in> <http://purl.obolibrary.org/obo/OBI_0100051>))))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0600021>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 847 ( total = 2720 )
+the number of hs_local: 5
+Layer_4 : 333 ( total = 3053 )
+the number of hs_local: 5
+Layer_5 : 209 ( total = 3262 )
+the number of hs_local: 5
+Layer_6 : 161 ( total = 3423 )
+the number of hs_local: 5
+Layer_7 : 149 ( total = 3572 )
+the number of hs_local: 5
+Layer_8 : 131 ( total = 3703 )
+the number of hs_local: 5
+Layer_9 : 71 ( total = 3774 )
+the number of hs_local: 5
+Layer_10 : 58 ( total = 3832 )
+the number of hs_local: 5
+Layer_11 : 42 ( total = 3874 )
+the number of hs_local: 5
+Layer_12 : 24 ( total = 3898 )
+the number of hs_local: 5
+Layer_13 : 15 ( total = 3913 )
+the number of hs_local: 5
+Layer_14 : 10 ( total = 3923 )
+the number of hs_local: 5
+Layer_15 : 6 ( total = 3929 )
+the number of hs_local: 5
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 5
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 5
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 5
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 5
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 5
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 5
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 5
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 20918
+
+Uc 14 : <http://purl.obolibrary.org/obo/OBI_0600023>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 7 ( total = 8 )
+Layer_2 : 534 ( total = 542 )
+Layer_3 : 1543 ( total = 2085 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0600023>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600023> <http://purl.obolibrary.org/obo/OBI_0000231>)
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0600023>> ? true
+------------------
+the number of hs_local found at the first iteration: 6
+Layer_4 : 679 ( total = 2764 )
+the number of hs_local: 6
+Layer_5 : 337 ( total = 3101 )
+the number of hs_local: 6
+Layer_6 : 182 ( total = 3283 )
+the number of hs_local: 6
+Layer_7 : 161 ( total = 3444 )
+the number of hs_local: 6
+Layer_8 : 151 ( total = 3595 )
+the number of hs_local: 6
+Layer_9 : 121 ( total = 3716 )
+the number of hs_local: 6
+Layer_10 : 65 ( total = 3781 )
+the number of hs_local: 6
+Layer_11 : 56 ( total = 3837 )
+the number of hs_local: 6
+Layer_12 : 42 ( total = 3879 )
+the number of hs_local: 6
+Layer_13 : 19 ( total = 3898 )
+the number of hs_local: 6
+Layer_14 : 15 ( total = 3913 )
+the number of hs_local: 6
+Layer_15 : 10 ( total = 3923 )
+the number of hs_local: 6
+Layer_16 : 6 ( total = 3929 )
+the number of hs_local: 6
+Layer_17 : 4 ( total = 3933 )
+the number of hs_local: 6
+Layer_18 : 4 ( total = 3937 )
+the number of hs_local: 6
+Layer_19 : 4 ( total = 3941 )
+the number of hs_local: 6
+Layer_20 : 5 ( total = 3946 )
+the number of hs_local: 6
+Layer_21 : 5 ( total = 3951 )
+the number of hs_local: 6
+Layer_22 : 4 ( total = 3955 )
+the number of hs_local: 6
+Layer_23 : 4 ( total = 3959 )
+the number of hs_local: 6
+Layer_24 : 3 ( total = 3962 )
+the number of hs_local: 6
+The time (ms) to compute all MUPS for a concept is: 22602
+
+Uc 15 : <http://purl.obolibrary.org/obo/OBI_0000744>
+Layer_0 : 6 ( total = 6 )
+Layer_1 : 580 ( total = 586 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0000744>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000744> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000744>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_0000744>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000744> <http://purl.obolibrary.org/obo/OBI_0000659>)
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000744>> ? true
+------------------
+  Found explanation <3> for concept <http://purl.obolibrary.org/obo/OBI_0000744>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000740> <http://purl.obolibrary.org/obo/OBI_0000112>)
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000744> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000747>))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000747> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000740>))
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000744>> ? true
+------------------
+  Found explanation <4> for concept <http://purl.obolibrary.org/obo/OBI_0000744>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000747> <http://purl.obolibrary.org/obo/OBI_0100051>)
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000744> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000747>))
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000744>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_2 : 1578 ( total = 2164 )
+the number of hs_local: 8
+Layer_3 : 613 ( total = 2777 )
+the number of hs_local: 8
+Layer_4 : 312 ( total = 3089 )
+the number of hs_local: 8
+Layer_5 : 207 ( total = 3296 )
+the number of hs_local: 8
+Layer_6 : 163 ( total = 3459 )
+the number of hs_local: 8
+Layer_7 : 146 ( total = 3605 )
+the number of hs_local: 8
+Layer_8 : 121 ( total = 3726 )
+the number of hs_local: 8
+Layer_9 : 76 ( total = 3802 )
+the number of hs_local: 8
+Layer_10 : 52 ( total = 3854 )
+the number of hs_local: 8
+Layer_11 : 28 ( total = 3882 )
+the number of hs_local: 8
+Layer_12 : 21 ( total = 3903 )
+the number of hs_local: 8
+Layer_13 : 13 ( total = 3916 )
+the number of hs_local: 8
+Layer_14 : 7 ( total = 3923 )
+the number of hs_local: 8
+Layer_15 : 6 ( total = 3929 )
+the number of hs_local: 8
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 8
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 8
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 8
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 8
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 8
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 8
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 8
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 32974
+
+Uc 16 : <http://purl.obolibrary.org/obo/OBI_0000742>
+Layer_0 : 5 ( total = 5 )
+Layer_1 : 414 ( total = 419 )
+Layer_2 : 1673 ( total = 2092 )
+Layer_3 : 701 ( total = 2793 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0000742>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000742> ObjectIntersectionOf(<http://purl.org/obo/owl/CHEBI#CHEBI_33696> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0600050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.org/obo/owl/CHEBI#CHEBI_33696>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OBI_0000732>)))))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600050> <http://purl.obolibrary.org/obo/OBI_0000231>)
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+  [7] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000742>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 308 ( total = 3101 )
+the number of hs_local: 7
+Layer_5 : 184 ( total = 3285 )
+the number of hs_local: 7
+Layer_6 : 157 ( total = 3442 )
+the number of hs_local: 7
+Layer_7 : 157 ( total = 3599 )
+the number of hs_local: 7
+Layer_8 : 122 ( total = 3721 )
+the number of hs_local: 7
+Layer_9 : 61 ( total = 3782 )
+the number of hs_local: 7
+Layer_10 : 54 ( total = 3836 )
+the number of hs_local: 7
+Layer_11 : 40 ( total = 3876 )
+the number of hs_local: 7
+Layer_12 : 22 ( total = 3898 )
+the number of hs_local: 7
+Layer_13 : 15 ( total = 3913 )
+the number of hs_local: 7
+Layer_14 : 8 ( total = 3921 )
+the number of hs_local: 7
+Layer_15 : 8 ( total = 3929 )
+the number of hs_local: 7
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 7
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 7
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 7
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 7
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 7
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 7
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 7
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 27072
+
+Uc 17 : <http://purl.obolibrary.org/obo/OBI_0000740>
+Layer_0 : 5 ( total = 5 )
+Layer_1 : 130 ( total = 135 )
+Layer_2 : 1441 ( total = 1576 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0000740>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000740> <http://purl.obolibrary.org/obo/OBI_0000112>)
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000740>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_3 : 1071 ( total = 2647 )
+the number of hs_local: 4
+Layer_4 : 379 ( total = 3026 )
+the number of hs_local: 4
+Layer_5 : 224 ( total = 3250 )
+the number of hs_local: 4
+Layer_6 : 168 ( total = 3418 )
+the number of hs_local: 4
+Layer_7 : 145 ( total = 3563 )
+the number of hs_local: 4
+Layer_8 : 138 ( total = 3701 )
+the number of hs_local: 4
+Layer_9 : 71 ( total = 3772 )
+the number of hs_local: 4
+Layer_10 : 56 ( total = 3828 )
+the number of hs_local: 4
+Layer_11 : 45 ( total = 3873 )
+the number of hs_local: 4
+Layer_12 : 19 ( total = 3892 )
+the number of hs_local: 4
+Layer_13 : 18 ( total = 3910 )
+the number of hs_local: 4
+Layer_14 : 10 ( total = 3920 )
+the number of hs_local: 4
+Layer_15 : 6 ( total = 3926 )
+the number of hs_local: 4
+Layer_16 : 4 ( total = 3930 )
+the number of hs_local: 4
+Layer_17 : 3 ( total = 3933 )
+the number of hs_local: 4
+Layer_18 : 4 ( total = 3937 )
+the number of hs_local: 4
+Layer_19 : 4 ( total = 3941 )
+the number of hs_local: 4
+Layer_20 : 5 ( total = 3946 )
+the number of hs_local: 4
+Layer_21 : 5 ( total = 3951 )
+the number of hs_local: 4
+Layer_22 : 4 ( total = 3955 )
+the number of hs_local: 4
+Layer_23 : 4 ( total = 3959 )
+the number of hs_local: 4
+Layer_24 : 3 ( total = 3962 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 18181
+
+Uc 18 : <http://purl.obolibrary.org/obo/OBI_0000341>
+Layer_0 : 7 ( total = 7 )
+Layer_1 : 506 ( total = 513 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0000341>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000341> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000341>> ? true
+------------------
+the number of hs_local found at the first iteration: 2
+Layer_2 : 1528 ( total = 2041 )
+the number of hs_local: 2
+Layer_3 : 738 ( total = 2779 )
+the number of hs_local: 2
+Layer_4 : 316 ( total = 3095 )
+the number of hs_local: 2
+Layer_5 : 192 ( total = 3287 )
+the number of hs_local: 2
+Layer_6 : 148 ( total = 3435 )
+the number of hs_local: 2
+Layer_7 : 153 ( total = 3588 )
+the number of hs_local: 2
+Layer_8 : 126 ( total = 3714 )
+the number of hs_local: 2
+Layer_9 : 61 ( total = 3775 )
+the number of hs_local: 2
+Layer_10 : 56 ( total = 3831 )
+the number of hs_local: 2
+Layer_11 : 43 ( total = 3874 )
+the number of hs_local: 2
+Layer_12 : 24 ( total = 3898 )
+the number of hs_local: 2
+Layer_13 : 15 ( total = 3913 )
+the number of hs_local: 2
+Layer_14 : 8 ( total = 3921 )
+the number of hs_local: 2
+Layer_15 : 8 ( total = 3929 )
+the number of hs_local: 2
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 2
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 2
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 2
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 2
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 2
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 2
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 2
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 2
+The time (ms) to compute all MUPS for a concept is: 12874
+
+Uc 19 : <http://purl.obolibrary.org/obo/OBI_0000747>
+Layer_0 : 6 ( total = 6 )
+Layer_1 : 245 ( total = 251 )
+Layer_2 : 1697 ( total = 1948 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0000747>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000740> <http://purl.obolibrary.org/obo/OBI_0000112>)
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000747> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000740>))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000747>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_0000747>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000747> <http://purl.obolibrary.org/obo/OBI_0100051>)
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000747>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_3 : 779 ( total = 2727 )
+the number of hs_local: 7
+Layer_4 : 343 ( total = 3070 )
+the number of hs_local: 7
+Layer_5 : 198 ( total = 3268 )
+the number of hs_local: 7
+Layer_6 : 182 ( total = 3450 )
+the number of hs_local: 7
+Layer_7 : 149 ( total = 3599 )
+the number of hs_local: 7
+Layer_8 : 123 ( total = 3722 )
+the number of hs_local: 7
+Layer_9 : 65 ( total = 3787 )
+the number of hs_local: 7
+Layer_10 : 54 ( total = 3841 )
+the number of hs_local: 7
+Layer_11 : 42 ( total = 3883 )
+the number of hs_local: 7
+Layer_12 : 19 ( total = 3902 )
+the number of hs_local: 7
+Layer_13 : 13 ( total = 3915 )
+the number of hs_local: 7
+Layer_14 : 8 ( total = 3923 )
+the number of hs_local: 7
+Layer_15 : 6 ( total = 3929 )
+the number of hs_local: 7
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 7
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 7
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 7
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 7
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 7
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 7
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 7
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 27135
+
+Uc 20 : <http://purl.obolibrary.org/obo/OBI_0302716>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 487 ( total = 490 )
+Layer_2 : 1604 ( total = 2094 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0302716>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000652> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://www.ifomis.org/bfo/1.1/snap#MaterialEntity>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0302716> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000652> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))))
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0302716>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_0302716>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://www.ifomis.org/bfo/1.1/snap#MaterialEntity>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0302716> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000652> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))))
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000652> <http://purl.obolibrary.org/obo/OBI_0000094>)
+  [7] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0302716>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_3 : 676 ( total = 2770 )
+the number of hs_local: 7
+Layer_4 : 310 ( total = 3080 )
+the number of hs_local: 7
+Layer_5 : 195 ( total = 3275 )
+the number of hs_local: 7
+Layer_6 : 161 ( total = 3436 )
+the number of hs_local: 7
+Layer_7 : 155 ( total = 3591 )
+the number of hs_local: 7
+Layer_8 : 121 ( total = 3712 )
+the number of hs_local: 7
+Layer_9 : 68 ( total = 3780 )
+the number of hs_local: 7
+Layer_10 : 54 ( total = 3834 )
+the number of hs_local: 7
+Layer_11 : 43 ( total = 3877 )
+the number of hs_local: 7
+Layer_12 : 21 ( total = 3898 )
+the number of hs_local: 7
+Layer_13 : 15 ( total = 3913 )
+the number of hs_local: 7
+Layer_14 : 10 ( total = 3923 )
+the number of hs_local: 7
+Layer_15 : 6 ( total = 3929 )
+the number of hs_local: 7
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 7
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 7
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 7
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 7
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 7
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 7
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 7
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 28315
+
+Uc 21 : <http://purl.obolibrary.org/obo/OBI_0000512>
+Layer_0 : 8 ( total = 8 )
+Layer_1 : 553 ( total = 561 )
+Layer_2 : 1578 ( total = 2139 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0000512>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000512> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100060>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000512>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_0000512>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000512> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100060>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600036>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000512>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_3 : 627 ( total = 2766 )
+the number of hs_local: 4
+Layer_4 : 318 ( total = 3084 )
+the number of hs_local: 4
+Layer_5 : 202 ( total = 3286 )
+the number of hs_local: 4
+Layer_6 : 160 ( total = 3446 )
+the number of hs_local: 4
+Layer_7 : 148 ( total = 3594 )
+the number of hs_local: 4
+Layer_8 : 125 ( total = 3719 )
+the number of hs_local: 4
+Layer_9 : 68 ( total = 3787 )
+the number of hs_local: 4
+Layer_10 : 50 ( total = 3837 )
+the number of hs_local: 4
+Layer_11 : 41 ( total = 3878 )
+the number of hs_local: 4
+Layer_12 : 20 ( total = 3898 )
+the number of hs_local: 4
+Layer_13 : 15 ( total = 3913 )
+the number of hs_local: 4
+Layer_14 : 10 ( total = 3923 )
+the number of hs_local: 4
+Layer_15 : 6 ( total = 3929 )
+the number of hs_local: 4
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 4
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 4
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 4
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 4
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 4
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 4
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 4
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 22812
+
+Uc 22 : <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3504>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 97 ( total = 100 )
+Layer_2 : 1305 ( total = 1405 )
+Layer_3 : 1162 ( total = 2567 )
+Layer_4 : 425 ( total = 2992 )
+Layer_5 : 246 ( total = 3238 )
+Layer_6 : 193 ( total = 3431 )
+  Found explanation <1> for concept <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3504>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100026> <http://www.ifomis.org/bfo/1.1/snap#MaterialEntity>)
+  [2] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71275> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91827>)
+  [3] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3514> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3502>)
+  [4] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3504> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3514>)
+  [5] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91835> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71275>)
+  [6] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3398> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58024>)
+  [7] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91827> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71240>)
+  [8] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3193> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_131221>)
+  [9] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_131221> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_35493>)
+  [10] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58023> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3193>)
+  [11] SubClassOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectComplementOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3504>))
+  [12] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3502> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91835>)
+  [13] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71240> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3398>)
+  [14] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33090> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2759>)
+  [15] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_78536> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58023>)
+  [16] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_35493> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33090>)
+  [17] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2759> <http://purl.obolibrary.org/obo/OBI_0100026>)
+  [18] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58024> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_78536>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3504>> ? true
+------------------
+the number of hs_local found at the first iteration: 18
+Layer_7 : 161 ( total = 3592 )
+the number of hs_local: 18
+Layer_8 : 139 ( total = 3731 )
+the number of hs_local: 18
+Layer_9 : 64 ( total = 3795 )
+the number of hs_local: 18
+Layer_10 : 43 ( total = 3838 )
+the number of hs_local: 18
+Layer_11 : 31 ( total = 3869 )
+the number of hs_local: 18
+Layer_12 : 24 ( total = 3893 )
+the number of hs_local: 18
+Layer_13 : 14 ( total = 3907 )
+the number of hs_local: 18
+Layer_14 : 9 ( total = 3916 )
+the number of hs_local: 18
+Layer_15 : 10 ( total = 3926 )
+the number of hs_local: 18
+Layer_16 : 4 ( total = 3930 )
+the number of hs_local: 18
+Layer_17 : 3 ( total = 3933 )
+the number of hs_local: 18
+Layer_18 : 4 ( total = 3937 )
+the number of hs_local: 18
+Layer_19 : 4 ( total = 3941 )
+the number of hs_local: 18
+Layer_20 : 5 ( total = 3946 )
+the number of hs_local: 18
+Layer_21 : 5 ( total = 3951 )
+the number of hs_local: 18
+Layer_22 : 4 ( total = 3955 )
+the number of hs_local: 18
+Layer_23 : 4 ( total = 3959 )
+the number of hs_local: 18
+Layer_24 : 3 ( total = 3962 )
+the number of hs_local: 18
+The time (ms) to compute all MUPS for a concept is: 46876
+
+Uc 23 : <http://purl.obolibrary.org/obo/OBI_0000112>
+Layer_0 : 10 ( total = 10 )
+Layer_1 : 327 ( total = 337 )
+Layer_2 : 1595 ( total = 1932 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0000112>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000112>> ? true
+------------------
+the number of hs_local found at the first iteration: 3
+Layer_3 : 815 ( total = 2747 )
+the number of hs_local: 3
+Layer_4 : 337 ( total = 3084 )
+the number of hs_local: 3
+Layer_5 : 201 ( total = 3285 )
+the number of hs_local: 3
+Layer_6 : 174 ( total = 3459 )
+the number of hs_local: 3
+Layer_7 : 150 ( total = 3609 )
+the number of hs_local: 3
+Layer_8 : 121 ( total = 3730 )
+the number of hs_local: 3
+Layer_9 : 73 ( total = 3803 )
+the number of hs_local: 3
+Layer_10 : 51 ( total = 3854 )
+the number of hs_local: 3
+Layer_11 : 28 ( total = 3882 )
+the number of hs_local: 3
+Layer_12 : 18 ( total = 3900 )
+the number of hs_local: 3
+Layer_13 : 16 ( total = 3916 )
+the number of hs_local: 3
+Layer_14 : 10 ( total = 3926 )
+the number of hs_local: 3
+Layer_15 : 4 ( total = 3930 )
+the number of hs_local: 3
+Layer_16 : 3 ( total = 3933 )
+the number of hs_local: 3
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 3
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 3
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 3
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 3
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 3
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 3
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 3
+The time (ms) to compute all MUPS for a concept is: 16736
+
+Uc 24 : <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3505>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 2 ( total = 3 )
+Layer_2 : 97 ( total = 100 )
+Layer_3 : 1305 ( total = 1405 )
+Layer_4 : 1162 ( total = 2567 )
+Layer_5 : 425 ( total = 2992 )
+Layer_6 : 246 ( total = 3238 )
+Layer_7 : 193 ( total = 3431 )
+  Found explanation <1> for concept <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3505>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100026> <http://www.ifomis.org/bfo/1.1/snap#MaterialEntity>)
+  [2] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71275> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91827>)
+  [3] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3505> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3504>)
+  [4] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3514> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3502>)
+  [5] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3504> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3514>)
+  [6] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91835> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71275>)
+  [7] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3398> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58024>)
+  [8] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91827> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71240>)
+  [9] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3193> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_131221>)
+  [10] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_131221> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_35493>)
+  [11] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58023> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3193>)
+  [12] SubClassOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectComplementOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3504>))
+  [13] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3502> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_91835>)
+  [14] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_71240> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3398>)
+  [15] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33090> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2759>)
+  [16] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_78536> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58023>)
+  [17] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_35493> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33090>)
+  [18] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2759> <http://purl.obolibrary.org/obo/OBI_0100026>)
+  [19] SubClassOf(<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_58024> <http://purl.org/obo/owl/NCBITaxon#NCBITaxon_78536>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.org/obo/owl/NCBITaxon#NCBITaxon_3505>> ? true
+------------------
+the number of hs_local found at the first iteration: 19
+Layer_8 : 161 ( total = 3592 )
+the number of hs_local: 19
+Layer_9 : 139 ( total = 3731 )
+the number of hs_local: 19
+Layer_10 : 64 ( total = 3795 )
+the number of hs_local: 19
+Layer_11 : 43 ( total = 3838 )
+the number of hs_local: 19
+Layer_12 : 31 ( total = 3869 )
+the number of hs_local: 19
+Layer_13 : 24 ( total = 3893 )
+the number of hs_local: 19
+Layer_14 : 14 ( total = 3907 )
+the number of hs_local: 19
+Layer_15 : 9 ( total = 3916 )
+the number of hs_local: 19
+Layer_16 : 10 ( total = 3926 )
+the number of hs_local: 19
+Layer_17 : 4 ( total = 3930 )
+the number of hs_local: 19
+Layer_18 : 3 ( total = 3933 )
+the number of hs_local: 19
+Layer_19 : 4 ( total = 3937 )
+the number of hs_local: 19
+Layer_20 : 4 ( total = 3941 )
+the number of hs_local: 19
+Layer_21 : 5 ( total = 3946 )
+the number of hs_local: 19
+Layer_22 : 5 ( total = 3951 )
+the number of hs_local: 19
+Layer_23 : 4 ( total = 3955 )
+the number of hs_local: 19
+Layer_24 : 4 ( total = 3959 )
+the number of hs_local: 19
+Layer_25 : 3 ( total = 3962 )
+the number of hs_local: 19
+The time (ms) to compute all MUPS for a concept is: 45334
+
+Uc 25 : <http://purl.obolibrary.org/obo/OBI_0000231>
+Layer_0 : 8 ( total = 8 )
+Layer_1 : 534 ( total = 542 )
+Layer_2 : 1543 ( total = 2085 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_0000231>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0100051>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_0000231>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 679 ( total = 2764 )
+the number of hs_local: 5
+Layer_4 : 337 ( total = 3101 )
+the number of hs_local: 5
+Layer_5 : 182 ( total = 3283 )
+the number of hs_local: 5
+Layer_6 : 161 ( total = 3444 )
+the number of hs_local: 5
+Layer_7 : 151 ( total = 3595 )
+the number of hs_local: 5
+Layer_8 : 121 ( total = 3716 )
+the number of hs_local: 5
+Layer_9 : 65 ( total = 3781 )
+the number of hs_local: 5
+Layer_10 : 56 ( total = 3837 )
+the number of hs_local: 5
+Layer_11 : 42 ( total = 3879 )
+the number of hs_local: 5
+Layer_12 : 19 ( total = 3898 )
+the number of hs_local: 5
+Layer_13 : 15 ( total = 3913 )
+the number of hs_local: 5
+Layer_14 : 10 ( total = 3923 )
+the number of hs_local: 5
+Layer_15 : 6 ( total = 3929 )
+the number of hs_local: 5
+Layer_16 : 4 ( total = 3933 )
+the number of hs_local: 5
+Layer_17 : 4 ( total = 3937 )
+the number of hs_local: 5
+Layer_18 : 4 ( total = 3941 )
+the number of hs_local: 5
+Layer_19 : 5 ( total = 3946 )
+the number of hs_local: 5
+Layer_20 : 5 ( total = 3951 )
+the number of hs_local: 5
+Layer_21 : 4 ( total = 3955 )
+the number of hs_local: 5
+Layer_22 : 4 ( total = 3959 )
+the number of hs_local: 5
+Layer_23 : 3 ( total = 3962 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 22133
+
+Uc 26 : <http://purl.obolibrary.org/obo/OBI_1110095>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 212 ( total = 216 )
+Layer_2 : 1639 ( total = 1855 )
+  Found explanation <1> for concept <http://purl.obolibrary.org/obo/OBI_1110095>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000655>))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000655> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600005>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1110095>> ? true
+------------------
+  Found explanation <2> for concept <http://purl.obolibrary.org/obo/OBI_1110095>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000655>))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000655> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1110095>> ? true
+------------------
+  Found explanation <3> for concept <http://purl.obolibrary.org/obo/OBI_1110095>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000655>))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600005> <http://purl.obolibrary.org/obo/OBI_0000659>)
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000655> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600005>))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1110095>> ? true
+------------------
+  Found explanation <4> for concept <http://purl.obolibrary.org/obo/OBI_1110095>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000655>))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000655> <http://purl.obolibrary.org/obo/OBI_0100051>)
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1110095>> ? true
+------------------
+  Found explanation <5> for concept <http://purl.obolibrary.org/obo/OBI_1110095>
+  [1] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000659> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000417> <http://purl.obolibrary.org/obo/OBI_0000684>)))
+  [2] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000112> ObjectSomeValuesFrom(<http://purl.org/obo/owl/OBO_REL#inheres_in> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000659>))))
+  [3] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100051> ObjectIntersectionOf(<http://www.ifomis.org/bfo/1.1/snap#MaterialEntity> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000316> <http://purl.obolibrary.org/obo/OBI_0000112>)))
+  [4] SubClassOf(<http://purl.obolibrary.org/obo/OBI_1110095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000655>))
+  [5] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000655> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0600005>))
+  [6] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0600005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0100051>))
+  [7] SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000684> ObjectComplementOf(<http://purl.obolibrary.org/obo/OBI_0000684>))
+
+[Info] Is it a real MUPS w.r.t. concept <<http://purl.obolibrary.org/obo/OBI_1110095>> ? true
+------------------
+the number of hs_local found at the first iteration: 10
+Layer_3 : 842 ( total = 2697 )
+the number of hs_local: 10
+Layer_4 : 353 ( total = 3050 )
+the number of hs_local: 10
+Layer_5 : 208 ( total = 3258 )
+the number of hs_local: 10
+Layer_6 : 183 ( total = 3441 )
+the number of hs_local: 10
+Layer_7 : 141 ( total = 3582 )
+the number of hs_local: 10
+Layer_8 : 123 ( total = 3705 )
+the number of hs_local: 10

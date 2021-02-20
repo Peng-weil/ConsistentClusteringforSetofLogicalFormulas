@@ -1,0 +1,49 @@
+ ! --------------------------------------------------- CP Optimizer 20.1.0.0 --
+ ! Minimization problem - 41 variables, 32 constraints
+ ! Presolve      : 3 extractables eliminated
+ ! Initial process time : 0.01s (0.01s extraction + 0.00s propagation)
+ !  . Log search space  : 48.0 (before), 48.0 (after)
+ !  . Memory usage      : 302.3 kB (before), 302.3 kB (after)
+ ! Using parallel search with 64 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         41                 -
+ + New bound is 0
+                        0         41    1            -
+ + New bound is 1
+ *             1       30  0.13s        1      (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 1 solution found.
+ ! Best objective         : 1 (optimal - effective tol. is 0)
+ ! Best bound             : 1
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 28977
+ ! Number of fails        : 10439
+ ! Total memory usage     : 32.8 MB (32.8 MB CP Optimizer + 0.0 MB Concert)
+ ! Time spent in solve    : 0.14s (0.13s engine + 0.01s extraction)
+ ! Search speed (br. / s) : 222900.0
+ ! ----------------------------------------------------------------------------
+
+
+x_0: SubClassOf(<http://sigkdd#Author_of_paper> <http://sigkdd#Author>)
+x_1: SubClassOf(<http://ekaw#Paper> <http://ekaw#Document>)
+x_2: DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+x_3: SubClassOf(<http://ekaw#Submitted_Paper> <http://ekaw#Paper>)
+x_4: EquivalentClasses(<http://ekaw#Paper_Author> <http://sigkdd#Author_of_paper> )
+x_5: EquivalentClasses(<http://ekaw#Submitted_Paper> <http://sigkdd#Author> )
+x_6: SubClassOf(<http://ekaw#Paper_Author> <http://ekaw#Person>)
+x_7: ObjectPropertyDomain(<http://sigkdd#submit_until> <http://sigkdd#Document>)
+x_8: EquivalentClasses(<http://ekaw#Paper> <http://sigkdd#Paper> )
+x_9: EquivalentClasses(<http://ekaw#Document> <http://sigkdd#Document> )
+x_10: EquivalentClasses(<http://sigkdd#Paper> ObjectSomeValuesFrom(<http://sigkdd#submit_until> <http://sigkdd#Deadline_Paper_Submission>) )
+x_11: SubClassOf(<http://sigkdd#Paper> <http://sigkdd#Document>)
+
+
+problem_formula: 12
+mis_size: 3
+r: 2
+
+0:['x_0', 'x_1', 'x_2', 'x_3', 'x_4', 'x_6', 'x_7', 'x_8', 'x_9', 'x_10', 'x_11']
+
+1:['x_5']
+

@@ -1,0 +1,2653 @@
+axiom number: 861
+Number of Ucs: 32
+Uc 1 : <http://cmt#Co-author>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 11 ( total = 14 )
+Layer_2 : 67 ( total = 81 )
+Layer_3 : 188 ( total = 269 )
+  Found explanation <1> for concept <http://cmt#Co-author>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [8] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [11] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#Co-author>
+  [1] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [2] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [4] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#Co-author>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#Co-author>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#User>)
+  [4] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [6] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <5> for concept <http://cmt#Co-author>
+  [1] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [2] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [3] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [4] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+  [8] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [9] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [10] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [11] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [12] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#Co-author>
+  [1] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [2] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [3] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [4] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+  [8] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [9] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [10] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [11] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [12] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <7> for concept <http://cmt#Co-author>
+  [1] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [2] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [3] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [8] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+  [9] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [10] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [11] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [12] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <8> for concept <http://cmt#Co-author>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [11] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <9> for concept <http://cmt#Co-author>
+  [1] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [2] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [3] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [4] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [8] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+  [9] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [10] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [11] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [12] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [13] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+the number of hs_local found at the first iteration: 22
+Layer_4 : 287 ( total = 556 )
+the number of hs_local: 22
+Layer_5 : 268 ( total = 824 )
+the number of hs_local: 22
+Layer_6 : 37 ( total = 861 )
+the number of hs_local: 22
+The time (ms) to compute all MUPS for a concept is: 19985
+
+Uc 2 : <http://edas#PendingPaper>
+Layer_0 : 6 ( total = 6 )
+Layer_1 : 36 ( total = 42 )
+Layer_2 : 150 ( total = 192 )
+Layer_3 : 278 ( total = 470 )
+  Found explanation <1> for concept <http://edas#PendingPaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://edas#PendingPaper> <http://edas#Paper>)
+  [6] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PendingPaper>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#PendingPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://edas#PendingPaper> <http://edas#Paper>)
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PendingPaper>> ? true
+------------------
+  Found explanation <3> for concept <http://edas#PendingPaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://edas#PendingPaper> <http://edas#Paper>)
+  [6] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [7] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PendingPaper>> ? true
+------------------
+  Found explanation <4> for concept <http://edas#PendingPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://edas#PendingPaper> <http://edas#Paper>)
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PendingPaper>> ? true
+------------------
+  Found explanation <5> for concept <http://edas#PendingPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://edas#PendingPaper> <http://edas#Paper>)
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PendingPaper>> ? true
+------------------
+  Found explanation <6> for concept <http://edas#PendingPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://edas#PendingPaper> <http://edas#Paper>)
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [8] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [9] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PendingPaper>> ? true
+------------------
+the number of hs_local found at the first iteration: 14
+Layer_4 : 337 ( total = 807 )
+the number of hs_local: 14
+Layer_5 : 54 ( total = 861 )
+the number of hs_local: 14
+The time (ms) to compute all MUPS for a concept is: 6598
+
+Uc 3 : <http://cmt#AuthorNotReviewer>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 34 ( total = 37 )
+Layer_2 : 81 ( total = 118 )
+Layer_3 : 188 ( total = 306 )
+  Found explanation <1> for concept <http://cmt#AuthorNotReviewer>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [7] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [8] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [11] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#AuthorNotReviewer>
+  [1] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [2] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [3] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [4] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#AuthorNotReviewer>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [4] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [5] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#AuthorNotReviewer>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#User>)
+  [4] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [5] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <5> for concept <http://cmt#AuthorNotReviewer>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [11] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#AuthorNotReviewer>
+  [1] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [2] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [3] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [4] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+  [8] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [9] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [10] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [11] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [12] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <7> for concept <http://cmt#AuthorNotReviewer>
+  [1] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [2] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [3] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [4] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [8] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+  [9] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [10] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [11] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [12] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <8> for concept <http://cmt#AuthorNotReviewer>
+  [1] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [2] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [3] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [4] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+  [8] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [9] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [10] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [11] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [12] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <9> for concept <http://cmt#AuthorNotReviewer>
+  [1] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [2] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [3] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [4] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [5] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [8] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+  [9] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [10] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [11] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [12] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [13] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+the number of hs_local found at the first iteration: 26
+Layer_4 : 261 ( total = 567 )
+the number of hs_local: 26
+Layer_5 : 257 ( total = 824 )
+the number of hs_local: 26
+Layer_6 : 37 ( total = 861 )
+the number of hs_local: 26
+The time (ms) to compute all MUPS for a concept is: 6923
+
+Uc 4 : <http://cmt#PaperFullVersion>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 28 ( total = 29 )
+Layer_2 : 78 ( total = 107 )
+Layer_3 : 244 ( total = 351 )
+  Found explanation <1> for concept <http://cmt#PaperFullVersion>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [8] SubClassOf(<http://cmt#PaperFullVersion> <http://cmt#Paper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperFullVersion>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#PaperFullVersion>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [9] SubClassOf(<http://cmt#PaperFullVersion> <http://cmt#Paper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperFullVersion>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#PaperFullVersion>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [5] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [6] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [9] SubClassOf(<http://cmt#PaperFullVersion> <http://cmt#Paper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperFullVersion>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#PaperFullVersion>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [5] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [9] SubClassOf(<http://cmt#PaperFullVersion> <http://cmt#Paper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperFullVersion>> ? true
+------------------
+  Found explanation <5> for concept <http://cmt#PaperFullVersion>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [8] SubClassOf(<http://cmt#PaperFullVersion> <http://cmt#Paper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperFullVersion>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#PaperFullVersion>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [10] SubClassOf(<http://cmt#PaperFullVersion> <http://cmt#Paper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperFullVersion>> ? true
+------------------
+the number of hs_local found at the first iteration: 13
+Layer_4 : 221 ( total = 572 )
+the number of hs_local: 13
+Layer_5 : 254 ( total = 826 )
+the number of hs_local: 13
+Layer_6 : 35 ( total = 861 )
+the number of hs_local: 13
+The time (ms) to compute all MUPS for a concept is: 4320
+
+Uc 5 : <http://edas#RatedPapers>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 29 ( total = 31 )
+Layer_2 : 256 ( total = 287 )
+Layer_3 : 388 ( total = 675 )
+Layer_4 : 166 ( total = 841 )
+  Found explanation <1> for concept <http://edas#RatedPapers>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [7] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://edas#RatedPapers> <http://edas#ActivePaper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#RatedPapers>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://edas#RatedPapers> <http://edas#ActivePaper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+  Found explanation <3> for concept <http://edas#RatedPapers>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [4] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [7] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [8] EquivalentClasses(<http://edas#RatedPapers> ObjectSomeValuesFrom(<http://edas#hasRating> <http://edas#ReviewRating>) )
+  [9] ObjectPropertyDomain(<http://edas#hasRating> <http://edas#ActivePaper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+  Found explanation <4> for concept <http://edas#RatedPapers>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [4] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://edas#RatedPapers> <http://edas#ActivePaper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+  Found explanation <5> for concept <http://edas#RatedPapers>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] SubClassOf(<http://edas#RatedPapers> <http://edas#ActivePaper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+  Found explanation <6> for concept <http://edas#RatedPapers>
+  [1] EquivalentClasses(<http://edas#RatedPapers> ObjectSomeValuesFrom(<http://edas#hasRating> <http://edas#ReviewRating>) )
+  [2] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [3] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [4] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [7] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [8] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [10] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [11] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [12] ObjectPropertyDomain(<http://edas#hasRating> <http://edas#ActivePaper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+  Found explanation <7> for concept <http://edas#RatedPapers>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [9] SubClassOf(<http://edas#RatedPapers> <http://edas#ActivePaper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+  Found explanation <8> for concept <http://edas#RatedPapers>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] EquivalentClasses(<http://edas#RatedPapers> ObjectSomeValuesFrom(<http://edas#hasRating> <http://edas#ReviewRating>) )
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] ObjectPropertyDomain(<http://edas#hasRating> <http://edas#ActivePaper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+  Found explanation <9> for concept <http://edas#RatedPapers>
+  [1] EquivalentClasses(<http://edas#RatedPapers> ObjectSomeValuesFrom(<http://edas#hasRating> <http://edas#ReviewRating>) )
+  [2] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [3] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [8] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [10] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [11] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [12] ObjectPropertyDomain(<http://edas#hasRating> <http://edas#ActivePaper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+  Found explanation <10> for concept <http://edas#RatedPapers>
+  [1] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [2] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [3] EquivalentClasses(<http://edas#RatedPapers> ObjectSomeValuesFrom(<http://edas#hasRating> <http://edas#ReviewRating>) )
+  [4] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [7] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [8] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [9] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [10] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [11] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [12] ObjectPropertyDomain(<http://edas#hasRating> <http://edas#ActivePaper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+  Found explanation <11> for concept <http://edas#RatedPapers>
+  [1] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [2] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [3] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [4] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [7] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [8] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [9] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [10] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [11] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [12] SubClassOf(<http://edas#RatedPapers> <http://edas#ActivePaper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+  Found explanation <12> for concept <http://edas#RatedPapers>
+  [1] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [2] EquivalentClasses(<http://edas#RatedPapers> ObjectSomeValuesFrom(<http://edas#hasRating> <http://edas#ReviewRating>) )
+  [3] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [4] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [8] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [10] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [11] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [12] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [13] ObjectPropertyDomain(<http://edas#hasRating> <http://edas#ActivePaper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RatedPapers>> ? true
+------------------
+the number of hs_local found at the first iteration: 16
+Layer_5 : 20 ( total = 861 )
+the number of hs_local: 16
+The time (ms) to compute all MUPS for a concept is: 18631
+
+Uc 6 : <http://edas#RejectedPaper>
+Layer_0 : 7 ( total = 7 )
+Layer_1 : 37 ( total = 44 )
+Layer_2 : 155 ( total = 199 )
+  Found explanation <1> for concept <http://edas#RejectedPaper>
+  [1] EquivalentClasses(<http://cmt#Document> <http://edas#Document> )
+  [2] EquivalentClasses(<http://cmt#Rejection> <http://edas#RejectedPaper> )
+  [3] SubClassOf(<http://edas#Paper> <http://edas#Document>)
+  [4] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [5] DisjointClasses(<http://cmt#Decision> <http://cmt#Document>)
+  [6] SubClassOf(<http://cmt#Rejection> <http://cmt#Decision>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RejectedPaper>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#RejectedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] EquivalentClasses(<http://cmt#Rejection> <http://edas#RejectedPaper> )
+  [3] SubClassOf(<http://cmt#Paper> <http://cmt#Document>)
+  [4] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [5] DisjointClasses(<http://cmt#Decision> <http://cmt#Document>)
+  [6] SubClassOf(<http://cmt#Rejection> <http://cmt#Decision>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RejectedPaper>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_3 : 302 ( total = 501 )
+the number of hs_local: 8
+  Found explanation <3> for concept <http://edas#RejectedPaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RejectedPaper>> ? true
+------------------
+  Found explanation <4> for concept <http://edas#RejectedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [7] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RejectedPaper>> ? true
+------------------
+  Found explanation <5> for concept <http://edas#RejectedPaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RejectedPaper>> ? true
+------------------
+  Found explanation <6> for concept <http://edas#RejectedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [6] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RejectedPaper>> ? true
+------------------
+  Found explanation <7> for concept <http://edas#RejectedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [8] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RejectedPaper>> ? true
+------------------
+  Found explanation <8> for concept <http://edas#RejectedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#RejectedPaper>> ? true
+------------------
+Layer_4 : 320 ( total = 821 )
+the number of hs_local: 348
+Layer_5 : 40 ( total = 861 )
+the number of hs_local: 348
+The time (ms) to compute all MUPS for a concept is: 42579
+
+Uc 7 : <http://cmt#ProgramCommitteeMember>
+Layer_0 : 10 ( total = 10 )
+Layer_1 : 36 ( total = 46 )
+Layer_2 : 174 ( total = 220 )
+  Found explanation <1> for concept <http://cmt#ProgramCommitteeMember>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [4] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [5] SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#ConferenceMember>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ProgramCommitteeMember>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#ProgramCommitteeMember>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#Person>)
+  [4] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [5] SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#ConferenceMember>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ProgramCommitteeMember>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 307 ( total = 527 )
+the number of hs_local: 5
+Layer_4 : 293 ( total = 820 )
+the number of hs_local: 5
+Layer_5 : 41 ( total = 861 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 1164
+
+Uc 8 : <http://edas#TwoLevelConference>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 73 ( total = 75 )
+Layer_2 : 253 ( total = 328 )
+  Found explanation <1> for concept <http://edas#TwoLevelConference>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [4] EquivalentClasses(<http://edas#TwoLevelConference> ObjectIntersectionOf(<http://edas#Conference> ObjectSomeValuesFrom(<http://edas#hasMember> <http://edas#TPCMember>) ObjectAllValuesFrom(<http://edas#hasMember> <http://edas#Person>)) )
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#TwoLevelConference>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 416 ( total = 744 )
+the number of hs_local: 5
+Layer_4 : 117 ( total = 861 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 662
+
+Uc 9 : <http://cmt#ConferenceMember>
+Layer_0 : 9 ( total = 9 )
+Layer_1 : 93 ( total = 102 )
+  Found explanation <1> for concept <http://cmt#ConferenceMember>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [4] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ConferenceMember>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_2 : 346 ( total = 448 )
+the number of hs_local: 4
+Layer_3 : 360 ( total = 808 )
+the number of hs_local: 4
+Layer_4 : 53 ( total = 861 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 575
+
+Uc 10 : <http://cmt#Acceptance>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 17 ( total = 20 )
+Layer_2 : 98 ( total = 118 )
+  Found explanation <1> for concept <http://cmt#Acceptance>
+  [1] EquivalentClasses(<http://cmt#Acceptance> <http://edas#AcceptedPaper> )
+  [2] EquivalentClasses(<http://cmt#Document> <http://edas#Document> )
+  [3] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [4] SubClassOf(<http://edas#Paper> <http://edas#Document>)
+  [5] SubClassOf(<http://cmt#Acceptance> <http://cmt#Decision>)
+  [6] DisjointClasses(<http://cmt#Decision> <http://cmt#Document>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Acceptance>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#Acceptance>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] EquivalentClasses(<http://cmt#Acceptance> <http://edas#AcceptedPaper> )
+  [3] SubClassOf(<http://cmt#Paper> <http://cmt#Document>)
+  [4] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [5] SubClassOf(<http://cmt#Acceptance> <http://cmt#Decision>)
+  [6] DisjointClasses(<http://cmt#Decision> <http://cmt#Document>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Acceptance>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_3 : 233 ( total = 351 )
+the number of hs_local: 8
+Layer_4 : 236 ( total = 587 )
+the number of hs_local: 8
+  Found explanation <3> for concept <http://cmt#Acceptance>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] EquivalentClasses(<http://cmt#Acceptance> <http://edas#AcceptedPaper> )
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [7] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Acceptance>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#Acceptance>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] EquivalentClasses(<http://cmt#Acceptance> <http://edas#AcceptedPaper> )
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [7] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [8] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [9] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Acceptance>> ? true
+------------------
+  Found explanation <5> for concept <http://cmt#Acceptance>
+  [1] EquivalentClasses(<http://cmt#Acceptance> <http://edas#AcceptedPaper> )
+  [2] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [3] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [4] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [8] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [9] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [10] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [11] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [12] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Acceptance>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#Acceptance>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] EquivalentClasses(<http://cmt#Acceptance> <http://edas#AcceptedPaper> )
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Acceptance>> ? true
+------------------
+  Found explanation <7> for concept <http://cmt#Acceptance>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] EquivalentClasses(<http://cmt#Acceptance> <http://edas#AcceptedPaper> )
+  [7] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [9] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Acceptance>> ? true
+------------------
+  Found explanation <8> for concept <http://cmt#Acceptance>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] EquivalentClasses(<http://cmt#Acceptance> <http://edas#AcceptedPaper> )
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Acceptance>> ? true
+------------------
+Layer_5 : 246 ( total = 833 )
+the number of hs_local: 228
+Layer_6 : 28 ( total = 861 )
+the number of hs_local: 228
+The time (ms) to compute all MUPS for a concept is: 34532
+
+Uc 11 : <http://cmt#ProgramCommitteeChair>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 16 ( total = 19 )
+Layer_2 : 66 ( total = 85 )
+Layer_3 : 208 ( total = 293 )
+  Found explanation <1> for concept <http://cmt#ProgramCommitteeChair>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#ProgramCommitteeChair> <http://cmt#ProgramCommitteeMember>)
+  [4] SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#Person>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#ConferenceMember>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ProgramCommitteeChair>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#ProgramCommitteeChair>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#ProgramCommitteeChair> <http://cmt#ProgramCommitteeMember>)
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#ConferenceMember>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ProgramCommitteeChair>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#ProgramCommitteeChair>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#ProgramCommitteeChair> <http://cmt#ProgramCommitteeMember>)
+  [4] SubClassOf(<http://cmt#Chairman> <http://cmt#Person>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#Chairman> ObjectUnionOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceChair> <http://cmt#ProgramCommitteeChair>) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ProgramCommitteeChair>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 255 ( total = 548 )
+the number of hs_local: 7
+Layer_5 : 275 ( total = 823 )
+the number of hs_local: 7
+Layer_6 : 38 ( total = 861 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 1885
+
+Uc 12 : <http://cmt#Reviewer>
+Layer_0 : 19 ( total = 19 )
+Layer_1 : 54 ( total = 73 )
+Layer_2 : 178 ( total = 251 )
+  Found explanation <1> for concept <http://cmt#Reviewer>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [4] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Reviewer>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#Reviewer>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [4] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Reviewer>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#Reviewer>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [4] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Reviewer>> ? true
+------------------
+the number of hs_local found at the first iteration: 9
+Layer_3 : 299 ( total = 550 )
+the number of hs_local: 9
+Layer_4 : 274 ( total = 824 )
+the number of hs_local: 9
+Layer_5 : 37 ( total = 861 )
+the number of hs_local: 9
+The time (ms) to compute all MUPS for a concept is: 2299
+
+Uc 13 : <http://cmt#ExternalReviewer>
+Layer_0 : 5 ( total = 5 )
+Layer_1 : 43 ( total = 48 )
+Layer_2 : 191 ( total = 239 )
+  Found explanation <1> for concept <http://cmt#ExternalReviewer>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [4] SubClassOf(<http://cmt#ExternalReviewer> ObjectExactCardinality(1 <http://cmt#assignedByReviewer> owl:Thing))
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] ObjectPropertyRange(<http://cmt#assignedByReviewer> <http://cmt#Reviewer>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ExternalReviewer>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#ExternalReviewer>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] ObjectPropertyDomain(<http://cmt#assignExternalReviewer> <http://cmt#Reviewer>)
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [5] InverseObjectProperties(<http://cmt#assignExternalReviewer> <http://cmt#assignedByReviewer>)
+  [6] SubClassOf(<http://cmt#ExternalReviewer> ObjectExactCardinality(1 <http://cmt#assignedByReviewer> owl:Thing))
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ExternalReviewer>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#ExternalReviewer>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [4] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [5] SubClassOf(<http://cmt#ExternalReviewer> ObjectExactCardinality(1 <http://cmt#assignedByReviewer> owl:Thing))
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [8] ObjectPropertyRange(<http://cmt#assignedByReviewer> <http://cmt#Reviewer>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ExternalReviewer>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#ExternalReviewer>
+  [1] ObjectPropertyDomain(<http://cmt#assignExternalReviewer> <http://cmt#Reviewer>)
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] InverseObjectProperties(<http://cmt#assignExternalReviewer> <http://cmt#assignedByReviewer>)
+  [6] SubClassOf(<http://cmt#ExternalReviewer> ObjectExactCardinality(1 <http://cmt#assignedByReviewer> owl:Thing))
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ExternalReviewer>> ? true
+------------------
+  Found explanation <5> for concept <http://cmt#ExternalReviewer>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [4] SubClassOf(<http://cmt#ExternalReviewer> ObjectExactCardinality(1 <http://cmt#assignedByReviewer> owl:Thing))
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] ObjectPropertyRange(<http://cmt#assignedByReviewer> <http://cmt#Reviewer>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ExternalReviewer>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#ExternalReviewer>
+  [1] ObjectPropertyDomain(<http://cmt#assignExternalReviewer> <http://cmt#Reviewer>)
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [6] InverseObjectProperties(<http://cmt#assignExternalReviewer> <http://cmt#assignedByReviewer>)
+  [7] SubClassOf(<http://cmt#ExternalReviewer> ObjectExactCardinality(1 <http://cmt#assignedByReviewer> owl:Thing))
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ExternalReviewer>> ? true
+------------------
+the number of hs_local found at the first iteration: 12
+Layer_3 : 296 ( total = 535 )
+the number of hs_local: 12
+Layer_4 : 285 ( total = 820 )
+the number of hs_local: 12
+Layer_5 : 41 ( total = 861 )
+the number of hs_local: 12
+The time (ms) to compute all MUPS for a concept is: 3004
+
+Uc 14 : <http://cmt#Chairman>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 47 ( total = 50 )
+Layer_2 : 165 ( total = 215 )
+  Found explanation <1> for concept <http://cmt#Chairman>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceMember>)
+  [4] SubClassOf(<http://cmt#ProgramCommitteeChair> <http://cmt#ProgramCommitteeMember>)
+  [5] SubClassOf(<http://cmt#Chairman> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#ConferenceChair> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [8] SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#Chairman> ObjectUnionOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceChair> <http://cmt#ProgramCommitteeChair>) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Chairman>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#Chairman>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceMember>)
+  [4] SubClassOf(<http://cmt#ProgramCommitteeChair> <http://cmt#ProgramCommitteeMember>)
+  [5] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#ConferenceChair> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [8] SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#Chairman> ObjectUnionOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceChair> <http://cmt#ProgramCommitteeChair>) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Chairman>> ? true
+------------------
+the number of hs_local found at the first iteration: 9
+Layer_3 : 315 ( total = 530 )
+the number of hs_local: 9
+Layer_4 : 290 ( total = 820 )
+the number of hs_local: 9
+Layer_5 : 41 ( total = 861 )
+the number of hs_local: 9
+The time (ms) to compute all MUPS for a concept is: 1483
+
+Uc 15 : <http://edas#ConferenceChair>
+Layer_0 : 7 ( total = 7 )
+Layer_1 : 50 ( total = 57 )
+Layer_2 : 285 ( total = 342 )
+  Found explanation <1> for concept <http://edas#ConferenceChair>
+  [1] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [2] SubClassOf(<http://edas#ConferenceChair> <http://edas#Person>)
+  [3] EquivalentClasses(<http://cmt#ConferenceChair> <http://edas#ConferenceChair> )
+  [4] SubClassOf(<http://cmt#ConferenceChair> <http://cmt#ConferenceMember>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#ConferenceChair>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#ConferenceChair>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] EquivalentClasses(<http://cmt#ConferenceChair> <http://edas#ConferenceChair> )
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#ConferenceChair> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#ConferenceChair>> ? true
+------------------
+  Found explanation <3> for concept <http://edas#ConferenceChair>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] EquivalentClasses(<http://cmt#ConferenceChair> <http://edas#ConferenceChair> )
+  [4] SubClassOf(<http://cmt#Chairman> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#ConferenceChair> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Chairman> ObjectUnionOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceChair> <http://cmt#ProgramCommitteeChair>) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#ConferenceChair>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_3 : 417 ( total = 759 )
+the number of hs_local: 7
+Layer_4 : 102 ( total = 861 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 1350
+
+Uc 16 : <http://edas#Presenter>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 7 ( total = 8 )
+Layer_2 : 67 ( total = 75 )
+Layer_3 : 330 ( total = 405 )
+  Found explanation <1> for concept <http://edas#Presenter>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [8] SubClassOf(<http://edas#Presenter> <http://edas#Author>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Presenter>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#Presenter>
+  [1] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [2] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [4] SubClassOf(<http://edas#Presenter> <http://edas#Author>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Presenter>> ? true
+------------------
+  Found explanation <3> for concept <http://edas#Presenter>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] SubClassOf(<http://edas#Presenter> <http://edas#Author>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Presenter>> ? true
+------------------
+  Found explanation <4> for concept <http://edas#Presenter>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://edas#Presenter> <http://edas#Author>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Presenter>> ? true
+------------------
+  Found explanation <5> for concept <http://edas#Presenter>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#User>)
+  [4] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [6] SubClassOf(<http://edas#Presenter> <http://edas#Author>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [8] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Presenter>> ? true
+------------------
+  Found explanation <6> for concept <http://edas#Presenter>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [9] SubClassOf(<http://edas#Presenter> <http://edas#Author>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Presenter>> ? true
+------------------
+the number of hs_local found at the first iteration: 28
+Layer_4 : 397 ( total = 802 )
+the number of hs_local: 28
+  Found explanation <7> for concept <http://edas#Presenter>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://edas#Presenter> <http://edas#Author>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Presenter>> ? true
+------------------
+  Found explanation <8> for concept <http://edas#Presenter>
+  [1] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [2] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [3] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [4] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [8] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [9] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [10] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [11] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [12] SubClassOf(<http://edas#Presenter> <http://edas#Author>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Presenter>> ? true
+------------------
+  Found explanation <9> for concept <http://edas#Presenter>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] SubClassOf(<http://edas#Presenter> <http://edas#Author>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Presenter>> ? true
+------------------
+Layer_5 : 59 ( total = 861 )
+the number of hs_local: 94
+The time (ms) to compute all MUPS for a concept is: 12492
+
+Uc 17 : <http://cmt#Paper>
+Layer_0 : 29 ( total = 29 )
+Layer_1 : 78 ( total = 107 )
+Layer_2 : 244 ( total = 351 )
+  Found explanation <1> for concept <http://cmt#Paper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Paper>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#Paper>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Paper>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#Paper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [5] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [6] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Paper>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#Paper>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [5] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Paper>> ? true
+------------------
+  Found explanation <5> for concept <http://cmt#Paper>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Paper>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#Paper>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Paper>> ? true
+------------------
+the number of hs_local found at the first iteration: 12
+Layer_3 : 221 ( total = 572 )
+the number of hs_local: 12
+Layer_4 : 254 ( total = 826 )
+the number of hs_local: 12
+Layer_5 : 35 ( total = 861 )
+the number of hs_local: 12
+The time (ms) to compute all MUPS for a concept is: 3448
+
+Uc 18 : <http://edas#SingleLevelConference>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 69 ( total = 70 )
+Layer_2 : 257 ( total = 327 )
+  Found explanation <1> for concept <http://edas#SingleLevelConference>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] EquivalentClasses(<http://edas#SingleLevelConference> ObjectIntersectionOf(<http://edas#Conference> ObjectComplementOf(<http://edas#TwoLevelConference>) ObjectAllValuesFrom(<http://edas#hasMember> <http://edas#Person>)) )
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#SingleLevelConference>> ? true
+------------------
+the number of hs_local found at the first iteration: 5
+Layer_3 : 417 ( total = 744 )
+the number of hs_local: 5
+Layer_4 : 117 ( total = 861 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 651
+
+Uc 19 : <http://edas#Paper>
+Layer_0 : 21 ( total = 21 )
+Layer_1 : 162 ( total = 183 )
+Layer_2 : 280 ( total = 463 )
+  Found explanation <1> for concept <http://edas#Paper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Paper>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#Paper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Paper>> ? true
+------------------
+  Found explanation <3> for concept <http://edas#Paper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [6] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Paper>> ? true
+------------------
+  Found explanation <4> for concept <http://edas#Paper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Paper>> ? true
+------------------
+  Found explanation <5> for concept <http://edas#Paper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Paper>> ? true
+------------------
+  Found explanation <6> for concept <http://edas#Paper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Paper>> ? true
+------------------
+the number of hs_local found at the first iteration: 13
+Layer_3 : 344 ( total = 807 )
+the number of hs_local: 13
+Layer_4 : 54 ( total = 861 )
+the number of hs_local: 13
+The time (ms) to compute all MUPS for a concept is: 5093
+
+Uc 20 : <http://edas#Author>
+Layer_0 : 8 ( total = 8 )
+Layer_1 : 67 ( total = 75 )
+Layer_2 : 330 ( total = 405 )
+  Found explanation <1> for concept <http://edas#Author>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Author>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#Author>
+  [1] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [2] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [4] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [5] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Author>> ? true
+------------------
+  Found explanation <3> for concept <http://edas#Author>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Author>> ? true
+------------------
+  Found explanation <4> for concept <http://edas#Author>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Author>> ? true
+------------------
+  Found explanation <5> for concept <http://edas#Author>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#User>)
+  [4] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Author>> ? true
+------------------
+  Found explanation <6> for concept <http://edas#Author>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Author>> ? true
+------------------
+the number of hs_local found at the first iteration: 33
+Layer_3 : 397 ( total = 802 )
+the number of hs_local: 33
+  Found explanation <7> for concept <http://edas#Author>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Author>> ? true
+------------------
+  Found explanation <8> for concept <http://edas#Author>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Author>> ? true
+------------------
+  Found explanation <9> for concept <http://edas#Author>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [6] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [8] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [9] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Author>> ? true
+------------------
+Layer_4 : 59 ( total = 861 )
+the number of hs_local: 121
+The time (ms) to compute all MUPS for a concept is: 19133
+
+Uc 21 : <http://cmt#Author>
+Layer_0 : 9 ( total = 9 )
+Layer_1 : 46 ( total = 55 )
+Layer_2 : 184 ( total = 239 )
+  Found explanation <1> for concept <http://cmt#Author>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [10] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#Author>
+  [1] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [2] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [4] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [5] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#Author>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#Author>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Author> <http://cmt#User>)
+  [4] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <5> for concept <http://cmt#Author>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [11] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#Author>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [11] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <7> for concept <http://cmt#Author>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [11] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <8> for concept <http://cmt#Author>
+  [1] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [2] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [3] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [4] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+  [8] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [9] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [10] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [11] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [12] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <9> for concept <http://cmt#Author>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [10] EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+the number of hs_local found at the first iteration: 21
+Layer_3 : 311 ( total = 550 )
+the number of hs_local: 21
+Layer_4 : 274 ( total = 824 )
+the number of hs_local: 21
+Layer_5 : 37 ( total = 861 )
+the number of hs_local: 21
+The time (ms) to compute all MUPS for a concept is: 6673
+
+Uc 22 : <http://cmt#AssociatedChair>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 13 ( total = 16 )
+Layer_2 : 95 ( total = 111 )
+  Found explanation <1> for concept <http://cmt#AssociatedChair>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceMember>)
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AssociatedChair>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#AssociatedChair>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceMember>)
+  [4] SubClassOf(<http://cmt#Chairman> <http://cmt#Person>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] EquivalentClasses(<http://cmt#Chairman> ObjectUnionOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceChair> <http://cmt#ProgramCommitteeChair>) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AssociatedChair>> ? true
+------------------
+the number of hs_local found at the first iteration: 6
+Layer_3 : 357 ( total = 468 )
+the number of hs_local: 6
+Layer_4 : 352 ( total = 820 )
+the number of hs_local: 6
+Layer_5 : 41 ( total = 861 )
+the number of hs_local: 6
+The time (ms) to compute all MUPS for a concept is: 1144
+
+Uc 23 : <http://cmt#ConferenceChair>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 18 ( total = 22 )
+Layer_2 : 128 ( total = 150 )
+  Found explanation <1> for concept <http://cmt#ConferenceChair>
+  [1] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [2] SubClassOf(<http://edas#ConferenceChair> <http://edas#Person>)
+  [3] EquivalentClasses(<http://cmt#ConferenceChair> <http://edas#ConferenceChair> )
+  [4] SubClassOf(<http://cmt#ConferenceChair> <http://cmt#ConferenceMember>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ConferenceChair>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#ConferenceChair>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [4] SubClassOf(<http://cmt#ConferenceChair> <http://cmt#ConferenceMember>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ConferenceChair>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#ConferenceChair>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Chairman> <http://cmt#Person>)
+  [4] SubClassOf(<http://cmt#ConferenceChair> <http://cmt#ConferenceMember>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [6] EquivalentClasses(<http://cmt#Chairman> ObjectUnionOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceChair> <http://cmt#ProgramCommitteeChair>) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#ConferenceChair>> ? true
+------------------
+the number of hs_local found at the first iteration: 9
+Layer_3 : 327 ( total = 477 )
+the number of hs_local: 9
+Layer_4 : 343 ( total = 820 )
+the number of hs_local: 9
+Layer_5 : 41 ( total = 861 )
+the number of hs_local: 9
+The time (ms) to compute all MUPS for a concept is: 1461
+
+Uc 24 : <http://cmt#Rejection>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 15 ( total = 18 )
+Layer_2 : 97 ( total = 115 )
+  Found explanation <1> for concept <http://cmt#Rejection>
+  [1] EquivalentClasses(<http://cmt#Document> <http://edas#Document> )
+  [2] EquivalentClasses(<http://cmt#Rejection> <http://edas#RejectedPaper> )
+  [3] SubClassOf(<http://edas#Paper> <http://edas#Document>)
+  [4] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [5] DisjointClasses(<http://cmt#Decision> <http://cmt#Document>)
+  [6] SubClassOf(<http://cmt#Rejection> <http://cmt#Decision>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Rejection>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#Rejection>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] EquivalentClasses(<http://cmt#Rejection> <http://edas#RejectedPaper> )
+  [3] SubClassOf(<http://cmt#Paper> <http://cmt#Document>)
+  [4] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [5] DisjointClasses(<http://cmt#Decision> <http://cmt#Document>)
+  [6] SubClassOf(<http://cmt#Rejection> <http://cmt#Decision>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Rejection>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_3 : 232 ( total = 347 )
+the number of hs_local: 8
+Layer_4 : 235 ( total = 582 )
+the number of hs_local: 8
+  Found explanation <3> for concept <http://cmt#Rejection>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] EquivalentClasses(<http://cmt#Rejection> <http://edas#RejectedPaper> )
+  [8] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Rejection>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#Rejection>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] EquivalentClasses(<http://cmt#Rejection> <http://edas#RejectedPaper> )
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Rejection>> ? true
+------------------
+  Found explanation <5> for concept <http://cmt#Rejection>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [8] EquivalentClasses(<http://cmt#Rejection> <http://edas#RejectedPaper> )
+  [9] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Rejection>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#Rejection>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] EquivalentClasses(<http://cmt#Rejection> <http://edas#RejectedPaper> )
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Rejection>> ? true
+------------------
+  Found explanation <7> for concept <http://cmt#Rejection>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://cmt#Rejection> <http://edas#RejectedPaper> )
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Rejection>> ? true
+------------------
+  Found explanation <8> for concept <http://cmt#Rejection>
+  [1] EquivalentClasses(<http://cmt#Rejection> <http://edas#RejectedPaper> )
+  [2] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [3] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [4] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+  [7] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [8] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [9] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [10] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [11] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [12] SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Rejection>> ? true
+------------------
+Layer_5 : 250 ( total = 832 )
+the number of hs_local: 228
+Layer_6 : 29 ( total = 861 )
+the number of hs_local: 228
+The time (ms) to compute all MUPS for a concept is: 20385
+
+Uc 25 : <http://cmt#PaperAbstract>
+Layer_0 : 1 ( total = 1 )
+Layer_1 : 28 ( total = 29 )
+Layer_2 : 78 ( total = 107 )
+Layer_3 : 244 ( total = 351 )
+  Found explanation <1> for concept <http://cmt#PaperAbstract>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#PaperAbstract> <http://cmt#Paper>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperAbstract>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#PaperAbstract>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [7] SubClassOf(<http://cmt#PaperAbstract> <http://cmt#Paper>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperAbstract>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#PaperAbstract>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [5] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [6] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#PaperAbstract> <http://cmt#Paper>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperAbstract>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#PaperAbstract>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [5] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#PaperAbstract> <http://cmt#Paper>)
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperAbstract>> ? true
+------------------
+  Found explanation <5> for concept <http://cmt#PaperAbstract>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#PaperAbstract> <http://cmt#Paper>)
+  [6] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [8] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperAbstract>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#PaperAbstract>
+  [1] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#PaperAbstract> <http://cmt#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#PaperAbstract>> ? true
+------------------
+the number of hs_local found at the first iteration: 13
+Layer_4 : 221 ( total = 572 )
+the number of hs_local: 13
+Layer_5 : 254 ( total = 826 )
+the number of hs_local: 13
+Layer_6 : 35 ( total = 861 )
+the number of hs_local: 13
+The time (ms) to compute all MUPS for a concept is: 3793
+
+Uc 26 : <http://edas#ActivePaper>
+Layer_0 : 8 ( total = 8 )
+Layer_1 : 37 ( total = 45 )
+Layer_2 : 164 ( total = 209 )
+Layer_3 : 267 ( total = 476 )
+  Found explanation <1> for concept <http://edas#ActivePaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#ActivePaper>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#ActivePaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#ActivePaper>> ? true
+------------------
+  Found explanation <3> for concept <http://edas#ActivePaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [7] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#ActivePaper>> ? true
+------------------
+  Found explanation <4> for concept <http://edas#ActivePaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#ActivePaper>> ? true
+------------------
+  Found explanation <5> for concept <http://edas#ActivePaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#ActivePaper>> ? true
+------------------
+  Found explanation <6> for concept <http://edas#ActivePaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [5] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [8] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [9] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#ActivePaper>> ? true
+------------------
+the number of hs_local found at the first iteration: 14
+Layer_4 : 331 ( total = 807 )
+the number of hs_local: 14
+Layer_5 : 54 ( total = 861 )
+the number of hs_local: 14
+The time (ms) to compute all MUPS for a concept is: 6085
+
+Uc 27 : <http://cmt#Meta-Reviewer>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 21 ( total = 23 )
+Layer_2 : 78 ( total = 101 )
+Layer_3 : 203 ( total = 304 )
+  Found explanation <1> for concept <http://cmt#Meta-Reviewer>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [4] SubClassOf(<http://cmt#Meta-Reviewer> <http://cmt#Reviewer>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Meta-Reviewer>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#Meta-Reviewer>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Meta-Reviewer> <http://cmt#Reviewer>)
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Meta-Reviewer>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#Meta-Reviewer>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#Meta-Reviewer> <http://cmt#Reviewer>)
+  [4] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Meta-Reviewer>> ? true
+------------------
+the number of hs_local found at the first iteration: 10
+Layer_4 : 261 ( total = 565 )
+the number of hs_local: 10
+Layer_5 : 259 ( total = 824 )
+the number of hs_local: 10
+Layer_6 : 37 ( total = 861 )
+the number of hs_local: 10
+The time (ms) to compute all MUPS for a concept is: 1660
+
+Uc 28 : <http://edas#WithdrawnPaper>
+Layer_0 : 6 ( total = 6 )
+Layer_1 : 36 ( total = 42 )
+Layer_2 : 150 ( total = 192 )
+Layer_3 : 278 ( total = 470 )
+  Found explanation <1> for concept <http://edas#WithdrawnPaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://edas#WithdrawnPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#WithdrawnPaper>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#WithdrawnPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [6] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://edas#WithdrawnPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#WithdrawnPaper>> ? true
+------------------
+  Found explanation <3> for concept <http://edas#WithdrawnPaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://edas#WithdrawnPaper> <http://edas#Paper>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#WithdrawnPaper>> ? true
+------------------
+  Found explanation <4> for concept <http://edas#WithdrawnPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [7] SubClassOf(<http://edas#WithdrawnPaper> <http://edas#Paper>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#WithdrawnPaper>> ? true
+------------------
+  Found explanation <5> for concept <http://edas#WithdrawnPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [8] SubClassOf(<http://edas#WithdrawnPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#WithdrawnPaper>> ? true
+------------------
+  Found explanation <6> for concept <http://edas#WithdrawnPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://edas#WithdrawnPaper> <http://edas#Paper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#WithdrawnPaper>> ? true
+------------------
+the number of hs_local found at the first iteration: 14
+Layer_4 : 337 ( total = 807 )
+the number of hs_local: 14
+Layer_5 : 54 ( total = 861 )
+the number of hs_local: 14
+The time (ms) to compute all MUPS for a concept is: 5782
+
+Uc 29 : <http://edas#PublishedPaper>
+Layer_0 : 6 ( total = 6 )
+Layer_1 : 36 ( total = 42 )
+Layer_2 : 150 ( total = 192 )
+Layer_3 : 278 ( total = 470 )
+  Found explanation <1> for concept <http://edas#PublishedPaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://edas#PublishedPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PublishedPaper>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#PublishedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [6] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://edas#PublishedPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PublishedPaper>> ? true
+------------------
+  Found explanation <3> for concept <http://edas#PublishedPaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://edas#PublishedPaper> <http://edas#Paper>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PublishedPaper>> ? true
+------------------
+  Found explanation <4> for concept <http://edas#PublishedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [7] SubClassOf(<http://edas#PublishedPaper> <http://edas#Paper>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PublishedPaper>> ? true
+------------------
+  Found explanation <5> for concept <http://edas#PublishedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [8] SubClassOf(<http://edas#PublishedPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PublishedPaper>> ? true
+------------------
+  Found explanation <6> for concept <http://edas#PublishedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [7] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://edas#PublishedPaper> <http://edas#Paper>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#PublishedPaper>> ? true
+------------------
+the number of hs_local found at the first iteration: 14
+Layer_4 : 337 ( total = 807 )
+the number of hs_local: 14
+Layer_5 : 54 ( total = 861 )
+the number of hs_local: 14
+The time (ms) to compute all MUPS for a concept is: 5997
+
+Uc 30 : <http://edas#Conference>
+Layer_0 : 41 ( total = 41 )
+Layer_1 : 257 ( total = 298 )
+  Found explanation <1> for concept <http://edas#Conference>
+  [1] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [4] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Conference>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_2 : 431 ( total = 729 )
+the number of hs_local: 4
+Layer_3 : 132 ( total = 861 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 1017
+
+Uc 31 : <http://edas#Reviewer>
+Layer_0 : 6 ( total = 6 )
+Layer_1 : 79 ( total = 85 )
+Layer_2 : 340 ( total = 425 )
+  Found explanation <1> for concept <http://edas#Reviewer>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [3] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [4] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [5] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Reviewer>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#Reviewer>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [7] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Reviewer>> ? true
+------------------
+  Found explanation <3> for concept <http://edas#Reviewer>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Reviewer>> ? true
+------------------
+  Found explanation <4> for concept <http://edas#Reviewer>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Reviewer>> ? true
+------------------
+  Found explanation <5> for concept <http://edas#Reviewer>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Reviewer>> ? true
+------------------
+  Found explanation <6> for concept <http://edas#Reviewer>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [3] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [4] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [5] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [6] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Reviewer>> ? true
+------------------
+  Found explanation <7> for concept <http://edas#Reviewer>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [8] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [9] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#Reviewer>> ? true
+------------------
+the number of hs_local found at the first iteration: 15
+Layer_3 : 377 ( total = 802 )
+the number of hs_local: 15
+Layer_4 : 59 ( total = 861 )
+the number of hs_local: 15
+The time (ms) to compute all MUPS for a concept is: 6182
+
+Uc 32 : <http://edas#AcceptedPaper>
+Layer_0 : 9 ( total = 9 )
+Layer_1 : 38 ( total = 47 )
+Layer_2 : 156 ( total = 203 )
+  Found explanation <1> for concept <http://edas#AcceptedPaper>
+  [1] EquivalentClasses(<http://cmt#Acceptance> <http://edas#AcceptedPaper> )
+  [2] EquivalentClasses(<http://cmt#Document> <http://edas#Document> )
+  [3] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [4] SubClassOf(<http://edas#Paper> <http://edas#Document>)
+  [5] SubClassOf(<http://cmt#Acceptance> <http://cmt#Decision>)
+  [6] DisjointClasses(<http://cmt#Decision> <http://cmt#Document>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#AcceptedPaper>> ? true
+------------------
+  Found explanation <2> for concept <http://edas#AcceptedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] EquivalentClasses(<http://cmt#Acceptance> <http://edas#AcceptedPaper> )
+  [3] SubClassOf(<http://cmt#Paper> <http://cmt#Document>)
+  [4] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [5] SubClassOf(<http://cmt#Acceptance> <http://cmt#Decision>)
+  [6] DisjointClasses(<http://cmt#Decision> <http://cmt#Document>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#AcceptedPaper>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_3 : 303 ( total = 506 )
+the number of hs_local: 8
+  Found explanation <3> for concept <http://edas#AcceptedPaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [7] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#AcceptedPaper>> ? true
+------------------
+  Found explanation <4> for concept <http://edas#AcceptedPaper>
+  [1] EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+  [2] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [3] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+  [6] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [7] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [8] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#AcceptedPaper>> ? true
+------------------
+  Found explanation <5> for concept <http://edas#AcceptedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [7] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [8] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [9] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#AcceptedPaper>> ? true
+------------------
+  Found explanation <6> for concept <http://edas#AcceptedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [6] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [7] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [8] SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#AcceptedPaper>> ? true
+------------------
+  Found explanation <7> for concept <http://edas#AcceptedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+  [6] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [7] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [8] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [9] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [10] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#AcceptedPaper>> ? true
+------------------
+  Found explanation <8> for concept <http://edas#AcceptedPaper>
+  [1] EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+  [2] SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+  [3] EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+  [4] DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+  [5] SubClassOf(<http://cmt#User> <http://cmt#Person>)
+  [6] SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+  [7] SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+  [8] InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+  [9] ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+  [10] SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+  [11] EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://edas#AcceptedPaper>> ? true
+------------------
+Layer_4 : 316 ( total = 822 )
+the number of hs_local: 348
+Layer_5 : 39 ( total = 861 )
+the number of hs_local: 348
+The time (ms) to compute all MUPS for a concept is: 33973
+

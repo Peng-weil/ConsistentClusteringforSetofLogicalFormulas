@@ -1,0 +1,461 @@
+ ! --------------------------------------------------- CP Optimizer 20.1.0.0 --
+ ! Minimization problem - 1561 variables, 1672 constraints
+ ! Presolve      : 503 extractables eliminated
+ ! Initial process time : 0.05s (0.05s extraction + 0.00s propagation)
+ !  . Log search space  : 1561.0 (before), 1561.0 (after)
+ !  . Memory usage      : 2.1 MB (before), 2.1 MB (after)
+ ! Using parallel search with 64 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0       1561                 -
+ + New bound is 0
+                        0       1561    1            -
+ + New bound is 1
+                     1000        861    1         1  = y_152_2
+                     1000       1149    2         1  = y_154_8
+                     1000        278    3         1  = y_31_22
+                     1000        646    4         1  = y_74_41
+                     1000        278    5         1  = y_31_22
+                     1000        312    6         0  = y_154_15
+                     1000        657    7         0  = y_133_52
+                     1000        389    8         0  = y_35_9
+                     1000       1067    9         1 != y_120_3
+                     1000        280   10         0  = y_51_9
+                     1000        668   11         0  = y_105_3
+                     1000        325   12         1  = y_27_2
+                     1000        763   13         1  = y_93_17
+                     1000        379   14         0  = y_6_10
+                     1000        677   15         1  = y_57_9
+                     1000        385   16         0  = y_31_1
+                     1000        861   17         0  = y_45_5
+                     1000        257   18         1  = y_160_15
+ ! Time = 0.74s, Average fail depth = 1, Memory usage = 61.2 MB
+ ! Current bound is 1
+ !          Best Branches  Non-fixed    W       Branch decision
+                     1000        674   19         1 != y_15_6
+                     1000        393   20         0  = y_165_2
+                     1000       1029   21         1  = y_121_9
+                     1000        362   22         0  = y_15_6
+                     1000        636   23         1  = y_35_1
+                     1000        309   24         1  = y_104_9
+                     1000        869   25         0  = y_161_8
+                     1000        378   26         0  = y_126_27
+                     1000        641   27         0 != y_36_15
+                     1000        310   28         1  = y_157_2
+                     1000        928   29   F     1  = y_143_3
+                     1000        401   30         0  = y_165_2
+                     1000        681   31         0  = y_143_0
+                     1000        424   32         0  = y_132_2
+                     1000        893   33         1  = y_71_44
+                     1000        307   34         1  = y_6_3
+                     1000        659   35         1  = y_82_6
+                     1000        300   36         1  = y_148_15
+                     1000       1136   37   F     1  = x_3
+                     1000        316   38         1  = y_11_2
+ ! Time = 0.75s, Average fail depth = 1, Memory usage = 120.7 MB
+ ! Current bound is 1
+ !          Best Branches  Non-fixed    W       Branch decision
+                     1000        635   39   F     1  = x_28
+                     1000        247   40         0  = y_136_2
+                     1000       1177   41   F     0 != y_21_10
+                     1000        374   42         0  = y_10_2
+                     1000        683   43         1  = y_111_12
+                     1000        332   44         1  = y_148_17
+                     1000       1201   45         0  = y_48_3
+                     1000        350   46         0  = y_98_1
+                     1000        674   47         0  = y_21_13
+                     1000        333   48         1  = y_108_18
+                     1000       1036   49         0  = y_104_3
+                     1000        365   50         0  = y_31_12
+                     1000        661   51         0  = y_38_22
+                     1000        451   52         0  = y_86_16
+                     1000       1013   53   F     1  = y_64_12
+                     1000        371   54         0  = y_14_19
+                     1000        654   55   F     0 != x_47
+                     1000        348   56         1  = y_116_16
+                     1000        997   57         1  = y_11_5
+                     1000        372   58         0  = y_83_15
+ ! Time = 0.76s, Average fail depth = 1, Memory usage = 180.1 MB
+ ! Current bound is 1
+ !          Best Branches  Non-fixed    W       Branch decision
+                     1000        686   59         1  = y_112_12
+                     1000        333   60         0  = y_59_18
+                     1000       1086   61         1  = y_156_1
+                     1000        296   62         0  = y_25_12
+                     1000        634   63         0  = y_25_3
+                     1000        304   64         1  = y_34_17
+                     2000       1069    1         0  = y_123_29
+                     2000        437    2   F     0 != x_40
+                     2000         21    4   F     0 != x_12
+                     2000         79    7   F     1  = x_49
+                     2000        762    9         1  = y_39_1
+                     2000         43   11   F     0 != y_59_9
+                     2000         90   15   F     0 != y_153_12
+                     2000         54   19   F     0 != y_28_13
+                     2000        798   21         0  = y_128_5
+                     2000         17   23         0  = y_3_15
+                     2000        820   29         0  = y_81_13
+                     2000         74   31         0  = y_35_2
+                     2000       1054   33         1  = y_127_2
+                     2000         90   35   F     1  = y_93_15
+ ! Time = 0.92s, Average fail depth = 1, Memory usage = 201.1 MB
+ ! Current bound is 1
+ !          Best Branches  Non-fixed    W       Branch decision
+                     2000        718   37         1 != y_129_9
+                     2000         68   43   F     1  = x_13
+                     2000        538   45         0  = y_158_4
+                     2000         47   47         1  = y_10_3
+                     2000         57   51   F     1 != x_14
+                     2000        654   53   F     1  = x_49
+                     2000         46   55         1  = y_149_3
+                     2000        643   57   F     1  = x_31
+                     2000         41   59         1 != y_30_1
+                     2000        668   61         1  = y_166_37
+                     2000         17   63         1  = y_79_4
+ *            14     1287  0.92s        3      (gap is 92.86%)
+              14     2000          1    3         0  = y_5_6
+              14     2000          1    5         0  = y_5_6
+ *            12     1322  0.92s        6      (gap is 91.67%)
+              12     2000          1    6         0  = x_44
+ *             2     1281  0.92s        8      (gap is 50.00%)
+               2     2000          1   10         0  = y_123_4
+               2     2000          1   12         0  = y_150_18
+               2     2000          2   16         0  = y_43_31
+ ! Time = 0.92s, Average fail depth = 2, Memory usage = 227.9 MB
+ ! Current bound is 1 (gap is 50.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     2000          1   18         0  = y_157_13
+               2     2000          1   24         1  = y_62_9
+               2     2000          1   28         0  = y_104_5
+               2     2000          1   34         0  = y_45_8
+               2     2000          1   36         0  = y_73_15
+               2     2000          1   38         1  = y_109_16
+               2     2000          2   40         0  = y_110_1
+               2     2000          2   42         0  = y_25_8
+               2     2000          1   44         0  = y_152_2
+               2     2000          1   48         0  = y_44_1
+               2     2000          2   54         0  = y_84_9
+               2     2000          1   64         0  = y_33_2
+               2     3000        984    1         0  = y_55_36
+               2     3000        712    9         0  = y_140_53
+               2     3000         87   11         0  = y_163_1
+               2     2000        859   13         0  = y_58_37
+               2     2000          1   14         0  = y_145_2
+               2     3000        107   15   F     1  = y_9_9
+               2     2000        892   17         1  = y_162_4
+               2     2000          1   20         1  = y_106_9
+ ! Time = 1.04s, Average fail depth = 5, Memory usage = 313.3 MB
+ ! Current bound is 1 (gap is 50.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     3000        601   23         0  = y_162_2
+               2     2000        862   25         1  = y_41_2
+               2     2000          1   26         1  = y_146_2
+               2     2000         27   27         0  = y_96_8
+               2     3000        754   29   F     1 != x_15
+               2     3000        576   37         1  = y_44_8
+               2     2000         32   39         1 != y_133_12
+               2     2000        683   41   F     1  = y_39_9
+               2     3000        463   45         0  = y_151_55
+               2     2000          2   46         0  = y_101_2
+               2     2000        946   49         0  = y_63_12
+               2     2000          2   52   F     0 != x_27
+               2     2000          1   56         0  = y_124_3
+               2     3000        616   57         0  = y_116_2
+               2     2000          2   58         0  = y_11_5
+               2     3000        577   61         0  = y_60_8
+               2     2000          1   62         1  = y_112_12
+               2     3000        579   63         0  = y_82_5
+               2     3000          2   28         0  = y_132_5
+               2     3000          1   34         0  = y_128_5
+ ! Time = 1.05s, Average fail depth = 6, Memory usage = 314.8 MB
+ ! Current bound is 1 (gap is 50.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     3000          2   42         0  = y_35_4
+               2     3000          1   64         0  = y_78_49
+               2     4000        265    1         0  = y_138_3
+               2     3000        442    2         1 != y_60_9
+               2     3000         33    4         0 != y_18_11
+               2     3000        115    7         1  = y_126_17
+               2     2000          2    8         0  = y_143_8
+               2     4000         67    9         0  = y_104_1
+               2     4000         32   11         0  = y_118_13
+               2     3000         61   12         1 != y_66_3
+               2     3000       1138   13         0  = y_84_1
+               2     3000        282   14         0  = y_8_3
+               2     4000         23   15   F     1  = y_27_13
+               2     3000        815   17         1  = y_113_9
+               2     3000        105   19         1  = y_36_22
+               2     3000          1   20         0  = y_19_5
+               2     3000        727   21         1 != y_70_8
+               2     2000          2   22         0  = y_144_3
+               2     4000         16   23   F     1 != x_12
+               2     3000       1050   25         1 != y_37_12
+ ! Time = 1.19s, Average fail depth = 8, Memory usage = 316.6 MB
+ ! Current bound is 1 (gap is 50.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     3000        566   27         1  = y_123_9
+               2     4000        125   29   F     1  = y_106_9
+               2     3000        640   31         0  = y_6_9
+               2     2000          2   32         0  = y_123_0
+               2     3000        957   33         0  = y_8_18
+               2     3000        113   35         0  = y_107_0
+               2     4000        129   37   F     0 != y_2_11
+               2     3000          1   38         0  = y_26_2
+               2     3000        657   39         0  = y_84_16
+               2     3000        610   41   F     1  = y_111_3
+               2     3000        104   43         0  = y_50_12
+               2     4000         63   45         0  = y_107_18
+               2     3000        647   47         0  = y_89_15
+               2     3000          1   48         0  = y_160_16
+               2     3000        798   49         0  = y_23_8
+               2     2000          2   50   F     0  = x_31
+               2     3000        106   51         0  = y_103_13
+               2     3000        619   53         0  = y_84_12
+               2     4000         63   53         1 != y_75_9
+               2     3000          2   54         0  = y_142_12
+ ! Time = 1.19s, Average fail depth = 8, Memory usage = 316.6 MB
+ ! Current bound is 1 (gap is 50.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     3000        694   55         1 != y_127_12
+               2     4000         32   55         1  = y_4_16
+               2     4000         54   57         1 != y_22_12
+               2     3000          1   58         0  = y_125_29
+               2     3000         99   59         1  = y_116_10
+               2     2000          1   60         0  = x_4
+               2     4000        166   61         0  = y_43_1
+               2     3000          1   62         0  = y_0_7
+               2     4000         15   63   F     1  = x_27
+               2     3022       1546    4   F     0 != x_29
+ + New bound is 2 (gap is 0.00%)
+               2     3000          2    6   F     0 != y_24_0
+               2     4000         31    7         0 != y_0_10
+               2     3000        692    8         0  = y_151_4
+               2     3000          1   10         0  = y_140_8
+               2     4000        596   12         0  = y_140_9
+               2     4000        300   13         0  = y_158_5
+               2     4000         99   17         1  = y_116_2
+               2     4000         31   19   F     1  = y_20_3
+               2     4000         97   21         1 != y_165_16
+               2     3000        361   22         0  = y_59_2
+ ! Time = 1.30s, Average fail depth = 17, Memory usage = 318.8 MB
+ ! Current bound is 2 (gap is 0.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     4000        266   25         0  = y_97_8
+               2     3000          1   26         0  = y_101_9
+               2     4000         17   27         1  = y_41_9
+               2     2000          2   30         0 != y_165_9
+               2     4000         28   31   F     0  = x_27
+               2     4000        132   33         0  = y_151_55
+               2     4000         77   35   F     0  = x_4
+               2     4000         37   39   F     0 != y_159_0
+               2     3000          2   40         0  = y_40_15
+               2     4000         62   41         0  = y_24_9
+               2     4000         35   43   F     0 != y_6_9
+               2     3000          1   44         1 != y_113_3
+               2     3000          1   46         1  = y_7_9
+               2     4000         26   47         0  = y_29_8
+               2     4000        175   49   F     1  = y_75_13
+               2     3000         73   50         1 != y_9_3
+               2     4000         10   51   F     0 != x_38
+               2     3000        698   52   F     0  = x_28
+               2     4000         30   59         0  = y_152_3
+               2     3000        814   60         0  = y_154_9
+ ! Time = 1.31s, Average fail depth = 17, Memory usage = 318.8 MB
+ ! Current bound is 2 (gap is 0.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     4000         54    2         0 != y_132_3
+               2     4000          1    4         1  = y_58_17
+               2     5000         11    9         1  = y_117_13
+               2     5000         18   11         1  = y_35_24
+               2     5000         28   15         0  = y_5_7
+               2     5000         14   23         0  = y_65_4
+               2     5000         18   29         0  = y_129_52
+               2     5000         24   37         0  = y_71_44
+               2     5000         12   45         0  = y_8_12
+               2     5000         26   55         1  = y_121_41
+               2     5000         11   57         0  = y_6_8
+               2     5000         23   61         1  = y_30_2
+               2     5000          1   63         1  = y_50_33
+               2     5000         17    1         0  = y_112_14
+               2     3000          1    5   F     0  = x_9
+               2     5000         36   13         0  = y_22_12
+               2     3000          1   16         0  = y_116_18
+               2     3000          2   18         1  = y_25_9
+               2     5000         31   19         0  = y_42_26
+               2     4000        599   20         0  = y_99_4
+ ! Time = 1.43s, Average fail depth = 273, Memory usage = 365.4 MB
+ ! Current bound is 2 (gap is 0.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     5000         18   21         0  = y_143_3
+               2     4000        229   22         0  = y_47_9
+               2     6000          1   23         0  = y_20_1
+               2     3000          1   24         1  = y_117_8
+               2     4000        390   26         0  = y_129_5
+               2     5000          1   27         0  = y_49_29
+               2     4000        294   28         0  = y_73_42
+               2     3000       1320   30         1  = y_13_8
+               2     5000         18   31         0  = y_156_8
+               2     3000       1278   32   F     1 != x_12
+               2     5000         13   33         0  = y_3_15
+               2     4000        129   34         0 != y_84_15
+               2     4000        348   38         0  = y_104_1
+               2     5000         41   39         0  = y_137_1
+               2     5000         12   41         0  = y_113_13
+               2     5000         22   43         1  = y_94_13
+               2     4000        294   46         1 != y_86_6
+               2     5000         20   47         1  = y_9_9
+               2     4000        253   48         0  = x_28
+               2     5000         16   51         0  = y_56_4
+ ! Time = 1.43s, Average fail depth = 273, Memory usage = 365.4 MB
+ ! Current bound is 2 (gap is 0.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     4000        731   52         0  = x_25
+               2     5000         28   53   F     1  = x_26
+               2     3000        556   56   F     0 != x_48
+               2     5000         27   59         1  = y_14_15
+               2     6000          1   61         1  = y_32_22
+               2     6000          1   63         0  = y_38_9
+               2     4000        192   64         0 != y_86_1
+               2     6000         65    1         0  = y_25_5
+               2     3000          1    3   F     0  = x_9
+               2     5000          1    4         0  = y_124_8
+               2     6000          1    9         0  = y_92_8
+               2     6000          1   11         0  = y_20_1
+               2     5000         20   17         1  = y_38_9
+               2     5000         20   25         0  = y_156_12
+               2     6000          1   29         0  = y_116_17
+               2     5000         52   35         1  = y_108_12
+               2     6000          2   37         1  = y_8_6
+               2     6000          1   45         1  = y_27_9
+               2     5000         21   49         0  = y_18_15
+               2     6000          1   55         0  = y_153_12
+ ! Time = 1.43s, Average fail depth = 331, Memory usage = 378.4 MB
+ ! Current bound is 2 (gap is 0.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     6000          2   57   F     1  = y_51_3
+               2     5000         27    2         0  = y_146_2
+               2     5000         37    7         1  = y_81_10
+               2     4000        799    8         0  = y_14_18
+               2     7000          2    9         1  = y_32_24
+               2     4000        304   10         1  = y_135_3
+               2     7000          2   11         1  = y_84_5
+               2     6000          6   13         0  = y_6_10
+               2     4000         74   14         1 != y_137_12
+               2     6000          2   15         1  = y_119_3
+               2     4000        380   16         0  = y_114_8
+               2     6000          1   17         0  = y_150_13
+               2     6000          2   19         1  = y_154_15
+               2     7000          1   23         1  = y_160_15
+               2     6000          1   25         1  = y_46_0
+               2     6000        284   27         1  = y_83_12
+               2     5000        846   28         0  = y_107_1
+               2     7000         21   29         0  = y_99_0
+               2     4000        719   30         0  = y_25_21
+               2     6000          1   31         0  = y_125_9
+ ! Time = 1.51s, Average fail depth = 343, Memory usage = 381.9 MB
+ ! Current bound is 2 (gap is 0.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     4000        806   32         0  = y_19_8
+               2     6000          2   33         1  = y_3_12
+               2     6000          1   35         0  = y_153_15
+               2     3000          2   36         1 != y_132_13
+               2     7000          1   37         1 != x_18
+               2     6000          2   39         1  = y_137_1
+               2     6000          1   41         0  = y_98_3
+               2     4000        174   42         0 != y_97_8
+               2     4000        644   44   F     1  = y_150_3
+               2     7000          2   45         1  = y_74_3
+               2     6000        585   47         0  = y_130_4
+               2     6000          2   49         1  = y_58_18
+               2     6000          2   51         1  = y_126_13
+               2     5000        248   52         0  = y_116_15
+               2     6000        419   53         0  = y_44_0
+               2     4000        357   54         1 != y_41_3
+               2     7000          2   55         1  = y_30_8
+               2     4000        557   56         0  = y_23_16
+               2     4000        700   58   F     0  = x_28
+               2     4000        410   60   F     0 != x_2
+ ! Time = 1.51s, Average fail depth = 343, Memory usage = 381.9 MB
+ ! Current bound is 2 (gap is 0.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     6000          1    2         0  = y_69_45
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 3 solutions found.
+ ! Best objective         : 2 (optimal - effective tol. is 0)
+ ! Best bound             : 2
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 387528
+ ! Number of fails        : 50080
+ ! Total memory usage     : 383.7 MB (383.4 MB CP Optimizer + 0.4 MB Concert)
+ ! Time spent in solve    : 1.62s (1.57s engine + 0.05s extraction)
+ ! Search speed (br. / s) : 246833.1
+ ! ----------------------------------------------------------------------------
+
+
+x_0: EquivalentClasses(<http://cmt#Reviewer> <http://edas#Reviewer> )
+x_1: EquivalentClasses(<http://cmt#Paper> <http://edas#Paper> )
+x_2: SubClassOf(<http://cmt#Paper> ObjectMinCardinality(1 <http://cmt#readByReviewer> owl:Thing))
+x_3: DisjointClasses(<http://edas#Conference> <http://edas#Person>)
+x_4: EquivalentClasses(<http://edas#Reviewer> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#isReviewing> <http://edas#Paper>)) )
+x_5: ObjectPropertyRange(<http://cmt#readByReviewer> <http://cmt#Reviewer>)
+x_6: EquivalentClasses(<http://edas#Author> ObjectIntersectionOf(<http://edas#Person> ObjectSomeValuesFrom(<http://edas#hasRelatedDocument> <http://edas#Paper>)) )
+x_7: SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+x_8: SubClassOf(<http://cmt#Reviewer> <http://cmt#ConferenceMember>)
+x_9: EquivalentClasses(<http://cmt#ConferenceMember> <http://edas#Conference> )
+x_10: EquivalentClasses(<http://cmt#Author> <http://edas#Author> )
+x_11: SubClassOf(<http://cmt#Author> <http://cmt#ConferenceMember>)
+x_12: EquivalentClasses(<http://cmt#Person> <http://edas#Person> )
+x_13: SubClassOf(<http://cmt#ConferenceMember> <http://cmt#Person>)
+x_14: SubClassOf(<http://cmt#Author> <http://cmt#User>)
+x_15: SubClassOf(<http://cmt#User> <http://cmt#Person>)
+x_16: SubClassOf(<http://cmt#Reviewer> <http://cmt#User>)
+x_17: InverseObjectProperties(<http://cmt#readByReviewer> <http://cmt#readPaper>)
+x_18: ObjectPropertyDomain(<http://cmt#readPaper> <http://cmt#Reviewer>)
+x_19: SubClassOf(<http://edas#PendingPaper> <http://edas#Paper>)
+x_20: SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+x_21: SubClassOf(<http://cmt#PaperFullVersion> <http://cmt#Paper>)
+x_22: SubClassOf(<http://edas#ActivePaper> <http://edas#Paper>)
+x_23: SubClassOf(<http://edas#RatedPapers> <http://edas#ActivePaper>)
+x_24: EquivalentClasses(<http://edas#RatedPapers> ObjectSomeValuesFrom(<http://edas#hasRating> <http://edas#ReviewRating>) )
+x_25: ObjectPropertyDomain(<http://edas#hasRating> <http://edas#ActivePaper>)
+x_26: EquivalentClasses(<http://cmt#Document> <http://edas#Document> )
+x_27: EquivalentClasses(<http://cmt#Rejection> <http://edas#RejectedPaper> )
+x_28: SubClassOf(<http://edas#Paper> <http://edas#Document>)
+x_29: SubClassOf(<http://edas#RejectedPaper> <http://edas#Paper>)
+x_30: DisjointClasses(<http://cmt#Decision> <http://cmt#Document>)
+x_31: SubClassOf(<http://cmt#Rejection> <http://cmt#Decision>)
+x_32: SubClassOf(<http://cmt#Paper> <http://cmt#Document>)
+x_33: SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#ConferenceMember>)
+x_34: SubClassOf(<http://cmt#ProgramCommitteeMember> <http://cmt#Person>)
+x_35: EquivalentClasses(<http://edas#TwoLevelConference> ObjectIntersectionOf(<http://edas#Conference> ObjectSomeValuesFrom(<http://edas#hasMember> <http://edas#TPCMember>) ObjectAllValuesFrom(<http://edas#hasMember> <http://edas#Person>)) )
+x_36: EquivalentClasses(<http://cmt#Acceptance> <http://edas#AcceptedPaper> )
+x_37: SubClassOf(<http://edas#AcceptedPaper> <http://edas#Paper>)
+x_38: SubClassOf(<http://cmt#Acceptance> <http://cmt#Decision>)
+x_39: SubClassOf(<http://cmt#ProgramCommitteeChair> <http://cmt#ProgramCommitteeMember>)
+x_40: SubClassOf(<http://cmt#Chairman> <http://cmt#Person>)
+x_41: EquivalentClasses(<http://cmt#Chairman> ObjectUnionOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceChair> <http://cmt#ProgramCommitteeChair>) )
+x_42: SubClassOf(<http://cmt#ExternalReviewer> ObjectExactCardinality(1 <http://cmt#assignedByReviewer> owl:Thing))
+x_43: ObjectPropertyRange(<http://cmt#assignedByReviewer> <http://cmt#Reviewer>)
+x_44: ObjectPropertyDomain(<http://cmt#assignExternalReviewer> <http://cmt#Reviewer>)
+x_45: InverseObjectProperties(<http://cmt#assignExternalReviewer> <http://cmt#assignedByReviewer>)
+x_46: SubClassOf(<http://cmt#AssociatedChair> <http://cmt#ConferenceMember>)
+x_47: SubClassOf(<http://cmt#ConferenceChair> <http://cmt#ConferenceMember>)
+x_48: SubClassOf(<http://edas#ConferenceChair> <http://edas#Person>)
+x_49: EquivalentClasses(<http://cmt#ConferenceChair> <http://edas#ConferenceChair> )
+x_50: SubClassOf(<http://edas#Presenter> <http://edas#Author>)
+x_51: EquivalentClasses(<http://edas#SingleLevelConference> ObjectIntersectionOf(<http://edas#Conference> ObjectComplementOf(<http://edas#TwoLevelConference>) ObjectAllValuesFrom(<http://edas#hasMember> <http://edas#Person>)) )
+x_52: SubClassOf(<http://cmt#PaperAbstract> <http://cmt#Paper>)
+x_53: SubClassOf(<http://cmt#Meta-Reviewer> <http://cmt#Reviewer>)
+x_54: SubClassOf(<http://edas#WithdrawnPaper> <http://edas#Paper>)
+x_55: SubClassOf(<http://edas#PublishedPaper> <http://edas#Paper>)
+
+
+problem_formula: 56
+mis_size: 167
+iteration: 2
+r: 2
+
+0:['x_0', 'x_1', 'x_2', 'x_4', 'x_5', 'x_6', 'x_7', 'x_8', 'x_9', 'x_10', 'x_11', 'x_12', 'x_13', 'x_14', 'x_15', 'x_16', 'x_17', 'x_18', 'x_19', 'x_20', 'x_21', 'x_22', 'x_23', 'x_24', 'x_25', 'x_26', 'x_27', 'x_28', 'x_29', 'x_31', 'x_32', 'x_33', 'x_34', 'x_35', 'x_36', 'x_37', 'x_38', 'x_39', 'x_40', 'x_41', 'x_42', 'x_43', 'x_44', 'x_45', 'x_46', 'x_47', 'x_48', 'x_49', 'x_50', 'x_51', 'x_52', 'x_53', 'x_54', 'x_55']
+
+1:['x_3', 'x_30']
+

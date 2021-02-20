@@ -1,0 +1,96 @@
+axiom number: 21
+Number of Ucs: 4
+Uc 1 : <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 13 ( total = 16 )
+  Found explanation <1> for concept <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy>
+  [1] SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+  [2] DisjointClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+  [3] EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy>> ? true
+------------------
+num: 1
+the number of hs_local after first incoherence: 3
+Layer_2 : 4 ( total = 20 )
+the number of hs_local: 3
+Layer_3 : 1 ( total = 21 )
+the number of hs_local: 3
+The time (ms) to compute all MUPS for a concept is: 336
+
+Uc 2 : <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-SucceedUsernamePolicy>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 9 ( total = 12 )
+Layer_2 : 6 ( total = 18 )
+  Found explanation <1> for concept <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-SucceedUsernamePolicy>
+  [1] SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+  [2] SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-Succeed> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable>)
+  [3] DisjointClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+  [4] EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+  [5] EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-SucceedUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-Succeed> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-SucceedUsernamePolicy>> ? true
+------------------
+num: 2
+the number of hs_local after first incoherence: 5
+Layer_3 : 2 ( total = 20 )
+the number of hs_local: 5
+Layer_4 : 1 ( total = 21 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 434
+
+Uc 3 : <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#IncoherentPolicy>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 7 ( total = 9 )
+Layer_2 : 5 ( total = 14 )
+Layer_3 : 5 ( total = 19 )
+  Found explanation <1> for concept <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#IncoherentPolicy>
+  [1] EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#IncoherentPolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-FailureUsernamePolicy> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-SucceedUsernamePolicy>) )
+  [2] SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+  [3] SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-Succeed> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable>)
+  [4] DisjointClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+  [5] EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+  [6] EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-SucceedUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-Succeed> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#IncoherentPolicy>> ? true
+------------------
+num: 3
+  Found explanation <2> for concept <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#IncoherentPolicy>
+  [1] EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#IncoherentPolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-FailureUsernamePolicy> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-Until-SucceedUsernamePolicy>) )
+  [2] EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-FailureUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-Failure> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+  [3] SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+  [4] DisjointClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+  [5] EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+  [6] SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-Failure> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#IncoherentPolicy>> ? true
+------------------
+num: 4
+the number of hs_local after first incoherence: 8
+Layer_4 : 1 ( total = 20 )
+the number of hs_local: 8
+Layer_5 : 1 ( total = 21 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 653
+
+Uc 4 : <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-FailureUsernamePolicy>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 9 ( total = 12 )
+Layer_2 : 6 ( total = 18 )
+  Found explanation <1> for concept <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-FailureUsernamePolicy>
+  [1] EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-FailureUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-Failure> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+  [2] SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+  [3] DisjointClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Messaging>)
+  [4] EquivalentClasses(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#GeneralReliabilityUsernamePolicy> ObjectIntersectionOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#UsernameToken>) )
+  [5] SubClassOf(<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-Failure> <http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Reliable>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://www.mindswap.org/dav/ontologies/policyContainmentTest.owl#Retry-On-FailureUsernamePolicy>> ? true
+------------------
+num: 5
+the number of hs_local after first incoherence: 5
+Layer_3 : 2 ( total = 20 )
+the number of hs_local: 5
+Layer_4 : 1 ( total = 21 )
+the number of hs_local: 5
+The time (ms) to compute all MUPS for a concept is: 381
+

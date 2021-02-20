@@ -1,0 +1,154 @@
+ ! --------------------------------------------------- CP Optimizer 20.1.0.0 --
+ ! Minimization problem - 183 variables, 170 constraints
+ ! Presolve      : 53 extractables eliminated
+ ! Initial process time : 0.02s (0.02s extraction + 0.00s propagation)
+ !  . Log search space  : 183.0 (before), 183.0 (after)
+ !  . Memory usage      : 483.2 kB (before), 483.2 kB (after)
+ ! Using parallel search with 64 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        183                 -
+ + New bound is 0
+                        0        183    1            -
+ + New bound is 1
+                     1000         46    1   F     0  = x_7
+                     1000         12    2         1  = y_9_18
+ *             6      149  0.27s        3      (gap is 83.33%)
+ *             5      304  0.27s        3      (gap is 80.00%)
+ *             4      461  0.27s        3      (gap is 75.00%)
+ *             3      792  0.27s        3      (gap is 66.67%)
+               3     1000          1    3         0  = y_1_4
+               3      883         10    4   F     1 != x_3
+ + New bound is 2 (gap is 33.33%)
+               3     1000          1    4         0  = y_1_1
+               3     1000          1    5         0  = y_1_4
+               3     1000          1    6         0  = y_5_14
+               3     1000         11    7         0  = y_13_24
+               3     1000          1    8   F     0  = x_28
+               3     1000         25    9   F     1 != x_12
+               3     1000          1   10   F     0  = x_16
+               3     1000          1   11         0  = y_6_10
+ *             2      614  0.27s       12      (gap is 0.00%)
+               2     1000          1   12         0 != y_5_13
+ ! Time = 0.27s, Average fail depth = 38, Memory usage = 13.8 MB
+ ! Current bound is 2 (gap is 0.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     1000         59   13         0  = y_11_15
+               2     1000          1   14         0  = x_3
+               2     1000         11   15   F     0 != x_29
+               2     1000          1   16         0 != y_11_14
+               2     1000         57   17         0  = y_11_19
+               2     1000          1   18         1 != x_14
+               2     1000         13   19         1  = y_0_5
+               2     1000          1   20         0  = x_27
+               2     1000         11   21   F     1 != x_17
+               2     1000          1   22         0  = y_5_10
+               2     1000         12   23   F     0  = x_3
+               2     1000          1   24         0  = y_10_17
+               2     1000         16   25   F     1 != x_3
+               2     1000          2   26   F     0 != x_27
+               2     1000          9   27         1  = y_14_10
+               2     1000          1   28         0  = y_8_17
+               2     1000         25   29   F     0 != x_20
+               2     1000          1   30   F     0 != y_12_13
+               2     1000         11   31         0  = y_4_11
+               2     1000          1   32         1 != y_6_13
+ ! Time = 0.27s, Average fail depth = 32, Memory usage = 31.0 MB
+ ! Current bound is 2 (gap is 0.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     1000         42   33         0  = y_13_18
+               2     1000          1   34            -
+               2     1000         14   35         1  = y_11_17
+               2     1000          1   36         1 != y_13_18
+               2     1000         17   37   F     0 != x_18
+               2     1000          1   38         1 != y_14_10
+               2     1000         13   39         0  = y_0_2
+               2     1000          1   40         0  = y_4_10
+               2     1000          1   41   F     1  = x_23
+               2     1000          2   42         0  = x_18
+               2     1000         11   43   F     1 != x_29
+               2     1000          1   44         0 != x_26
+               2     1000         66   45         1  = y_14_15
+               2     1000          1   46            -
+               2     1000         17   47         0  = y_10_14
+               2     1000          1   48         1  = y_9_18
+               2     1000          1   49   F     1 != x_26
+               2     1000          2   50         1  = y_0_1
+               2     1000         16   51         0  = y_13_13
+               2     1000          1   52   F     0 != x_15
+ ! Time = 0.27s, Average fail depth = 38, Memory usage = 49.3 MB
+ ! Current bound is 2 (gap is 0.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     1000         54   53         0  = x_29
+               2     1000          1   54         0  = y_15_13
+               2     1000          7   55         0  = x_18
+               2     1000          1   56   F     0  = x_4
+               2     1000          1   57         1  = y_0_4
+               2     1000          1   58   F     0  = x_2
+               2     1000         13   59         0  = y_10_12
+               2     1000          2   60         1 != y_15_22
+               2     1000         15   61   F     1 != x_5
+               2     1000          1   62   F     0 != y_9_12
+               2     1000          8   63   F     0 != x_2
+               2     1000          1   64         0  = x_17
+               2     2000         12   26         1  = y_5_19
+               2     2000         13   28         0  = x_5
+               2     2000         13   34         0 != y_8_14
+               2     2000         17   40         0 != y_14_18
+               2     2000         14   42   F     0 != y_2_3
+               2     2000         12   46         1  = y_5_17
+               2     2000         15   52         0  = y_12_14
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 5 solutions found.
+ ! Best objective         : 2 (optimal - effective tol. is 0)
+ ! Best bound             : 2
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 141456
+ ! Number of fails        : 48570
+ ! Total memory usage     : 65.3 MB (65.2 MB CP Optimizer + 0.1 MB Concert)
+ ! Time spent in solve    : 0.48s (0.46s engine + 0.02s extraction)
+ ! Search speed (br. / s) : 307513.0
+ ! ----------------------------------------------------------------------------
+
+
+x_0: ObjectPropertyDomain(<http://cmt#hasAuthor> <http://cmt#Paper>)
+x_1: EquivalentObjectProperties(<http://cmt#hasAuthor> <http://conference#has_authors> )
+x_2: DisjointClasses(<http://conference#Invited_talk> <http://conference#Regular_contribution>)
+x_3: InverseObjectProperties(<http://conference#contributes> <http://conference#has_authors>)
+x_4: EquivalentClasses(<http://conference#Invited_speaker> ObjectSomeValuesFrom(<http://conference#contributes> <http://conference#Invited_talk>) )
+x_5: EquivalentClasses(<http://cmt#Paper> <http://conference#Paper> )
+x_6: EquivalentClasses(<http://conference#Regular_contribution> ObjectUnionOf(<http://conference#Extended_abstract> <http://conference#Paper>) )
+x_7: SubClassOf(<http://conference#Paper> <http://conference#Regular_contribution>)
+x_8: InverseObjectProperties(<http://cmt#hasAuthor> <http://cmt#writePaper>)
+x_9: ObjectPropertyRange(<http://cmt#writePaper> <http://cmt#Paper>)
+x_10: SubClassOf(<http://conference#Conference_contribution> <http://conference#Conference_document>)
+x_11: EquivalentClasses(<http://conference#Conference_contribution> ObjectUnionOf(<http://conference#Presentation> <http://conference#Written_contribution>) )
+x_12: EquivalentClasses(<http://cmt#Rejection> <http://conference#Rejected_contribution> )
+x_13: SubClassOf(<http://conference#Reviewed_contribution> <http://conference#Submitted_contribution>)
+x_14: EquivalentClasses(<http://cmt#Document> <http://conference#Conference_document> )
+x_15: SubClassOf(<http://conference#Submitted_contribution> <http://conference#Written_contribution>)
+x_16: SubClassOf(<http://conference#Rejected_contribution> <http://conference#Reviewed_contribution>)
+x_17: DisjointClasses(<http://cmt#Decision> <http://cmt#Document>)
+x_18: SubClassOf(<http://cmt#Rejection> <http://cmt#Decision>)
+x_19: SubClassOf(<http://conference#Written_contribution> ObjectUnionOf(<http://conference#Poster> <http://conference#Regular_contribution>))
+x_20: EquivalentClasses(<http://conference#Conference_contribution> ObjectUnionOf(<http://conference#Invited_talk> <http://conference#Poster> <http://conference#Regular_contribution>) )
+x_21: SubClassOf(<http://conference#Submitted_contribution> ObjectUnionOf(<http://conference#Poster> <http://conference#Regular_contribution>))
+x_22: EquivalentClasses(<http://conference#Reviewed_contribution> ObjectUnionOf(<http://conference#Accepted_contribution> <http://conference#Rejected_contribution>) )
+x_23: SubClassOf(<http://conference#Written_contribution> <http://conference#Conference_contribution>)
+x_24: SubClassOf(<http://conference#Regular_contribution> <http://conference#Written_contribution>)
+x_25: SubClassOf(<http://conference#Poster> <http://conference#Conference_contribution>)
+x_26: DisjointClasses(<http://conference#Extended_abstract> <http://conference#Paper>)
+x_27: EquivalentClasses(<http://cmt#PaperAbstract> <http://conference#Abstract> )
+x_28: SubClassOf(<http://conference#Abstract> <http://conference#Extended_abstract>)
+x_29: SubClassOf(<http://cmt#PaperAbstract> <http://cmt#Paper>)
+
+
+problem_formula: 30
+mis_size: 17
+iteration: 2
+r: 2
+
+0:['x_0', 'x_1', 'x_2', 'x_3', 'x_4', 'x_6', 'x_7', 'x_8', 'x_9', 'x_10', 'x_11', 'x_12', 'x_13', 'x_14', 'x_15', 'x_16', 'x_17', 'x_19', 'x_20', 'x_21', 'x_22', 'x_23', 'x_24', 'x_25', 'x_26', 'x_27', 'x_28', 'x_29']
+
+1:['x_5', 'x_18']
+

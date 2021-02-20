@@ -1,0 +1,106 @@
+axiom number: 359
+Number of Ucs: 2
+Uc 1 : <http://ekaw#Paper_Author>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 15 ( total = 17 )
+Layer_2 : 71 ( total = 88 )
+Layer_3 : 123 ( total = 211 )
+  Found explanation <1> for concept <http://ekaw#Paper_Author>
+  [1] SubClassOf(<http://sigkdd#Author_of_paper> <http://sigkdd#Author>)
+  [2] SubClassOf(<http://ekaw#Paper> <http://ekaw#Document>)
+  [3] DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+  [4] SubClassOf(<http://ekaw#Submitted_Paper> <http://ekaw#Paper>)
+  [5] EquivalentClasses(<http://ekaw#Paper_Author> <http://sigkdd#Author_of_paper> )
+  [6] EquivalentClasses(<http://ekaw#Submitted_Paper> <http://sigkdd#Author> )
+  [7] SubClassOf(<http://ekaw#Paper_Author> <http://ekaw#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Paper_Author>> ? true
+------------------
+  Found explanation <2> for concept <http://ekaw#Paper_Author>
+  [1] SubClassOf(<http://sigkdd#Author_of_paper> <http://sigkdd#Author>)
+  [2] ObjectPropertyDomain(<http://sigkdd#submit_until> <http://sigkdd#Document>)
+  [3] DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+  [4] EquivalentClasses(<http://ekaw#Paper> <http://sigkdd#Paper> )
+  [5] SubClassOf(<http://ekaw#Submitted_Paper> <http://ekaw#Paper>)
+  [6] EquivalentClasses(<http://ekaw#Document> <http://sigkdd#Document> )
+  [7] EquivalentClasses(<http://ekaw#Paper_Author> <http://sigkdd#Author_of_paper> )
+  [8] EquivalentClasses(<http://ekaw#Submitted_Paper> <http://sigkdd#Author> )
+  [9] SubClassOf(<http://ekaw#Paper_Author> <http://ekaw#Person>)
+  [10] EquivalentClasses(<http://sigkdd#Paper> ObjectSomeValuesFrom(<http://sigkdd#submit_until> <http://sigkdd#Deadline_Paper_Submission>) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Paper_Author>> ? true
+------------------
+  Found explanation <3> for concept <http://ekaw#Paper_Author>
+  [1] SubClassOf(<http://sigkdd#Author_of_paper> <http://sigkdd#Author>)
+  [2] SubClassOf(<http://sigkdd#Paper> <http://sigkdd#Document>)
+  [3] DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+  [4] EquivalentClasses(<http://ekaw#Paper> <http://sigkdd#Paper> )
+  [5] SubClassOf(<http://ekaw#Submitted_Paper> <http://ekaw#Paper>)
+  [6] EquivalentClasses(<http://ekaw#Document> <http://sigkdd#Document> )
+  [7] EquivalentClasses(<http://ekaw#Paper_Author> <http://sigkdd#Author_of_paper> )
+  [8] EquivalentClasses(<http://ekaw#Submitted_Paper> <http://sigkdd#Author> )
+  [9] SubClassOf(<http://ekaw#Paper_Author> <http://ekaw#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Paper_Author>> ? true
+------------------
+the number of hs_local found at the first iteration: 10
+Layer_4 : 96 ( total = 307 )
+the number of hs_local: 10
+Layer_5 : 30 ( total = 337 )
+the number of hs_local: 10
+Layer_6 : 18 ( total = 355 )
+the number of hs_local: 10
+The time (ms) to compute all MUPS for a concept is: 4236
+
+Uc 2 : <http://sigkdd#Author_of_paper>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 14 ( total = 18 )
+Layer_2 : 30 ( total = 48 )
+Layer_3 : 114 ( total = 162 )
+  Found explanation <1> for concept <http://sigkdd#Author_of_paper>
+  [1] SubClassOf(<http://sigkdd#Author_of_paper> <http://sigkdd#Author>)
+  [2] SubClassOf(<http://ekaw#Paper> <http://ekaw#Document>)
+  [3] DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+  [4] SubClassOf(<http://ekaw#Submitted_Paper> <http://ekaw#Paper>)
+  [5] EquivalentClasses(<http://ekaw#Paper_Author> <http://sigkdd#Author_of_paper> )
+  [6] EquivalentClasses(<http://ekaw#Submitted_Paper> <http://sigkdd#Author> )
+  [7] SubClassOf(<http://ekaw#Paper_Author> <http://ekaw#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper>> ? true
+------------------
+  Found explanation <2> for concept <http://sigkdd#Author_of_paper>
+  [1] SubClassOf(<http://sigkdd#Author_of_paper> <http://sigkdd#Author>)
+  [2] SubClassOf(<http://sigkdd#Paper> <http://sigkdd#Document>)
+  [3] DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+  [4] EquivalentClasses(<http://ekaw#Paper> <http://sigkdd#Paper> )
+  [5] SubClassOf(<http://ekaw#Submitted_Paper> <http://ekaw#Paper>)
+  [6] EquivalentClasses(<http://ekaw#Document> <http://sigkdd#Document> )
+  [7] EquivalentClasses(<http://ekaw#Paper_Author> <http://sigkdd#Author_of_paper> )
+  [8] EquivalentClasses(<http://ekaw#Submitted_Paper> <http://sigkdd#Author> )
+  [9] SubClassOf(<http://ekaw#Paper_Author> <http://ekaw#Person>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper>> ? true
+------------------
+  Found explanation <3> for concept <http://sigkdd#Author_of_paper>
+  [1] SubClassOf(<http://sigkdd#Author_of_paper> <http://sigkdd#Author>)
+  [2] ObjectPropertyDomain(<http://sigkdd#submit_until> <http://sigkdd#Document>)
+  [3] DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+  [4] EquivalentClasses(<http://ekaw#Paper> <http://sigkdd#Paper> )
+  [5] SubClassOf(<http://ekaw#Submitted_Paper> <http://ekaw#Paper>)
+  [6] EquivalentClasses(<http://ekaw#Document> <http://sigkdd#Document> )
+  [7] EquivalentClasses(<http://ekaw#Paper_Author> <http://sigkdd#Author_of_paper> )
+  [8] EquivalentClasses(<http://ekaw#Submitted_Paper> <http://sigkdd#Author> )
+  [9] SubClassOf(<http://ekaw#Paper_Author> <http://ekaw#Person>)
+  [10] EquivalentClasses(<http://sigkdd#Paper> ObjectSomeValuesFrom(<http://sigkdd#submit_until> <http://sigkdd#Deadline_Paper_Submission>) )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://sigkdd#Author_of_paper>> ? true
+------------------
+the number of hs_local found at the first iteration: 10
+Layer_4 : 131 ( total = 293 )
+the number of hs_local: 10
+Layer_5 : 59 ( total = 352 )
+the number of hs_local: 10
+Layer_6 : 3 ( total = 355 )
+the number of hs_local: 10
+The time (ms) to compute all MUPS for a concept is: 2363
+

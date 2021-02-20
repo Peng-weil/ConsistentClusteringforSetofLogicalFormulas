@@ -1,0 +1,142 @@
+axiom number: 40
+Number of Ucs: 10
+Uc 1 : <http://njupt.edu.cn#concept-7>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 2 ( total = 4 )
+  Found explanation <1> for concept <http://njupt.edu.cn#concept-7>
+  [1] DisjointClasses(<http://njupt.edu.cn#concept-5> <http://njupt.edu.cn#concept-6>)
+  [2] SubClassOf(<http://njupt.edu.cn#concept-8> <http://njupt.edu.cn#concept-6>)
+  [3] SubClassOf(<http://njupt.edu.cn#concept-7> <http://njupt.edu.cn#concept-8>)
+  [4] SubClassOf(<http://njupt.edu.cn#concept-7> <http://njupt.edu.cn#concept-5>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://njupt.edu.cn#concept-7>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+The time (ms) to compute all MUPS for a concept is: 192
+
+Uc 2 : <http://njupt.edu.cn#concept-19>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 2 ( total = 4 )
+  Found explanation <1> for concept <http://njupt.edu.cn#concept-19>
+  [1] SubClassOf(<http://njupt.edu.cn#concept-20> <http://njupt.edu.cn#concept-18>)
+  [2] SubClassOf(<http://njupt.edu.cn#concept-19> <http://njupt.edu.cn#concept-17>)
+  [3] DisjointClasses(<http://njupt.edu.cn#concept-17> <http://njupt.edu.cn#concept-18>)
+  [4] SubClassOf(<http://njupt.edu.cn#concept-19> <http://njupt.edu.cn#concept-20>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://njupt.edu.cn#concept-19>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+The time (ms) to compute all MUPS for a concept is: 205
+
+Uc 3 : <http://njupt.edu.cn#concept-27>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 2 ( total = 4 )
+  Found explanation <1> for concept <http://njupt.edu.cn#concept-27>
+  [1] DisjointClasses(<http://njupt.edu.cn#concept-25> <http://njupt.edu.cn#concept-26>)
+  [2] SubClassOf(<http://njupt.edu.cn#concept-28> <http://njupt.edu.cn#concept-26>)
+  [3] SubClassOf(<http://njupt.edu.cn#concept-27> <http://njupt.edu.cn#concept-28>)
+  [4] SubClassOf(<http://njupt.edu.cn#concept-27> <http://njupt.edu.cn#concept-25>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://njupt.edu.cn#concept-27>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+The time (ms) to compute all MUPS for a concept is: 173
+
+Uc 4 : <http://njupt.edu.cn#concept-39>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 2 ( total = 4 )
+  Found explanation <1> for concept <http://njupt.edu.cn#concept-39>
+  [1] SubClassOf(<http://njupt.edu.cn#concept-39> <http://njupt.edu.cn#concept-40>)
+  [2] DisjointClasses(<http://njupt.edu.cn#concept-37> <http://njupt.edu.cn#concept-38>)
+  [3] SubClassOf(<http://njupt.edu.cn#concept-40> <http://njupt.edu.cn#concept-38>)
+  [4] SubClassOf(<http://njupt.edu.cn#concept-39> <http://njupt.edu.cn#concept-37>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://njupt.edu.cn#concept-39>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+The time (ms) to compute all MUPS for a concept is: 170
+
+Uc 5 : <http://njupt.edu.cn#concept-15>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 2 ( total = 4 )
+  Found explanation <1> for concept <http://njupt.edu.cn#concept-15>
+  [1] SubClassOf(<http://njupt.edu.cn#concept-16> <http://njupt.edu.cn#concept-14>)
+  [2] SubClassOf(<http://njupt.edu.cn#concept-15> <http://njupt.edu.cn#concept-13>)
+  [3] DisjointClasses(<http://njupt.edu.cn#concept-13> <http://njupt.edu.cn#concept-14>)
+  [4] SubClassOf(<http://njupt.edu.cn#concept-15> <http://njupt.edu.cn#concept-16>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://njupt.edu.cn#concept-15>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+The time (ms) to compute all MUPS for a concept is: 191
+
+Uc 6 : <http://njupt.edu.cn#concept-23>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 2 ( total = 4 )
+  Found explanation <1> for concept <http://njupt.edu.cn#concept-23>
+  [1] DisjointClasses(<http://njupt.edu.cn#concept-21> <http://njupt.edu.cn#concept-22>)
+  [2] SubClassOf(<http://njupt.edu.cn#concept-24> <http://njupt.edu.cn#concept-22>)
+  [3] SubClassOf(<http://njupt.edu.cn#concept-23> <http://njupt.edu.cn#concept-24>)
+  [4] SubClassOf(<http://njupt.edu.cn#concept-23> <http://njupt.edu.cn#concept-21>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://njupt.edu.cn#concept-23>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+The time (ms) to compute all MUPS for a concept is: 176
+
+Uc 7 : <http://njupt.edu.cn#concept-35>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 2 ( total = 4 )
+  Found explanation <1> for concept <http://njupt.edu.cn#concept-35>
+  [1] SubClassOf(<http://njupt.edu.cn#concept-35> <http://njupt.edu.cn#concept-36>)
+  [2] SubClassOf(<http://njupt.edu.cn#concept-35> <http://njupt.edu.cn#concept-33>)
+  [3] SubClassOf(<http://njupt.edu.cn#concept-36> <http://njupt.edu.cn#concept-34>)
+  [4] DisjointClasses(<http://njupt.edu.cn#concept-33> <http://njupt.edu.cn#concept-34>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://njupt.edu.cn#concept-35>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+The time (ms) to compute all MUPS for a concept is: 171
+
+Uc 8 : <http://njupt.edu.cn#concept-11>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 2 ( total = 4 )
+  Found explanation <1> for concept <http://njupt.edu.cn#concept-11>
+  [1] DisjointClasses(<http://njupt.edu.cn#concept-10> <http://njupt.edu.cn#concept-9>)
+  [2] SubClassOf(<http://njupt.edu.cn#concept-12> <http://njupt.edu.cn#concept-10>)
+  [3] SubClassOf(<http://njupt.edu.cn#concept-11> <http://njupt.edu.cn#concept-12>)
+  [4] SubClassOf(<http://njupt.edu.cn#concept-11> <http://njupt.edu.cn#concept-9>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://njupt.edu.cn#concept-11>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+The time (ms) to compute all MUPS for a concept is: 161
+
+Uc 9 : <http://njupt.edu.cn#concept-3>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 2 ( total = 4 )
+  Found explanation <1> for concept <http://njupt.edu.cn#concept-3>
+  [1] SubClassOf(<http://njupt.edu.cn#concept-4> <http://njupt.edu.cn#concept-2>)
+  [2] SubClassOf(<http://njupt.edu.cn#concept-3> <http://njupt.edu.cn#concept-1>)
+  [3] SubClassOf(<http://njupt.edu.cn#concept-3> <http://njupt.edu.cn#concept-4>)
+  [4] DisjointClasses(<http://njupt.edu.cn#concept-1> <http://njupt.edu.cn#concept-2>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://njupt.edu.cn#concept-3>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+The time (ms) to compute all MUPS for a concept is: 164
+
+Uc 10 : <http://njupt.edu.cn#concept-31>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 2 ( total = 4 )
+  Found explanation <1> for concept <http://njupt.edu.cn#concept-31>
+  [1] SubClassOf(<http://njupt.edu.cn#concept-31> <http://njupt.edu.cn#concept-29>)
+  [2] SubClassOf(<http://njupt.edu.cn#concept-31> <http://njupt.edu.cn#concept-32>)
+  [3] DisjointClasses(<http://njupt.edu.cn#concept-29> <http://njupt.edu.cn#concept-30>)
+  [4] SubClassOf(<http://njupt.edu.cn#concept-32> <http://njupt.edu.cn#concept-30>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://njupt.edu.cn#concept-31>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+The time (ms) to compute all MUPS for a concept is: 189
+

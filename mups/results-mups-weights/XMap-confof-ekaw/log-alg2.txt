@@ -1,0 +1,94 @@
+ ! --------------------------------------------------- CP Optimizer 20.1.0.0 --
+ ! Minimization problem - 85 variables, 69 constraints
+ ! Presolve      : 8 extractables eliminated
+ ! Initial process time : 0.01s (0.01s extraction + 0.00s propagation)
+ !  . Log search space  : 99.0 (before), 99.0 (after)
+ !  . Memory usage      : 338.0 kB (before), 338.0 kB (after)
+ ! Using parallel search with 64 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         85                 -
+ + New bound is 0
+                        0         85    1            -
+ + New bound is 1
+                      162         42    1   F     0 != x_8
+ + New bound is 2
+ *            76      241  0.19s        1      (gap is 97.37%)
+ *            61      329  0.19s        1      (gap is 96.72%)
+ *            53      496  0.19s        1      (gap is 96.23%)
+ *            52      549  0.19s        1      (gap is 96.15%)
+              52     1000          1    1         0  = y_3_8
+ *            50      509  0.19s        2      (gap is 96.00%)
+ *            35      553  0.19s        2      (gap is 94.29%)
+              35     1000          1    2         0  = y_5_19
+              35     1000          1    3         0  = y_5_17
+              35     1000          1    4         1  = x_12
+              35     1000          1    5         0  = y_5_17
+ *            28      592  0.19s        6      (gap is 92.86%)
+              28     1000          1    6         0 != x_6
+              28     1000          1    7         0  = y_5_17
+              28     1000          1    8         0  = x_2
+              28     1000          1    9         0  = y_1_0
+              28     1000          1   10   F     1 != x_2
+ ! Time = 0.19s, Average fail depth = 36, Memory usage = 9.8 MB
+ ! Current bound is 2 (gap is 92.86%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              28     1000          1   11         0  = y_6_21
+              28     1000          1   12   F     1  = x_17
+              28     1000          1   13         0  = y_2_3
+              28     1000          1   14   F     1  = y_7_20
+              28     1000          1   15         0  = y_3_11
+ *            27      974  0.19s       16      (gap is 92.59%)
+              27     1000          1   16         0  = x_22
+ *             9      560  0.19s       17      (gap is 77.78%)
+ *             4      621  0.19s       17      (gap is 50.00%)
+               4     1000          1   17         1  = y_2_2
+               4     1000          1   18         0  = x_9
+ *             2      627  0.19s       19      (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 11 solutions found.
+ ! Best objective         : 2 (optimal - effective tol. is 0)
+ ! Best bound             : 2
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 116942
+ ! Number of fails        : 36789
+ ! Total memory usage     : 42.7 MB (42.6 MB CP Optimizer + 0.1 MB Concert)
+ ! Time spent in solve    : 0.30s (0.29s engine + 0.01s extraction)
+ ! Search speed (br. / s) : 417650.0
+ ! ----------------------------------------------------------------------------
+
+
+x_0: EquivalentClasses(<http://confOf#Regular> <http://ekaw#Regular_Paper> )
+x_1: SubClassOf(<http://ekaw#Regular_Paper> <http://ekaw#Paper>)
+x_2: EquivalentClasses(<http://confOf#Paper> <http://ekaw#Paper> )
+x_3: DisjointClasses(<http://confOf#Contribution> <http://confOf#Person>)
+x_4: SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+x_5: SubClassOf(<http://confOf#Participant> <http://confOf#Person>)
+x_6: SubClassOf(<http://confOf#Regular> <http://confOf#Participant>)
+x_7: EquivalentClasses(<http://confOf#Person> <http://ekaw#Person> )
+x_8: SubClassOf(<http://ekaw#Paper> <http://ekaw#Document>)
+x_9: DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+x_10: EquivalentClasses(<http://confOf#Participant> <http://ekaw#Conference_Participant> )
+x_11: SubClassOf(<http://ekaw#Conference_Participant> <http://ekaw#Person>)
+x_12: SubClassOf(<http://ekaw#Poster_Paper> <http://ekaw#Paper>)
+x_13: DisjointClasses(<http://confOf#Paper> <http://confOf#Poster>)
+x_14: EquivalentClasses(<http://confOf#Poster> <http://ekaw#Poster_Paper> )
+x_15: SubClassOf(<http://ekaw#Contributed_Talk> ObjectSomeValuesFrom(<http://ekaw#presentationOfPaper> <http://ekaw#Camera_Ready_Paper>))
+x_16: EquivalentClasses(<http://confOf#Camera_Ready_event> <http://ekaw#Camera_Ready_Paper> )
+x_17: SubClassOf(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Paper>)
+x_18: SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+x_19: DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+x_20: SubClassOf(<http://confOf#Camera_Ready_event> <http://confOf#Administrative_event>)
+x_21: SubClassOf(<http://ekaw#Workshop_Paper> <http://ekaw#Paper>)
+x_22: EquivalentClasses(<http://confOf#Short_paper> <http://ekaw#Workshop_Paper> )
+x_23: DisjointClasses(<http://confOf#Paper> <http://confOf#Short_paper>)
+
+
+problem_formula: 24
+mis_size: 8
+r: 2
+
+0:['x_0', 'x_1', 'x_3', 'x_4', 'x_5', 'x_6', 'x_7', 'x_9', 'x_10', 'x_11', 'x_12', 'x_13', 'x_14', 'x_15', 'x_16', 'x_17', 'x_18', 'x_19', 'x_20', 'x_21', 'x_22', 'x_23']
+
+1:['x_2', 'x_8']
+

@@ -1,0 +1,234 @@
+axiom number: 449
+Number of Ucs: 7
+Uc 1 : <http://ekaw#Regular_Paper>
+Layer_0 : 5 ( total = 5 )
+Layer_1 : 29 ( total = 34 )
+Layer_2 : 91 ( total = 125 )
+Layer_3 : 155 ( total = 280 )
+  Found explanation <1> for concept <http://ekaw#Regular_Paper>
+  [1] EquivalentClasses(<http://confOf#Regular> <http://ekaw#Regular_Paper> )
+  [2] SubClassOf(<http://ekaw#Regular_Paper> <http://ekaw#Paper>)
+  [3] EquivalentClasses(<http://confOf#Paper> <http://ekaw#Paper> )
+  [4] DisjointClasses(<http://confOf#Contribution> <http://confOf#Person>)
+  [5] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [6] SubClassOf(<http://confOf#Participant> <http://confOf#Person>)
+  [7] SubClassOf(<http://confOf#Regular> <http://confOf#Participant>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Regular_Paper>> ? true
+------------------
+  Found explanation <2> for concept <http://ekaw#Regular_Paper>
+  [1] EquivalentClasses(<http://confOf#Regular> <http://ekaw#Regular_Paper> )
+  [2] EquivalentClasses(<http://confOf#Person> <http://ekaw#Person> )
+  [3] SubClassOf(<http://ekaw#Regular_Paper> <http://ekaw#Paper>)
+  [4] SubClassOf(<http://ekaw#Paper> <http://ekaw#Document>)
+  [5] DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+  [6] SubClassOf(<http://confOf#Participant> <http://confOf#Person>)
+  [7] SubClassOf(<http://confOf#Regular> <http://confOf#Participant>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Regular_Paper>> ? true
+------------------
+  Found explanation <3> for concept <http://ekaw#Regular_Paper>
+  [1] EquivalentClasses(<http://confOf#Regular> <http://ekaw#Regular_Paper> )
+  [2] EquivalentClasses(<http://confOf#Person> <http://ekaw#Person> )
+  [3] EquivalentClasses(<http://confOf#Participant> <http://ekaw#Conference_Participant> )
+  [4] SubClassOf(<http://ekaw#Regular_Paper> <http://ekaw#Paper>)
+  [5] EquivalentClasses(<http://confOf#Paper> <http://ekaw#Paper> )
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Person>)
+  [7] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [8] SubClassOf(<http://ekaw#Conference_Participant> <http://ekaw#Person>)
+  [9] SubClassOf(<http://confOf#Regular> <http://confOf#Participant>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Regular_Paper>> ? true
+------------------
+  Found explanation <4> for concept <http://ekaw#Regular_Paper>
+  [1] EquivalentClasses(<http://confOf#Regular> <http://ekaw#Regular_Paper> )
+  [2] EquivalentClasses(<http://confOf#Participant> <http://ekaw#Conference_Participant> )
+  [3] SubClassOf(<http://ekaw#Regular_Paper> <http://ekaw#Paper>)
+  [4] SubClassOf(<http://ekaw#Paper> <http://ekaw#Document>)
+  [5] DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+  [6] SubClassOf(<http://ekaw#Conference_Participant> <http://ekaw#Person>)
+  [7] SubClassOf(<http://confOf#Regular> <http://confOf#Participant>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Regular_Paper>> ? true
+------------------
+the number of hs_local found at the first iteration: 19
+Layer_4 : 138 ( total = 418 )
+the number of hs_local: 19
+Layer_5 : 30 ( total = 448 )
+the number of hs_local: 19
+The time (ms) to compute all MUPS for a concept is: 4268
+
+Uc 2 : <http://confOf#Poster>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 34 ( total = 38 )
+  Found explanation <1> for concept <http://confOf#Poster>
+  [1] EquivalentClasses(<http://confOf#Paper> <http://ekaw#Paper> )
+  [2] SubClassOf(<http://ekaw#Poster_Paper> <http://ekaw#Paper>)
+  [3] DisjointClasses(<http://confOf#Paper> <http://confOf#Poster>)
+  [4] EquivalentClasses(<http://confOf#Poster> <http://ekaw#Poster_Paper> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Poster>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_2 : 116 ( total = 154 )
+the number of hs_local: 4
+Layer_3 : 168 ( total = 322 )
+the number of hs_local: 4
+Layer_4 : 110 ( total = 432 )
+the number of hs_local: 4
+Layer_5 : 16 ( total = 448 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 820
+
+Uc 3 : <http://ekaw#Contributed_Talk>
+Layer_0 : 9 ( total = 9 )
+Layer_1 : 58 ( total = 67 )
+Layer_2 : 178 ( total = 245 )
+Layer_3 : 176 ( total = 421 )
+  Found explanation <1> for concept <http://ekaw#Contributed_Talk>
+  [1] EquivalentClasses(<http://confOf#Paper> <http://ekaw#Paper> )
+  [2] SubClassOf(<http://ekaw#Contributed_Talk> ObjectSomeValuesFrom(<http://ekaw#presentationOfPaper> <http://ekaw#Camera_Ready_Paper>))
+  [3] EquivalentClasses(<http://confOf#Camera_Ready_event> <http://ekaw#Camera_Ready_Paper> )
+  [4] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [5] SubClassOf(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Paper>)
+  [6] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [7] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [8] SubClassOf(<http://confOf#Camera_Ready_event> <http://confOf#Administrative_event>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Contributed_Talk>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_4 : 24 ( total = 445 )
+the number of hs_local: 8
+Layer_5 : 3 ( total = 448 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 1729
+
+Uc 4 : <http://confOf#Camera_Ready_event>
+Layer_0 : 6 ( total = 6 )
+Layer_1 : 25 ( total = 31 )
+Layer_2 : 98 ( total = 129 )
+Layer_3 : 247 ( total = 376 )
+  Found explanation <1> for concept <http://confOf#Camera_Ready_event>
+  [1] EquivalentClasses(<http://confOf#Paper> <http://ekaw#Paper> )
+  [2] EquivalentClasses(<http://confOf#Camera_Ready_event> <http://ekaw#Camera_Ready_Paper> )
+  [3] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [4] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [5] SubClassOf(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Paper>)
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [7] SubClassOf(<http://confOf#Camera_Ready_event> <http://confOf#Administrative_event>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Camera_Ready_event>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 62 ( total = 438 )
+the number of hs_local: 7
+Layer_5 : 10 ( total = 448 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 3598
+
+Uc 5 : <http://ekaw#Camera_Ready_Paper>
+Layer_0 : 8 ( total = 8 )
+Layer_1 : 64 ( total = 72 )
+Layer_2 : 166 ( total = 238 )
+Layer_3 : 137 ( total = 375 )
+  Found explanation <1> for concept <http://ekaw#Camera_Ready_Paper>
+  [1] EquivalentClasses(<http://confOf#Paper> <http://ekaw#Paper> )
+  [2] EquivalentClasses(<http://confOf#Camera_Ready_event> <http://ekaw#Camera_Ready_Paper> )
+  [3] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [4] SubClassOf(<http://ekaw#Camera_Ready_Paper> <http://ekaw#Paper>)
+  [5] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [7] SubClassOf(<http://confOf#Camera_Ready_event> <http://confOf#Administrative_event>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Camera_Ready_Paper>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 70 ( total = 445 )
+the number of hs_local: 7
+Layer_5 : 3 ( total = 448 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 1419
+
+Uc 6 : <http://ekaw#Poster_Paper>
+Layer_0 : 5 ( total = 5 )
+Layer_1 : 31 ( total = 36 )
+  Found explanation <1> for concept <http://ekaw#Poster_Paper>
+  [1] EquivalentClasses(<http://confOf#Paper> <http://ekaw#Paper> )
+  [2] SubClassOf(<http://ekaw#Poster_Paper> <http://ekaw#Paper>)
+  [3] DisjointClasses(<http://confOf#Paper> <http://confOf#Poster>)
+  [4] EquivalentClasses(<http://confOf#Poster> <http://ekaw#Poster_Paper> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://ekaw#Poster_Paper>> ? true
+------------------
+the number of hs_local found at the first iteration: 4
+Layer_2 : 111 ( total = 147 )
+the number of hs_local: 4
+Layer_3 : 168 ( total = 315 )
+the number of hs_local: 4
+Layer_4 : 113 ( total = 428 )
+the number of hs_local: 4
+Layer_5 : 20 ( total = 448 )
+the number of hs_local: 4
+The time (ms) to compute all MUPS for a concept is: 670
+
+Uc 7 : <http://confOf#Regular>
+Layer_0 : 2 ( total = 2 )
+Layer_1 : 9 ( total = 11 )
+Layer_2 : 78 ( total = 89 )
+Layer_3 : 187 ( total = 276 )
+  Found explanation <1> for concept <http://confOf#Regular>
+  [1] EquivalentClasses(<http://confOf#Regular> <http://ekaw#Regular_Paper> )
+  [2] EquivalentClasses(<http://confOf#Person> <http://ekaw#Person> )
+  [3] SubClassOf(<http://ekaw#Regular_Paper> <http://ekaw#Paper>)
+  [4] SubClassOf(<http://ekaw#Paper> <http://ekaw#Document>)
+  [5] DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+  [6] SubClassOf(<http://confOf#Participant> <http://confOf#Person>)
+  [7] SubClassOf(<http://confOf#Regular> <http://confOf#Participant>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Regular>> ? true
+------------------
+  Found explanation <2> for concept <http://confOf#Regular>
+  [1] EquivalentClasses(<http://confOf#Regular> <http://ekaw#Regular_Paper> )
+  [2] SubClassOf(<http://ekaw#Regular_Paper> <http://ekaw#Paper>)
+  [3] EquivalentClasses(<http://confOf#Paper> <http://ekaw#Paper> )
+  [4] DisjointClasses(<http://confOf#Contribution> <http://confOf#Person>)
+  [5] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [6] SubClassOf(<http://confOf#Participant> <http://confOf#Person>)
+  [7] SubClassOf(<http://confOf#Regular> <http://confOf#Participant>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Regular>> ? true
+------------------
+  Found explanation <3> for concept <http://confOf#Regular>
+  [1] EquivalentClasses(<http://confOf#Regular> <http://ekaw#Regular_Paper> )
+  [2] EquivalentClasses(<http://confOf#Participant> <http://ekaw#Conference_Participant> )
+  [3] SubClassOf(<http://ekaw#Regular_Paper> <http://ekaw#Paper>)
+  [4] SubClassOf(<http://ekaw#Paper> <http://ekaw#Document>)
+  [5] DisjointClasses(<http://ekaw#Document> <http://ekaw#Person>)
+  [6] SubClassOf(<http://ekaw#Conference_Participant> <http://ekaw#Person>)
+  [7] SubClassOf(<http://confOf#Regular> <http://confOf#Participant>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Regular>> ? true
+------------------
+  Found explanation <4> for concept <http://confOf#Regular>
+  [1] EquivalentClasses(<http://confOf#Regular> <http://ekaw#Regular_Paper> )
+  [2] EquivalentClasses(<http://confOf#Person> <http://ekaw#Person> )
+  [3] EquivalentClasses(<http://confOf#Participant> <http://ekaw#Conference_Participant> )
+  [4] SubClassOf(<http://ekaw#Regular_Paper> <http://ekaw#Paper>)
+  [5] EquivalentClasses(<http://confOf#Paper> <http://ekaw#Paper> )
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Person>)
+  [7] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [8] SubClassOf(<http://ekaw#Conference_Participant> <http://ekaw#Person>)
+  [9] SubClassOf(<http://confOf#Regular> <http://confOf#Participant>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Regular>> ? true
+------------------
+the number of hs_local found at the first iteration: 23
+Layer_4 : 112 ( total = 388 )
+the number of hs_local: 23
+Layer_5 : 57 ( total = 445 )
+the number of hs_local: 23
+Layer_6 : 3 ( total = 448 )
+the number of hs_local: 23
+The time (ms) to compute all MUPS for a concept is: 4977
+

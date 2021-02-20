@@ -1,0 +1,654 @@
+axiom number: 433
+Number of Ucs: 14
+Uc 1 : <http://confOf#Author>
+Layer_0 : 6 ( total = 6 )
+Layer_1 : 73 ( total = 79 )
+Layer_2 : 126 ( total = 205 )
+Layer_3 : 171 ( total = 376 )
+  Found explanation <1> for concept <http://confOf#Author>
+  [1] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [2] SubClassOf(<http://confOf#Reviewing_event> <http://confOf#Administrative_event>)
+  [3] EquivalentClasses(<http://cmt#Review> <http://confOf#Reviewing_event> )
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [7] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [8] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [9] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Author>> ? true
+------------------
+  Found explanation <2> for concept <http://confOf#Author>
+  [1] ObjectPropertyDomain(<http://cmt#hasAuthor> <http://cmt#Paper>)
+  [2] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [3] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] InverseObjectProperties(<http://cmt#hasAuthor> <http://cmt#writePaper>)
+  [6] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [7] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [8] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [9] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Author>> ? true
+------------------
+  Found explanation <3> for concept <http://confOf#Author>
+  [1] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [2] SubClassOf(<http://confOf#Reviewing_event> <http://confOf#Administrative_event>)
+  [3] EquivalentClasses(<http://cmt#Review> <http://confOf#Reviewing_event> )
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [7] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [8] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Author>> ? true
+------------------
+  Found explanation <4> for concept <http://confOf#Author>
+  [1] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [2] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [3] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [4] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [5] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [6] ObjectPropertyRange(<http://cmt#writePaper> <http://cmt#Paper>)
+  [7] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [8] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Author>> ? true
+------------------
+  Found explanation <5> for concept <http://confOf#Author>
+  [1] ObjectPropertyDomain(<http://cmt#hasAuthor> <http://cmt#Paper>)
+  [2] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [3] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] InverseObjectProperties(<http://cmt#hasAuthor> <http://cmt#writePaper>)
+  [6] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [7] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [8] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Author>> ? true
+------------------
+  Found explanation <6> for concept <http://confOf#Author>
+  [1] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [2] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [3] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [4] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [5] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [6] ObjectPropertyRange(<http://cmt#writePaper> <http://cmt#Paper>)
+  [7] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Author>> ? true
+------------------
+the number of hs_local found at the first iteration: 21
+Layer_4 : 57 ( total = 433 )
+the number of hs_local: 21
+The time (ms) to compute all MUPS for a concept is: 6562
+
+Uc 2 : <http://cmt#Co-author>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 11 ( total = 14 )
+Layer_2 : 64 ( total = 78 )
+Layer_3 : 163 ( total = 241 )
+  Found explanation <1> for concept <http://cmt#Co-author>
+  [1] ObjectPropertyDomain(<http://cmt#hasAuthor> <http://cmt#Paper>)
+  [2] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [3] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [6] InverseObjectProperties(<http://cmt#hasAuthor> <http://cmt#writePaper>)
+  [7] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [8] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [9] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [10] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [11] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#Co-author>
+  [1] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [2] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [3] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [4] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [5] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [6] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [7] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [8] ObjectPropertyRange(<http://cmt#writePaper> <http://cmt#Paper>)
+  [9] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [10] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#Co-author>
+  [1] ObjectPropertyDomain(<http://cmt#hasAuthor> <http://cmt#Paper>)
+  [2] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [3] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [6] InverseObjectProperties(<http://cmt#hasAuthor> <http://cmt#writePaper>)
+  [7] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [8] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [9] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [10] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#Co-author>
+  [1] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [2] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [3] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [4] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [5] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [6] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [7] ObjectPropertyRange(<http://cmt#writePaper> <http://cmt#Paper>)
+  [8] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [9] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+the number of hs_local found at the first iteration: 11
+Layer_4 : 128 ( total = 369 )
+the number of hs_local: 11
+  Found explanation <5> for concept <http://cmt#Co-author>
+  [1] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [2] SubClassOf(<http://confOf#Reviewing_event> <http://confOf#Administrative_event>)
+  [3] EquivalentClasses(<http://cmt#Review> <http://confOf#Reviewing_event> )
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [6] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [7] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [8] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [9] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [10] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [11] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#Co-author>
+  [1] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [2] SubClassOf(<http://confOf#Reviewing_event> <http://confOf#Administrative_event>)
+  [3] EquivalentClasses(<http://cmt#Review> <http://confOf#Reviewing_event> )
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] SubClassOf(<http://cmt#Co-author> <http://cmt#Author>)
+  [6] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [7] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [8] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [9] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [10] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Co-author>> ? true
+------------------
+Layer_5 : 54 ( total = 423 )
+the number of hs_local: 99
+Layer_6 : 10 ( total = 433 )
+the number of hs_local: 99
+The time (ms) to compute all MUPS for a concept is: 8377
+
+Uc 3 : <http://confOf#Working_event>
+Layer_0 : 20 ( total = 20 )
+Layer_1 : 68 ( total = 88 )
+Layer_2 : 136 ( total = 224 )
+Layer_3 : 117 ( total = 341 )
+  Found explanation <1> for concept <http://confOf#Working_event>
+  [1] DataPropertyDomain(<http://cmt#title> <http://cmt#Paper>)
+  [2] EquivalentDataProperties(<http://cmt#title> <http://confOf#has_title> )
+  [3] SubClassOf(<http://confOf#Working_event> DataExactCardinality(1 <http://confOf#has_title> rdfs:Literal))
+  [4] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [5] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [6] SubClassOf(<http://confOf#Working_event> <http://confOf#Event>)
+  [7] EquivalentClasses(<http://cmt#Paper> <http://confOf#Paper> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Working_event>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 81 ( total = 422 )
+the number of hs_local: 7
+Layer_5 : 11 ( total = 433 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 676
+
+Uc 4 : <http://confOf#Tutorial>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 21 ( total = 24 )
+Layer_2 : 93 ( total = 117 )
+Layer_3 : 175 ( total = 292 )
+Layer_4 : 96 ( total = 388 )
+  Found explanation <1> for concept <http://confOf#Tutorial>
+  [1] DataPropertyDomain(<http://cmt#title> <http://cmt#Paper>)
+  [2] EquivalentDataProperties(<http://cmt#title> <http://confOf#has_title> )
+  [3] SubClassOf(<http://confOf#Working_event> DataExactCardinality(1 <http://confOf#has_title> rdfs:Literal))
+  [4] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [5] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [6] SubClassOf(<http://confOf#Working_event> <http://confOf#Event>)
+  [7] SubClassOf(<http://confOf#Tutorial> <http://confOf#Working_event>)
+  [8] EquivalentClasses(<http://cmt#Paper> <http://confOf#Paper> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Tutorial>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_5 : 45 ( total = 433 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 1005
+
+Uc 5 : <http://confOf#Trip>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 16 ( total = 19 )
+Layer_2 : 56 ( total = 75 )
+Layer_3 : 147 ( total = 222 )
+Layer_4 : 119 ( total = 341 )
+  Found explanation <1> for concept <http://confOf#Trip>
+  [1] SubClassOf(<http://confOf#Social_event> <http://confOf#Event>)
+  [2] DataPropertyDomain(<http://cmt#title> <http://cmt#Paper>)
+  [3] EquivalentDataProperties(<http://cmt#title> <http://confOf#has_title> )
+  [4] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [5] SubClassOf(<http://confOf#Trip> <http://confOf#Social_event>)
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [7] SubClassOf(<http://confOf#Social_event> DataExactCardinality(1 <http://confOf#has_title> rdfs:Literal))
+  [8] EquivalentClasses(<http://cmt#Paper> <http://confOf#Paper> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Trip>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_5 : 81 ( total = 422 )
+the number of hs_local: 8
+Layer_6 : 11 ( total = 433 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 792
+
+Uc 6 : <http://confOf#Member_PC>
+Layer_0 : 7 ( total = 7 )
+Layer_1 : 72 ( total = 79 )
+Layer_2 : 97 ( total = 176 )
+Layer_3 : 184 ( total = 360 )
+  Found explanation <1> for concept <http://confOf#Member_PC>
+  [1] SubClassOf(<http://confOf#Member_PC> ObjectSomeValuesFrom(<http://confOf#reviewes> <http://confOf#Contribution>))
+  [2] SubClassOf(<http://confOf#Reviewing_event> <http://confOf#Administrative_event>)
+  [3] ObjectPropertyRange(<http://cmt#endReview> <http://cmt#Review>)
+  [4] EquivalentClasses(<http://cmt#Review> <http://confOf#Reviewing_event> )
+  [5] EquivalentObjectProperties(<http://cmt#endReview> <http://confOf#reviewes> )
+  [6] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [7] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Member_PC>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 73 ( total = 433 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 587
+
+Uc 7 : <http://cmt#Author>
+Layer_0 : 9 ( total = 9 )
+Layer_1 : 43 ( total = 52 )
+Layer_2 : 157 ( total = 209 )
+  Found explanation <1> for concept <http://cmt#Author>
+  [1] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [2] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [3] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [4] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [5] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [6] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [7] ObjectPropertyRange(<http://cmt#writePaper> <http://cmt#Paper>)
+  [8] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [9] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#Author>
+  [1] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [2] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [3] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [4] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [5] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [6] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [7] ObjectPropertyRange(<http://cmt#writePaper> <http://cmt#Paper>)
+  [8] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#Author>
+  [1] ObjectPropertyDomain(<http://cmt#hasAuthor> <http://cmt#Paper>)
+  [2] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [3] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] InverseObjectProperties(<http://cmt#hasAuthor> <http://cmt#writePaper>)
+  [6] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [7] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [8] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [9] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [10] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#Author>
+  [1] ObjectPropertyDomain(<http://cmt#hasAuthor> <http://cmt#Paper>)
+  [2] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [3] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] InverseObjectProperties(<http://cmt#hasAuthor> <http://cmt#writePaper>)
+  [6] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [7] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [8] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [9] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+the number of hs_local found at the first iteration: 10
+Layer_3 : 147 ( total = 356 )
+the number of hs_local: 10
+Layer_4 : 59 ( total = 415 )
+the number of hs_local: 10
+  Found explanation <5> for concept <http://cmt#Author>
+  [1] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [2] SubClassOf(<http://confOf#Reviewing_event> <http://confOf#Administrative_event>)
+  [3] EquivalentClasses(<http://cmt#Review> <http://confOf#Reviewing_event> )
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [7] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [8] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [9] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [10] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#Author>
+  [1] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [2] SubClassOf(<http://confOf#Reviewing_event> <http://confOf#Administrative_event>)
+  [3] EquivalentClasses(<http://cmt#Review> <http://confOf#Reviewing_event> )
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [7] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [8] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [9] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Author>> ? true
+------------------
+Layer_5 : 18 ( total = 433 )
+the number of hs_local: 94
+The time (ms) to compute all MUPS for a concept is: 5333
+
+Uc 8 : <http://cmt#AuthorNotReviewer>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 33 ( total = 36 )
+Layer_2 : 75 ( total = 111 )
+Layer_3 : 161 ( total = 272 )
+  Found explanation <1> for concept <http://cmt#AuthorNotReviewer>
+  [1] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [2] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [3] ObjectPropertyDomain(<http://cmt#writeReview> <http://cmt#Reviewer>)
+  [4] DisjointClasses(<http://cmt#AuthorNotReviewer> <http://cmt#Reviewer>)
+  [5] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [6] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [7] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [8] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#AuthorNotReviewer>
+  [1] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [2] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [3] DisjointClasses(<http://cmt#AuthorNotReviewer> <http://cmt#Reviewer>)
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] ObjectPropertyRange(<http://cmt#writtenBy> <http://cmt#Reviewer>)
+  [6] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [7] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <3> for concept <http://cmt#AuthorNotReviewer>
+  [1] ObjectPropertyDomain(<http://cmt#hasAuthor> <http://cmt#Paper>)
+  [2] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [3] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [4] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [5] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [6] InverseObjectProperties(<http://cmt#hasAuthor> <http://cmt#writePaper>)
+  [7] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [8] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [9] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [10] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [11] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <4> for concept <http://cmt#AuthorNotReviewer>
+  [1] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [2] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [3] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [6] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [7] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [8] ObjectPropertyRange(<http://cmt#writePaper> <http://cmt#Paper>)
+  [9] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [10] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <5> for concept <http://cmt#AuthorNotReviewer>
+  [1] ObjectPropertyDomain(<http://cmt#hasAuthor> <http://cmt#Paper>)
+  [2] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [3] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [4] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [5] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [6] InverseObjectProperties(<http://cmt#hasAuthor> <http://cmt#writePaper>)
+  [7] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [8] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [9] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [10] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <6> for concept <http://cmt#AuthorNotReviewer>
+  [1] DisjointClasses(<http://cmt#Paper> <http://cmt#Review>)
+  [2] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [3] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [4] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [5] EquivalentObjectProperties(<http://cmt#writePaper> <http://confOf#writes> )
+  [6] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [7] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [8] ObjectPropertyRange(<http://cmt#writePaper> <http://cmt#Paper>)
+  [9] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+the number of hs_local found at the first iteration: 22
+Layer_4 : 108 ( total = 380 )
+the number of hs_local: 22
+  Found explanation <7> for concept <http://cmt#AuthorNotReviewer>
+  [1] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [2] SubClassOf(<http://confOf#Reviewing_event> <http://confOf#Administrative_event>)
+  [3] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [4] EquivalentClasses(<http://cmt#Review> <http://confOf#Reviewing_event> )
+  [5] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [6] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [7] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [8] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [9] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [10] InverseObjectProperties(<http://cmt#writtenBy> <http://cmt#writeReview>)
+  [11] ObjectPropertyRange(<http://cmt#writeReview> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+  Found explanation <8> for concept <http://cmt#AuthorNotReviewer>
+  [1] SubClassOf(<http://confOf#Author> ObjectSomeValuesFrom(<http://confOf#writes> <http://confOf#Contribution>))
+  [2] SubClassOf(<http://confOf#Reviewing_event> <http://confOf#Administrative_event>)
+  [3] SubClassOf(<http://cmt#AuthorNotReviewer> <http://cmt#Author>)
+  [4] EquivalentClasses(<http://cmt#Review> <http://confOf#Reviewing_event> )
+  [5] EquivalentObjectProperties(<http://cmt#writtenBy> <http://confOf#writtenBy> )
+  [6] SubClassOf(<http://confOf#Administrative_event> <http://confOf#Event>)
+  [7] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [8] InverseObjectProperties(<http://confOf#writtenBy> <http://confOf#writes>)
+  [9] EquivalentClasses(<http://cmt#Author> <http://confOf#Author> )
+  [10] ObjectPropertyDomain(<http://cmt#writtenBy> <http://cmt#Review>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#AuthorNotReviewer>> ? true
+------------------
+Layer_5 : 44 ( total = 424 )
+the number of hs_local: 694
+Layer_6 : 9 ( total = 433 )
+the number of hs_local: 694
+The time (ms) to compute all MUPS for a concept is: 35510
+
+Uc 9 : <http://confOf#Banquet>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 16 ( total = 19 )
+Layer_2 : 56 ( total = 75 )
+Layer_3 : 147 ( total = 222 )
+Layer_4 : 119 ( total = 341 )
+  Found explanation <1> for concept <http://confOf#Banquet>
+  [1] SubClassOf(<http://confOf#Banquet> <http://confOf#Social_event>)
+  [2] SubClassOf(<http://confOf#Social_event> <http://confOf#Event>)
+  [3] DataPropertyDomain(<http://cmt#title> <http://cmt#Paper>)
+  [4] EquivalentDataProperties(<http://cmt#title> <http://confOf#has_title> )
+  [5] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [7] SubClassOf(<http://confOf#Social_event> DataExactCardinality(1 <http://confOf#has_title> rdfs:Literal))
+  [8] EquivalentClasses(<http://cmt#Paper> <http://confOf#Paper> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Banquet>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_5 : 81 ( total = 422 )
+the number of hs_local: 8
+Layer_6 : 11 ( total = 433 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 687
+
+Uc 10 : <http://cmt#Conference>
+Layer_0 : 33 ( total = 33 )
+Layer_1 : 94 ( total = 127 )
+Layer_2 : 183 ( total = 310 )
+  Found explanation <1> for concept <http://cmt#Conference>
+  [1] SubClassOf(<http://confOf#Conference> <http://confOf#Working_event>)
+  [2] EquivalentClasses(<http://cmt#Conference> <http://confOf#Conference> )
+  [3] DataPropertyDomain(<http://cmt#title> <http://cmt#Paper>)
+  [4] EquivalentDataProperties(<http://cmt#title> <http://confOf#has_title> )
+  [5] SubClassOf(<http://confOf#Working_event> DataExactCardinality(1 <http://confOf#has_title> rdfs:Literal))
+  [6] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [7] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [8] SubClassOf(<http://confOf#Working_event> <http://confOf#Event>)
+  [9] EquivalentClasses(<http://cmt#Paper> <http://confOf#Paper> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Conference>> ? true
+------------------
+  Found explanation <2> for concept <http://cmt#Conference>
+  [1] SubClassOf(<http://confOf#Conference> <http://confOf#Working_event>)
+  [2] SubClassOf(<http://cmt#Paper> <http://cmt#Document>)
+  [3] EquivalentClasses(<http://cmt#Conference> <http://confOf#Conference> )
+  [4] DataPropertyDomain(<http://cmt#title> <http://cmt#Paper>)
+  [5] EquivalentDataProperties(<http://cmt#title> <http://confOf#has_title> )
+  [6] SubClassOf(<http://confOf#Working_event> DataExactCardinality(1 <http://confOf#has_title> rdfs:Literal))
+  [7] DisjointClasses(<http://cmt#Conference> <http://cmt#Document>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://cmt#Conference>> ? true
+------------------
+the number of hs_local found at the first iteration: 13
+Layer_3 : 112 ( total = 422 )
+the number of hs_local: 13
+Layer_4 : 11 ( total = 433 )
+the number of hs_local: 13
+The time (ms) to compute all MUPS for a concept is: 1189
+
+Uc 11 : <http://confOf#Reception>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 16 ( total = 19 )
+Layer_2 : 56 ( total = 75 )
+Layer_3 : 147 ( total = 222 )
+Layer_4 : 119 ( total = 341 )
+  Found explanation <1> for concept <http://confOf#Reception>
+  [1] SubClassOf(<http://confOf#Social_event> <http://confOf#Event>)
+  [2] DataPropertyDomain(<http://cmt#title> <http://cmt#Paper>)
+  [3] EquivalentDataProperties(<http://cmt#title> <http://confOf#has_title> )
+  [4] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [5] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [6] SubClassOf(<http://confOf#Social_event> DataExactCardinality(1 <http://confOf#has_title> rdfs:Literal))
+  [7] SubClassOf(<http://confOf#Reception> <http://confOf#Social_event>)
+  [8] EquivalentClasses(<http://cmt#Paper> <http://confOf#Paper> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Reception>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_5 : 81 ( total = 422 )
+the number of hs_local: 8
+Layer_6 : 11 ( total = 433 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 712
+
+Uc 12 : <http://confOf#Conference>
+Layer_0 : 4 ( total = 4 )
+Layer_1 : 52 ( total = 56 )
+Layer_2 : 137 ( total = 193 )
+Layer_3 : 175 ( total = 368 )
+  Found explanation <1> for concept <http://confOf#Conference>
+  [1] SubClassOf(<http://confOf#Conference> <http://confOf#Working_event>)
+  [2] DataPropertyDomain(<http://cmt#title> <http://cmt#Paper>)
+  [3] EquivalentDataProperties(<http://cmt#title> <http://confOf#has_title> )
+  [4] SubClassOf(<http://confOf#Working_event> DataExactCardinality(1 <http://confOf#has_title> rdfs:Literal))
+  [5] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [7] SubClassOf(<http://confOf#Working_event> <http://confOf#Event>)
+  [8] EquivalentClasses(<http://cmt#Paper> <http://confOf#Paper> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Conference>> ? true
+------------------
+  Found explanation <2> for concept <http://confOf#Conference>
+  [1] SubClassOf(<http://confOf#Conference> <http://confOf#Working_event>)
+  [2] SubClassOf(<http://cmt#Paper> <http://cmt#Document>)
+  [3] EquivalentClasses(<http://cmt#Conference> <http://confOf#Conference> )
+  [4] DataPropertyDomain(<http://cmt#title> <http://cmt#Paper>)
+  [5] EquivalentDataProperties(<http://cmt#title> <http://confOf#has_title> )
+  [6] SubClassOf(<http://confOf#Working_event> DataExactCardinality(1 <http://confOf#has_title> rdfs:Literal))
+  [7] DisjointClasses(<http://cmt#Conference> <http://cmt#Document>)
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Conference>> ? true
+------------------
+the number of hs_local found at the first iteration: 16
+Layer_4 : 65 ( total = 433 )
+the number of hs_local: 16
+The time (ms) to compute all MUPS for a concept is: 1101
+
+Uc 13 : <http://confOf#Workshop>
+Layer_0 : 3 ( total = 3 )
+Layer_1 : 21 ( total = 24 )
+Layer_2 : 93 ( total = 117 )
+Layer_3 : 175 ( total = 292 )
+Layer_4 : 96 ( total = 388 )
+  Found explanation <1> for concept <http://confOf#Workshop>
+  [1] SubClassOf(<http://confOf#Workshop> <http://confOf#Working_event>)
+  [2] DataPropertyDomain(<http://cmt#title> <http://cmt#Paper>)
+  [3] EquivalentDataProperties(<http://cmt#title> <http://confOf#has_title> )
+  [4] SubClassOf(<http://confOf#Working_event> DataExactCardinality(1 <http://confOf#has_title> rdfs:Literal))
+  [5] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [6] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [7] SubClassOf(<http://confOf#Working_event> <http://confOf#Event>)
+  [8] EquivalentClasses(<http://cmt#Paper> <http://confOf#Paper> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Workshop>> ? true
+------------------
+the number of hs_local found at the first iteration: 8
+Layer_5 : 45 ( total = 433 )
+the number of hs_local: 8
+The time (ms) to compute all MUPS for a concept is: 710
+
+Uc 14 : <http://confOf#Social_event>
+Layer_0 : 16 ( total = 16 )
+Layer_1 : 59 ( total = 75 )
+Layer_2 : 147 ( total = 222 )
+Layer_3 : 119 ( total = 341 )
+  Found explanation <1> for concept <http://confOf#Social_event>
+  [1] SubClassOf(<http://confOf#Social_event> <http://confOf#Event>)
+  [2] DataPropertyDomain(<http://cmt#title> <http://cmt#Paper>)
+  [3] EquivalentDataProperties(<http://cmt#title> <http://confOf#has_title> )
+  [4] SubClassOf(<http://confOf#Paper> <http://confOf#Contribution>)
+  [5] DisjointClasses(<http://confOf#Contribution> <http://confOf#Event>)
+  [6] SubClassOf(<http://confOf#Social_event> DataExactCardinality(1 <http://confOf#has_title> rdfs:Literal))
+  [7] EquivalentClasses(<http://cmt#Paper> <http://confOf#Paper> )
+
+[Info] Is it a real MUPS w.r.t. concept <<http://confOf#Social_event>> ? true
+------------------
+the number of hs_local found at the first iteration: 7
+Layer_4 : 81 ( total = 422 )
+the number of hs_local: 7
+Layer_5 : 11 ( total = 433 )
+the number of hs_local: 7
+The time (ms) to compute all MUPS for a concept is: 600
+
